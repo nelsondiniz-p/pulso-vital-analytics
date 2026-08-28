@@ -242,8 +242,8 @@ SQL** do Autonomous Database:
 4. `04_select_ai.sql` — perfil de IA e permissões
 5. `05_perguntas_negocio.sql` — as perguntas de gestão, em Select AI e em SQL
 
-Passo a passo detalhado, com o que fazer quando cada etapa falha:
-[`docs/guia_oracle.md`](docs/guia_oracle.md).
+Pré-requisitos, validação da carga e diagnóstico da camada Select AI:
+[`docs/implantacao_oracle.md`](docs/implantacao_oracle.md).
 
 ---
 
@@ -280,7 +280,7 @@ pulso-vital-analytics/
 └── docs/
     ├── arquitetura.md
     ├── dicionario_dados.md
-    ├── guia_oracle.md
+    ├── implantacao_oracle.md
     └── evidencias/                 gráficos usados no PPT e no pitch
 ```
 

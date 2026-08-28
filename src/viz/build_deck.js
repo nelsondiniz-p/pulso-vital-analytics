@@ -343,7 +343,7 @@ function lista(slide, x, y, w, h, itens, tamanho) {
   );
   rodape(s, 4);
   s.addNotes(
-    "Primeira entrega: documentação de gestão atualizada. O quadro mostra o que " +
+    "O quadro mostra o que " +
     "foi concluído, o que está em andamento e o que fica para a próxima evolução — " +
     "nada foi removido do planejamento original."
   );
@@ -399,7 +399,7 @@ function lista(slide, x, y, w, h, itens, tamanho) {
   );
   rodape(s, 5);
   s.addNotes(
-    "Segunda entrega: escopo. Fomos deliberadamente enxutos. O que não foi " +
+    "Fomos deliberadamente enxutos no escopo. O que não foi " +
     "implementado está declarado como evolução planejada, não escondido."
   );
 }
@@ -485,7 +485,7 @@ prints.forEach(([arquivo, titulo, sub, descricao], i) => {
   );
   rodape(s, 9);
   s.addNotes(
-    "Terceira entrega: arquitetura. Cinco camadas — origem, ingestão, " +
+    "Cinco camadas — origem, ingestão, " +
     "armazenamento, modelagem e consumo. Cada fonte entra pelo mecanismo que a " +
     "natureza dela pede."
   );
@@ -697,7 +697,7 @@ prints.forEach(([arquivo, titulo, sub, descricao], i) => {
   });
   rodape(s, 13);
   s.addNotes(
-    "Quarta entrega: modelos. Cada técnica existe para responder uma pergunta " +
+    "Cada técnica existe para responder uma pergunta " +
     "concreta de gestão, não para demonstrar ferramenta."
   );
 }
@@ -779,9 +779,9 @@ prints.forEach(([arquivo, titulo, sub, descricao], i) => {
   );
   rodape(s, 14);
   s.addNotes(
-    "Ponto forte para a banca: sabemos que a métrica aponta para k=2 e escolhemos " +
-    "k=4 conscientemente, porque a métrica otimiza separação estatística, não " +
-    "utilidade de gestão."
+    "A silhueta aponta para k=2, e escolhemos k=4 conscientemente: a métrica " +
+    "otimiza separação estatística, não utilidade de gestão. Com dois grupos a " +
+    "rede se divide apenas em cheia e vazia, o que não orienta nenhuma decisão."
   );
 }
 
@@ -842,8 +842,8 @@ prints.forEach(([arquivo, titulo, sub, descricao], i) => {
   });
   rodape(s, 15);
   s.addNotes(
-    "Se houver uma pergunta técnica da banca, é sobre isto. Mostra que entendemos " +
-    "o dado, não só a ferramenta."
+    "Os dois casos mostram que o tratamento de dados é decisão analítica, não " +
+    "limpeza: em ambos, o resultado sem o ajuste apontaria para o município errado."
   );
 }
 
@@ -882,7 +882,7 @@ prints.forEach(([arquivo, titulo, sub, descricao], i) => {
   );
   rodape(s, 16);
   s.addNotes(
-    "Quinta entrega: evidências visuais. Declarar a limitação do indicador é parte " +
+    "Declarar a limitação do indicador é parte " +
     "da entrega — um MVP que esconde o limite é pior que um que o declara."
   );
 }
@@ -1025,9 +1025,9 @@ prints.forEach(([arquivo, titulo, sub, descricao], i) => {
   );
   rodape(s, 19);
   s.addNotes(
-    "ATENÇÃO: substituir o bloco de código por capturas de tela do ambiente Oracle " +
-    "assim que o Autonomous Database estiver provisionado. A captura mais importante " +
-    "é a do SELECT AI showsql — pergunta em português entrando, SQL saindo."
+    "O object_list é a fronteira do que a IA enxerga, e os COMMENT ON do esquema " +
+    "são o que ensina o negócio a ela. É por isso que a modelagem de dados é o " +
+    "trabalho que faz o Select AI funcionar — não a chamada de API."
   );
 }
 
@@ -1056,7 +1056,7 @@ prints.forEach(([arquivo, titulo, sub, descricao], i) => {
     "notebooks/              análise exploratória\n" +
     "data/samples/           amostras versionadas\n" +
     "docs/                   arquitetura, dicionário,\n" +
-    "                        guia Oracle, evidências\n" +
+    "                        implantação, evidências\n" +
     "dashboard/              aplicação navegável",
     { x: L + 0.3, y: 2.16, w: 4.8, h: 3.9, isTextBox: true, margin: 0,
       valign: "top", fontFace: "Courier New", fontSize: 9.5, color: CINZA2,
@@ -1070,7 +1070,7 @@ prints.forEach(([arquivo, titulo, sub, descricao], i) => {
     ["README.md", "Problema, arquitetura, resultados com dados reais, como executar e limitações declaradas"],
     ["docs/arquitetura.md", "Arquitetura em cinco camadas, fluxo do dado ponta a ponta, implementado × planejado"],
     ["docs/dicionario_dados.md", "Cada campo de cada tabela, com a ressalva metodológica de cada indicador"],
-    ["docs/guia_oracle.md", "Provisionamento do Autonomous Database passo a passo, com solução para cada erro comum"],
+    ["docs/implantacao_oracle.md", "Implantação da camada Oracle: ordem dos scripts, validação da carga e diagnóstico do Select AI"],
     ["notebooks/", "Análise exploratória que precedeu e justifica as decisões de modelagem"],
   ];
   blocos.forEach(([nome, desc], i) => {
@@ -1093,9 +1093,9 @@ prints.forEach(([arquivo, titulo, sub, descricao], i) => {
   });
   rodape(s, 20);
   s.addNotes(
-    "Sexta entrega: repositório técnico, que vale 20% da nota. O repositório é " +
-    "público e traz todo o código gerado no projeto, não só o do MVP — scripts " +
-    "de extração, modelos, SQL do Oracle, notebook e documentação."
+    "O repositório é público e reúne todo o código gerado no projeto: extração, " +
+    "integração, modelos, scripts do Oracle, notebook de análise exploratória e " +
+    "a documentação de arquitetura e implantação."
   );
 }
 
@@ -1146,14 +1146,19 @@ prints.forEach(([arquivo, titulo, sub, descricao], i) => {
   });
 
   cartao(s, L, 6.34, W, 0.5, NAVY);
-  s.addText("Link do vídeo no YouTube:   (inserir antes da entrega)", {
+  // O unico campo do deck que so pode ser preenchido depois da gravacao.
+  // Fica em coral para saltar aos olhos na revisao final.
+  s.addText([
+    { text: "Link do vídeo no YouTube:   ", options: { color: TEAL } },
+    { text: "colar aqui antes de fechar a entrega", options: { color: CORAL } },
+  ], {
     x: L + 0.32, y: 6.34, w: W - 0.64, h: 0.5, isTextBox: true, margin: 0,
-    valign: "middle", fontFace: TXT, fontSize: 12, bold: true, color: TEAL,
+    valign: "middle", fontFace: TXT, fontSize: 12, bold: true,
   });
   rodape(s, 21);
   s.addNotes(
-    "ATENÇÃO: inserir o link do YouTube neste slide antes da entrega. O mesmo link " +
-    "vai no arquivo link_video_pitch.txt, dentro do zip."
+    "A estrutura do pitch segue os seis blocos sugeridos, com dois minutos " +
+    "reservados à demonstração ao vivo — que é onde a solução se prova."
   );
 }
 
@@ -1218,7 +1223,7 @@ prints.forEach(([arquivo, titulo, sub, descricao], i) => {
       fontFace: TXT, fontSize: 10, color: CINZA }
   );
   s.addNotes(
-    "Oitava entrega: resultados. O ponto a enfatizar é que nenhum número aqui é " +
+    "O ponto a enfatizar é que nenhum número aqui é " +
     "ilustrativo — todos saem de fonte pública verificável."
   );
 }

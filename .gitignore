@@ -23,3 +23,7 @@ credenciais*.sql
 
 # PDF gerado a partir do PPTX na conferencia visual
 *.pdf
+
+# Documentos de uso interno da equipe, fora do entregavel tecnico
+docs/roteiro_video_pitch.md
+docs/guia_oracle.md
