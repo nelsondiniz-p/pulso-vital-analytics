@@ -199,7 +199,7 @@ análise, porque são exatamente parte da rede que mais importa para o gestor.
 Python 3.11+ e acesso à internet (as fontes são consultadas ao vivo).
 
 ```bash
-git clone https://github.com/<usuario>/pulso-vital-analytics.git
+git clone https://github.com/nelsondiniz-p/pulso-vital-analytics.git
 cd pulso-vital-analytics
 pip install -r requirements.txt
 ```
