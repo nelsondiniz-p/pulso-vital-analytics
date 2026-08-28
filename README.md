@@ -144,7 +144,10 @@ não vem no cadastro básico.
 ### 1. K-Means — agrupamento por perfil de pressão
 
 Cinco atributos padronizados: internações por mil habitantes, leitos por 10 mil
-habitantes, ocupação estimada, permanência média e custo médio.
+habitantes, ocupação estimada, permanência média e custo médio. O modelo roda
+sobre os **321 municípios** com rede hospitalar e internações registradas —
+municípios sem leitos SUS e sedes de hospital de longa permanência ficam fora,
+pelos motivos descritos adiante.
 
 | Perfil identificado | Municípios | Ocupação média | Leitos/10 mil hab. |
 |---|---:|---:|---:|

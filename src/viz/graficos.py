@@ -211,7 +211,7 @@ def g7_distribuicao_alerta() -> None:
     )
     ax.text(0, 0.06, f"{int(cont.sum())}", ha="center", fontsize=24,
             fontweight="bold", color=NAVY)
-    ax.text(0, -0.16, "municípios\ncom rede de agudos", ha="center",
+    ax.text(0, -0.16, "municípios\ncom rede avaliada", ha="center",
             fontsize=8.5, color=CINZA)
     ax.legend(cunhas, [f"{r}  ({v})" for r, v in cont.items()],
               frameon=False, fontsize=9, loc="center left", bbox_to_anchor=(0.98, 0.5))
