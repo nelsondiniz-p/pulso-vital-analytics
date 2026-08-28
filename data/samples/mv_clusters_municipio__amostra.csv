@@ -1,0 +1,61 @@
+codigo,municipio,cluster,perfil_cluster,internacoes_mil_hab,leitos_sus_10k_hab,ocupacao_estimada_pct,media_permanencia,custo_medio_internacao,internacoes_12m,leitos_sus,populacao,alerta_capacidade
+350010,Adamantina,1,Polo regional sob pressão,150.25,37.28,97.2,8.8,1511.91,5360,133,35673,Atenção
+350030,Aguaí,2,Rede com folga,12.44,7.3,29.6,6.34,587.5,409,24,32886,Adequado
+350050,Águas de Lindóia,2,Rede com folga,68.47,16.43,43.6,3.82,432.28,1250,30,18257,Adequado
+350070,Agudos,2,Rede com folga,28.37,7.18,20.8,1.92,492.61,1106,28,38988,Adequado
+350100,Altinópolis,2,Rede com folga,109.38,11.05,52.3,1.93,316.86,1881,19,17197,Adequado
+350110,Alto Alegre,2,Rede com folga,11.62,41.3,3.3,4.34,346.47,45,16,3874,Adequado
+350130,Álvares Machado,2,Rede com folga,25.79,5.99,46.0,3.9,365.17,732,17,28386,Adequado
+350160,Americana,0,Rede local pressionada,37.87,6.02,74.8,4.34,1258.57,9375,149,247571,Adequado
+350170,Américo Brasiliense,1,Polo regional sob pressão,200.25,43.91,65.2,5.22,1142.85,6750,148,33708,Adequado
+350190,Amparo,1,Polo regional sob pressão,65.95,31.09,83.6,14.39,2006.72,4603,217,69792,Adequado
+350210,Andradina,0,Rede local pressionada,54.39,9.57,66.5,4.27,1089.64,3352,59,61625,Adequado
+350220,Angatuba,2,Rede com folga,73.33,21.98,27.0,2.95,389.39,1802,54,24573,Adequado
+350250,Aparecida,0,Rede local pressionada,155.25,14.79,88.0,3.06,1355.06,5145,49,33141,Atenção
+350260,Aparecida d'Oeste,2,Rede com folga,21.64,29.18,6.8,3.36,417.04,89,12,4112,Adequado
+350270,Apiaí,2,Rede com folga,150.42,18.1,59.4,2.61,541.31,3739,45,24857,Adequado
+350280,Araçatuba,1,Polo regional sob pressão,67.32,12.67,118.2,8.12,3801.2,14031,264,208415,Crítico
+350310,Arandu,2,Rede com folga,13.14,8.48,21.2,5.0,412.3,93,6,7076,Adequado
+350320,Araraquara,0,Rede local pressionada,84.35,10.18,86.7,3.82,2353.97,21381,258,253474,Atenção
+350330,Araras,0,Rede local pressionada,59.3,13.26,55.4,4.52,2006.69,8050,180,135744,Adequado
+350340,Arealva,2,Rede com folga,31.36,18.09,11.4,2.41,230.2,260,15,8290,Adequado
+350400,Assis,0,Rede local pressionada,105.08,15.35,85.9,4.58,1683.74,11019,161,104858,Atenção
+350410,Atibaia,0,Rede local pressionada,26.24,3.95,86.1,4.73,1080.58,4387,66,167161,Atenção
+350420,Auriflama,2,Rede com folga,194.28,25.26,36.9,1.75,1101.78,2692,35,13856,Adequado
+350450,Avaré,0,Rede local pressionada,80.49,14.72,61.6,4.11,1610.88,7763,142,96450,Adequado
+350520,Bariri,2,Rede com folga,64.71,12.96,43.2,3.16,509.73,2097,42,32406,Adequado
+350530,Barra Bonita,2,Rede com folga,55.11,13.38,34.8,3.08,796.83,1936,47,35129,Adequado
+350550,Barretos,1,Polo regional sob pressão,258.02,34.81,103.6,5.1,3132.3,32758,442,126957,Crítico
+350570,Barueri,0,Rede local pressionada,123.14,18.25,70.3,3.8,839.26,41097,609,333737,Adequado
+350580,Bastos,2,Rede com folga,52.33,10.03,35.7,2.5,401.07,1148,22,21936,Adequado
+350590,Batatais,0,Rede local pressionada,61.2,16.18,44.3,4.28,1378.09,3668,97,59939,Adequado
+350600,Bauru,0,Rede local pressionada,112.8,18.48,88.3,5.28,1772.48,44324,726,392947,Atenção
+350610,Bebedouro,2,Rede com folga,107.94,17.76,48.3,2.9,1028.92,8447,139,78257,Adequado
+350630,Bernardino de Campos,2,Rede com folga,63.29,22.73,27.0,3.54,517.25,752,27,11881,Adequado
+350635,Bertioga,2,Rede com folga,55.92,10.97,57.8,4.14,589.3,3771,74,67436,Adequado
+350640,Bilac,2,Rede com folga,29.21,46.89,4.6,2.67,365.25,218,35,7464,Adequado
+350650,Birigui,0,Rede local pressionada,39.73,6.24,76.0,4.36,1093.71,4900,77,123340,Adequado
+350670,Boa Esperança do Sul,2,Rede com folga,10.07,10.68,10.0,3.88,465.94,132,14,13113,Adequado
+350680,Bocaina,2,Rede com folga,13.76,15.68,6.7,2.77,478.91,158,18,11480,Adequado
+350700,Boituva,2,Rede com folga,35.16,6.89,42.2,3.02,595.12,2245,44,63850,Adequado
+350710,Bom Jesus dos Perdões,2,Rede com folga,8.68,4.87,28.9,5.92,393.11,196,11,22579,Adequado
+350740,Borborema,2,Rede com folga,59.7,11.11,55.1,3.74,534.72,860,16,14405,Adequado
+350750,Botucatu,1,Polo regional sob pressão,202.96,35.55,90.9,5.81,2996.27,30657,537,151053,Atenção
+350760,Bragança Paulista,0,Rede local pressionada,100.42,11.09,92.3,3.72,2128.86,18647,206,185688,Atenção
+350790,Brotas,2,Rede com folga,28.61,14.29,38.2,6.96,649.52,701,35,24501,Adequado
+350810,Buritama,2,Rede com folga,84.95,13.59,40.9,2.39,589.77,1500,24,17658,Adequado
+350840,Cabreúva,2,Rede com folga,18.89,3.91,37.5,2.83,352.43,919,19,48654,Adequado
+350850,Caçapava,2,Rede com folga,39.98,41.27,12.0,4.54,1003.03,4001,413,100071,Adequado
+350870,Caconde,1,Polo regional sob pressão,112.03,38.31,81.6,10.18,1964.17,1930,66,17228,Adequado
+350880,Cafelândia,2,Rede com folga,49.92,20.11,19.5,2.87,384.21,844,34,16907,Adequado
+350900,Caieiras,2,Rede com folga,52.28,8.22,48.1,2.76,576.98,5152,81,98549,Adequado
+350920,Cajamar,0,Rede local pressionada,35.53,3.96,87.4,3.56,352.6,3495,39,98365,Atenção
+350930,Cajobi,2,Rede com folga,53.96,28.23,14.7,2.81,433.39,497,26,9210,Adequado
+350940,Cajuru,2,Rede com folga,134.98,22.7,51.5,3.16,603.01,3271,55,24233,Adequado
+350950,Campinas,0,Rede local pressionada,73.64,11.84,96.5,5.66,2818.73,87484,1406,1187974,Atenção
+350960,Campo Limpo Paulista,0,Rede local pressionada,50.24,6.77,71.0,3.49,930.55,4008,54,79781,Adequado
+350970,Campos do Jordão,1,Polo regional sob pressão,58.41,38.58,82.1,19.79,1914.99,2801,185,47956,Adequado
+351000,Cândido Mota,0,Rede local pressionada,82.37,8.29,74.6,2.74,951.91,2484,25,30157,Adequado
+351020,Capão Bonito,0,Rede local pressionada,61.63,7.8,73.1,3.38,1004.51,2922,37,47409,Adequado
+351040,Capivari,2,Rede com folga,53.01,12.65,41.0,3.57,1120.45,2723,65,51369,Adequado
+351050,Caraguatatuba,0,Rede local pressionada,166.25,18.42,82.3,3.33,1284.39,23649,262,142248,Adequado

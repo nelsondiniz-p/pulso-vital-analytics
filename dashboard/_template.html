@@ -1,0 +1,1651 @@
+<title>PULSO</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans+Condensed:wght@600;700&family=IBM+Plex+Sans:wght@400;500;600;700&display=swap">
+
+<style>
+/* ─────────────────────────────────────────────────────────────
+   PULSO — Painel Único de Leitos, Saúde e Ocupação
+   Equipe Vital Analytics · 1TSCOA · Challenge Oracle + FIAP 2026
+
+   Identidade: instrumento clínico. Tipografia IBM Plex (família
+   desenhada para produtos técnicos), superfície fria com viés teal,
+   cor semântica reservada para estado da rede.
+   Paleta categórica validada em contraste e daltonismo (claro e escuro).
+   ───────────────────────────────────────────────────────────── */
+
+:root {
+  /* superfícies — neutros com viés teal, não cinza puro */
+  --ground:      #EEF3F4;
+  --surface:     #FFFFFF;
+  --surface-2:   #F6F9FA;
+  --line:        #D3DFE3;
+  --line-soft:   #E4ECEE;
+
+  /* tinta */
+  --ink:         #0A2A3B;
+  --ink-2:       #3C5C6B;
+  --ink-3:       #6B8592;
+
+  /* marca */
+  --brand:       #0A2A3B;
+  --accent:      #009B98;
+  --accent-soft: #DCF0EF;
+
+  /* série categórica validada (light) */
+  --cat-1: #D9452B;
+  --cat-2: #009B98;
+  --cat-3: #B5820A;
+  --cat-4: #7A4FA8;
+
+  /* estado da rede */
+  --critico:      #D9452B;
+  --critico-bg:   #FBE7E2;
+  --atencao:      #B5820A;
+  --atencao-bg:   #FAF0DA;
+  --adequado:     #009B98;
+  --adequado-bg:  #DCF0EF;
+  --neutro:       #6B8592;
+  --neutro-bg:    #E7EDEF;
+
+  --grid:        #E4ECEE;
+  --shadow:      0 1px 2px rgba(10,42,59,.06), 0 4px 16px rgba(10,42,59,.05);
+
+  --r:  10px;
+  --r-s: 6px;
+
+  --fs-display: clamp(1.6rem, 1.1rem + 1.6vw, 2.15rem);
+  --fs-h2:      1.02rem;
+  --fs-body:    .875rem;
+  --fs-small:   .78rem;
+  --fs-micro:   .69rem;
+}
+
+:root:not([data-theme="light"]) {
+  @media (prefers-color-scheme: dark) {
+    --ground:      #071B26;
+    --surface:     #0D2733;
+    --surface-2:   #113140;
+    --line:        #1E4353;
+    --line-soft:   #17384A;
+
+    --ink:         #E7F0F3;
+    --ink-2:       #A8C2CD;
+    --ink-3:       #7B9AA8;
+
+    --brand:       #E7F0F3;
+    --accent:      #0FA29D;
+    --accent-soft: #0F3B44;
+
+    --cat-1: #E05833;
+    --cat-2: #0FA29D;
+    --cat-3: #BE8A14;
+    --cat-4: #8A68C0;
+
+    --critico:     #E05833;
+    --critico-bg:  #3A1E19;
+    --atencao:     #BE8A14;
+    --atencao-bg:  #33280D;
+    --adequado:    #0FA29D;
+    --adequado-bg: #0C3436;
+    --neutro:      #7B9AA8;
+    --neutro-bg:   #16323F;
+
+    --grid:        #17384A;
+    --shadow:      0 1px 2px rgba(0,0,0,.3), 0 4px 16px rgba(0,0,0,.25);
+  }
+}
+
+:root[data-theme="dark"] {
+  --ground:      #071B26;
+  --surface:     #0D2733;
+  --surface-2:   #113140;
+  --line:        #1E4353;
+  --line-soft:   #17384A;
+
+  --ink:         #E7F0F3;
+  --ink-2:       #A8C2CD;
+  --ink-3:       #7B9AA8;
+
+  --brand:       #E7F0F3;
+  --accent:      #0FA29D;
+  --accent-soft: #0F3B44;
+
+  --cat-1: #E05833;
+  --cat-2: #0FA29D;
+  --cat-3: #BE8A14;
+  --cat-4: #8A68C0;
+
+  --critico:     #E05833;
+  --critico-bg:  #3A1E19;
+  --atencao:     #BE8A14;
+  --atencao-bg:  #33280D;
+  --adequado:    #0FA29D;
+  --adequado-bg: #0C3436;
+  --neutro:      #7B9AA8;
+  --neutro-bg:   #16323F;
+
+  --grid:        #17384A;
+  --shadow:      0 1px 2px rgba(0,0,0,.3), 0 4px 16px rgba(0,0,0,.25);
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  background: var(--ground);
+  color: var(--ink);
+  font-family: "IBM Plex Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", system-ui, sans-serif;
+  font-size: var(--fs-body);
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+.wrap { max-width: 1220px; margin: 0 auto; padding: 0 20px 64px; }
+
+/* ── cabeçalho ────────────────────────────────────────────── */
+.topo {
+  border-bottom: 1px solid var(--line);
+  background: var(--surface);
+  position: sticky; top: 0; z-index: 40;
+}
+.topo-inner {
+  max-width: 1220px; margin: 0 auto; padding: 14px 20px;
+  display: flex; align-items: center; gap: 20px; flex-wrap: wrap;
+}
+.marca { display: flex; align-items: center; gap: 11px; }
+.marca svg { display: block; }
+.marca-txt { display: flex; flex-direction: column; line-height: 1.1; }
+.marca-nome {
+  font-family: "IBM Plex Sans Condensed", "IBM Plex Sans", sans-serif;
+  font-weight: 700; font-size: 1.32rem; letter-spacing: .085em; color: var(--brand);
+}
+.marca-sub {
+  font-family: "IBM Plex Mono", ui-monospace, monospace;
+  font-size: var(--fs-micro); color: var(--ink-3); letter-spacing: .03em;
+}
+.topo-meta {
+  margin-left: auto; display: flex; align-items: center; gap: 8px; flex-wrap: wrap;
+}
+.selo {
+  font-family: "IBM Plex Mono", monospace; font-size: var(--fs-micro);
+  color: var(--ink-2); background: var(--surface-2);
+  border: 1px solid var(--line-soft); border-radius: 100px; padding: 4px 10px;
+  white-space: nowrap;
+}
+.selo strong { color: var(--ink); font-weight: 600; }
+.btn-tema {
+  background: var(--surface-2); border: 1px solid var(--line);
+  color: var(--ink-2); border-radius: var(--r-s); width: 30px; height: 30px;
+  cursor: pointer; display: grid; place-items: center; padding: 0;
+}
+.btn-tema:hover { color: var(--ink); border-color: var(--ink-3); }
+
+/* ── introdução ───────────────────────────────────────────── */
+.intro { padding: 30px 0 22px; max-width: 74ch; }
+.intro h1 {
+  font-size: var(--fs-display); font-weight: 700; margin: 0 0 8px;
+  letter-spacing: -.02em; text-wrap: balance; line-height: 1.15;
+}
+.intro p { margin: 0; color: var(--ink-2); font-size: .93rem; }
+.intro .fontes {
+  margin-top: 12px; font-family: "IBM Plex Mono", monospace;
+  font-size: var(--fs-micro); color: var(--ink-3);
+}
+
+/* ── KPIs ─────────────────────────────────────────────────── */
+.kpis {
+  display: grid; gap: 10px; margin-bottom: 22px;
+  grid-template-columns: repeat(auto-fit, minmax(168px, 1fr));
+}
+.kpi {
+  background: var(--surface); border: 1px solid var(--line-soft);
+  border-radius: var(--r); padding: 14px 15px; box-shadow: var(--shadow);
+  position: relative; overflow: hidden;
+}
+.kpi::before {
+  content: ""; position: absolute; inset: 0 auto 0 0; width: 3px;
+  background: var(--linha-cor, var(--accent));
+}
+.kpi-rot {
+  font-family: "IBM Plex Mono", monospace; font-size: var(--fs-micro);
+  text-transform: uppercase; letter-spacing: .07em; color: var(--ink-3);
+  margin-bottom: 7px;
+}
+.kpi-val {
+  font-family: "IBM Plex Sans Condensed", sans-serif; font-weight: 700;
+  font-size: 1.72rem; line-height: 1; letter-spacing: -.01em;
+  font-variant-numeric: tabular-nums; color: var(--ink);
+}
+.kpi-val .un { font-size: .82rem; font-weight: 600; color: var(--ink-2); margin-left: 3px; }
+.kpi-nota { font-size: var(--fs-micro); color: var(--ink-3); margin-top: 5px; }
+
+/* ── navegação ────────────────────────────────────────────── */
+.abas {
+  display: flex; gap: 2px; border-bottom: 1px solid var(--line);
+  margin-bottom: 20px; overflow-x: auto; scrollbar-width: none;
+}
+.abas::-webkit-scrollbar { display: none; }
+.aba {
+  appearance: none; background: none; border: 0; cursor: pointer;
+  font-family: inherit; font-size: var(--fs-body); font-weight: 500;
+  color: var(--ink-3); padding: 10px 14px; white-space: nowrap;
+  border-bottom: 2px solid transparent; margin-bottom: -1px;
+}
+.aba:hover { color: var(--ink); }
+.aba[aria-selected="true"] { color: var(--ink); border-bottom-color: var(--accent); font-weight: 600; }
+.aba:focus-visible { outline: 2px solid var(--accent); outline-offset: -2px; border-radius: var(--r-s) var(--r-s) 0 0; }
+
+.painel[hidden] { display: none; }
+
+/* ── cartões ──────────────────────────────────────────────── */
+.grade { display: grid; gap: 14px; }
+.grade.duas { grid-template-columns: repeat(auto-fit, minmax(330px, 1fr)); }
+.card {
+  background: var(--surface); border: 1px solid var(--line-soft);
+  border-radius: var(--r); padding: 18px; box-shadow: var(--shadow);
+  min-width: 0;
+}
+.card-cab { margin-bottom: 14px; }
+.card h2 {
+  font-size: var(--fs-h2); font-weight: 600; margin: 0; letter-spacing: -.01em;
+}
+.card h2 + p { margin: 4px 0 0; font-size: var(--fs-small); color: var(--ink-3); }
+
+/* ── gráficos ─────────────────────────────────────────────── */
+.chart-box { position: relative; width: 100%; }
+.chart-box svg { display: block; width: 100%; height: auto; overflow: visible; }
+.eixo { font-family: "IBM Plex Mono", monospace; font-size: 9.5px; fill: var(--ink-3); }
+.grade-l { stroke: var(--grid); stroke-width: 1; }
+.rotulo-dado {
+  font-family: "IBM Plex Mono", monospace; font-size: 9.5px;
+  fill: var(--ink-2); font-variant-numeric: tabular-nums;
+}
+
+.dica {
+  position: absolute; pointer-events: none; opacity: 0;
+  background: var(--surface); border: 1px solid var(--line);
+  border-radius: var(--r-s); padding: 8px 10px; box-shadow: var(--shadow);
+  font-size: var(--fs-small); z-index: 20; min-width: 130px;
+  transition: opacity .1s ease;
+}
+.dica.ativa { opacity: 1; }
+.dica .t {
+  font-family: "IBM Plex Mono", monospace; font-size: var(--fs-micro);
+  color: var(--ink-3); margin-bottom: 4px; text-transform: uppercase; letter-spacing: .05em;
+}
+.dica .l { display: flex; justify-content: space-between; gap: 14px; }
+.dica .l b { font-variant-numeric: tabular-nums; }
+
+.legenda {
+  display: flex; flex-wrap: wrap; gap: 8px 16px; margin-top: 12px;
+  font-size: var(--fs-small); color: var(--ink-2);
+}
+.legenda span { display: inline-flex; align-items: center; gap: 6px; }
+.legenda i { width: 9px; height: 9px; border-radius: 2px; display: block; flex: none; }
+
+/* ── selos de estado ──────────────────────────────────────── */
+.estado {
+  display: inline-flex; align-items: center; gap: 5px;
+  font-size: var(--fs-micro); font-weight: 600; padding: 2px 8px;
+  border-radius: 100px; white-space: nowrap;
+}
+.estado::before { content: ""; width: 5px; height: 5px; border-radius: 50%; background: currentColor; flex: none; }
+.e-critico  { color: var(--critico);  background: var(--critico-bg); }
+.e-atencao  { color: var(--atencao);  background: var(--atencao-bg); }
+.e-adequado { color: var(--adequado); background: var(--adequado-bg); }
+.e-neutro   { color: var(--neutro);   background: var(--neutro-bg); }
+
+/* ── controles ────────────────────────────────────────────── */
+.filtros {
+  display: flex; gap: 10px; flex-wrap: wrap; align-items: flex-end;
+  margin-bottom: 14px;
+}
+.campo { display: flex; flex-direction: column; gap: 5px; }
+.campo label {
+  font-family: "IBM Plex Mono", monospace; font-size: var(--fs-micro);
+  text-transform: uppercase; letter-spacing: .06em; color: var(--ink-3);
+}
+.campo select, .campo input {
+  font-family: inherit; font-size: var(--fs-small); color: var(--ink);
+  background: var(--surface); border: 1px solid var(--line);
+  border-radius: var(--r-s); padding: 7px 10px; min-width: 165px;
+}
+.campo select:focus-visible, .campo input:focus-visible {
+  outline: 2px solid var(--accent); outline-offset: 1px;
+}
+.contagem {
+  font-family: "IBM Plex Mono", monospace; font-size: var(--fs-micro);
+  color: var(--ink-3); margin-left: auto; padding-bottom: 8px;
+}
+
+/* ── tabela ───────────────────────────────────────────────── */
+.tabela-box { overflow-x: auto; border-radius: var(--r-s); }
+table { border-collapse: collapse; width: 100%; font-size: var(--fs-small); }
+thead th {
+  position: sticky; top: 0; background: var(--surface-2); z-index: 1;
+  text-align: right; padding: 9px 10px; font-weight: 600;
+  color: var(--ink-2); border-bottom: 1px solid var(--line);
+  white-space: nowrap; font-size: var(--fs-micro);
+  text-transform: uppercase; letter-spacing: .05em;
+}
+thead th:first-child, td:first-child { text-align: left; }
+thead th.ord { cursor: pointer; user-select: none; }
+thead th.ord:hover { color: var(--ink); }
+thead th.ord::after { content: "  ⇅"; opacity: .35; font-size: .9em; }
+thead th.ord[data-dir="asc"]::after  { content: "  ↑"; opacity: 1; color: var(--accent); }
+thead th.ord[data-dir="desc"]::after { content: "  ↓"; opacity: 1; color: var(--accent); }
+tbody td {
+  padding: 8px 10px; text-align: right; border-bottom: 1px solid var(--line-soft);
+  font-variant-numeric: tabular-nums; color: var(--ink-2);
+}
+tbody td:first-child { color: var(--ink); font-weight: 500; }
+tbody tr:hover td { background: var(--surface-2); }
+tbody tr.sel td { background: var(--accent-soft); }
+tbody tr[tabindex] { cursor: pointer; }
+tbody tr:focus-visible { outline: 2px solid var(--accent); outline-offset: -2px; }
+.vazio { padding: 26px; text-align: center; color: var(--ink-3); font-size: var(--fs-small); }
+
+/* ── detalhe do município ─────────────────────────────────── */
+.detalhe { display: grid; gap: 14px; grid-template-columns: 1fr; }
+@media (min-width: 720px) { .detalhe { grid-template-columns: 1.1fr 1fr; } }
+.det-nome { font-size: 1.18rem; font-weight: 700; margin: 0 0 2px; }
+.det-sub { font-size: var(--fs-small); color: var(--ink-3); margin: 0 0 14px; }
+.det-lista { display: grid; grid-template-columns: repeat(2, 1fr); gap: 10px 16px; }
+.det-item { border-top: 1px solid var(--line-soft); padding-top: 7px; }
+.det-item dt {
+  font-family: "IBM Plex Mono", monospace; font-size: var(--fs-micro);
+  color: var(--ink-3); text-transform: uppercase; letter-spacing: .05em;
+}
+.det-item dd {
+  margin: 3px 0 0; font-weight: 600; font-variant-numeric: tabular-nums;
+  font-size: .95rem;
+}
+
+/* ── Pergunte ao PULSO ────────────────────────────────────── */
+.perguntas { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 16px; }
+.pergunta {
+  appearance: none; cursor: pointer; text-align: left;
+  font-family: inherit; font-size: var(--fs-small); color: var(--ink-2);
+  background: var(--surface-2); border: 1px solid var(--line);
+  border-radius: 100px; padding: 8px 14px;
+}
+.pergunta:hover { border-color: var(--accent); color: var(--ink); }
+.pergunta[aria-pressed="true"] {
+  background: var(--accent); border-color: var(--accent); color: #fff; font-weight: 500;
+}
+.pergunta:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+
+.entrada-sim {
+  display: flex; align-items: center; gap: 10px; padding: 11px 14px;
+  background: var(--surface-2); border: 1px solid var(--line);
+  border-radius: var(--r); margin-bottom: 14px;
+}
+.entrada-sim .pt {
+  font-family: "IBM Plex Mono", monospace; color: var(--accent);
+  font-weight: 600; flex: none;
+}
+.entrada-sim .txt { color: var(--ink); font-size: .92rem; }
+.cursor-pisca {
+  display: inline-block; width: 7px; height: 1em; background: var(--accent);
+  vertical-align: text-bottom; animation: pisca 1.1s steps(2) infinite;
+}
+@keyframes pisca { 0%,50% { opacity: 1 } 50.1%,100% { opacity: 0 } }
+@media (prefers-reduced-motion: reduce) {
+  .cursor-pisca { animation: none; }
+  * { transition: none !important; }
+}
+
+.sql-box {
+  background: var(--surface-2); border: 1px solid var(--line);
+  border-radius: var(--r-s); overflow: hidden; margin-bottom: 14px;
+}
+.sql-cab {
+  display: flex; align-items: center; gap: 8px; padding: 7px 12px;
+  border-bottom: 1px solid var(--line);
+  font-family: "IBM Plex Mono", monospace; font-size: var(--fs-micro);
+  text-transform: uppercase; letter-spacing: .06em; color: var(--ink-3);
+}
+.sql-box pre {
+  margin: 0; padding: 13px 14px; overflow-x: auto;
+  font-family: "IBM Plex Mono", monospace; font-size: .76rem; line-height: 1.65;
+  color: var(--ink-2); tab-size: 2;
+}
+.sql-box .kw { color: var(--accent); font-weight: 600; }
+.sql-box .st { color: var(--cat-3); }
+.sql-box .cm { color: var(--ink-3); font-style: italic; }
+
+.narrativa {
+  border-left: 3px solid var(--accent); background: var(--accent-soft);
+  padding: 12px 15px; border-radius: 0 var(--r-s) var(--r-s) 0;
+  font-size: .9rem; color: var(--ink); margin-bottom: 14px;
+}
+.narrativa strong { font-weight: 600; }
+
+/* ── modelos ──────────────────────────────────────────────── */
+.metricas { display: grid; gap: 10px; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); }
+.metrica {
+  border: 1px solid var(--line-soft); border-radius: var(--r-s);
+  padding: 11px 13px; background: var(--surface-2);
+}
+.metrica dt {
+  font-family: "IBM Plex Mono", monospace; font-size: var(--fs-micro);
+  color: var(--ink-3); text-transform: uppercase; letter-spacing: .05em;
+}
+.metrica dd {
+  margin: 4px 0 0; font-weight: 700; font-size: 1.15rem;
+  font-variant-numeric: tabular-nums;
+}
+.nota-metodo {
+  font-size: var(--fs-small); color: var(--ink-2); margin: 14px 0 0;
+  padding-top: 13px; border-top: 1px solid var(--line-soft);
+}
+.nota-metodo b { color: var(--ink); font-weight: 600; }
+
+.rodape {
+  margin-top: 34px; padding-top: 18px; border-top: 1px solid var(--line);
+  font-size: var(--fs-small); color: var(--ink-3);
+  display: flex; justify-content: space-between; gap: 16px; flex-wrap: wrap;
+}
+.rodape a { color: var(--ink-2); }
+</style>
+
+<header class="topo">
+  <div class="topo-inner">
+    <div class="marca">
+      <svg width="30" height="30" viewBox="0 0 30 30" aria-hidden="true">
+        <rect width="30" height="30" rx="7" fill="var(--accent)"></rect>
+        <path d="M4 15.5h4.4l2.1-6.4 3.4 12.2 2.7-8.2 1.9 3.6H26"
+              fill="none" stroke="#fff" stroke-width="1.9"
+              stroke-linecap="round" stroke-linejoin="round"></path>
+      </svg>
+      <span class="marca-txt">
+        <span class="marca-nome">PULSO</span>
+        <span class="marca-sub">Vital Analytics · 1TSCOA</span>
+      </span>
+    </div>
+    <div class="topo-meta">
+      <span class="selo" id="selo-periodo">—</span>
+      <span class="selo">3 fontes · <strong>SIH · CNES · IBGE</strong></span>
+      <button class="btn-tema" id="btn-tema" type="button" aria-label="Alternar tema claro e escuro">
+        <svg width="15" height="15" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5">
+          <circle cx="8" cy="8" r="3.2"></circle>
+          <path d="M8 1v1.6M8 13.4V15M15 8h-1.6M2.6 8H1M12.9 3.1l-1.1 1.1M4.2 11.8l-1.1 1.1M12.9 12.9l-1.1-1.1M4.2 4.2L3.1 3.1"
+                stroke-linecap="round"></path>
+        </svg>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main class="wrap">
+  <section class="intro">
+    <h1>Onde a rede hospitalar paulista está no limite</h1>
+    <p>Painel de acesso hospitalar construído sobre dados públicos do SUS. Responde,
+       sem intermediação de analista, três perguntas de gestão: onde a capacidade foi
+       ultrapassada, quais perfis de atendimento pressionam a rede e onde a demanda
+       cresce mais rápido.</p>
+    <p class="fontes" id="rodape-fontes"></p>
+  </section>
+
+  <section class="kpis" id="kpis" aria-label="Indicadores gerais"></section>
+
+  <div class="abas" role="tablist" aria-label="Seções do painel">
+    <button class="aba" role="tab" id="t-visao"    aria-controls="p-visao"    aria-selected="true">Visão geral</button>
+    <button class="aba" role="tab" id="t-municipios" aria-controls="p-municipios" aria-selected="false">Municípios</button>
+    <button class="aba" role="tab" id="t-perguntar" aria-controls="p-perguntar" aria-selected="false">Pergunte ao PULSO</button>
+    <button class="aba" role="tab" id="t-modelos"  aria-controls="p-modelos"  aria-selected="false">Modelos analíticos</button>
+  </div>
+
+  <!-- ── VISÃO GERAL ─────────────────────────────────────── -->
+  <section class="painel" id="p-visao" role="tabpanel" aria-labelledby="t-visao">
+    <div class="grade">
+      <div class="card">
+        <div class="card-cab">
+          <h2>Internações SUS no estado de São Paulo</h2>
+          <p>Volume mensal e linha de tendência ajustada por regressão linear</p>
+        </div>
+        <div class="chart-box" id="c-serie"></div>
+      </div>
+
+      <div class="grade duas">
+        <div class="card">
+          <div class="card-cab">
+            <h2>Situação de capacidade da rede</h2>
+            <p>Municípios com leitos SUS de agudos, por ocupação estimada</p>
+          </div>
+          <div class="chart-box" id="c-alerta"></div>
+        </div>
+        <div class="card">
+          <div class="card-cab">
+            <h2>Perfis que mais pressionam a rede</h2>
+            <p>Internações por capítulo CID-10, 12 meses</p>
+          </div>
+          <div class="chart-box" id="c-cid"></div>
+        </div>
+      </div>
+
+      <div class="grade duas">
+        <div class="card">
+          <div class="card-cab">
+            <h2>Municípios em situação crítica</h2>
+            <p>Índice composto de criticidade — maior é mais urgente</p>
+          </div>
+          <div class="chart-box" id="c-ranking"></div>
+        </div>
+        <div class="card">
+          <div class="card-cab">
+            <h2>Contexto nacional</h2>
+            <p>Internações SUS por unidade da federação, 12 meses</p>
+          </div>
+          <div class="chart-box" id="c-uf"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── MUNICÍPIOS ──────────────────────────────────────── -->
+  <section class="painel" id="p-municipios" role="tabpanel" aria-labelledby="t-municipios" hidden>
+    <div class="card" style="margin-bottom:14px">
+      <div class="filtros">
+        <div class="campo">
+          <label for="f-busca">Buscar município</label>
+          <input type="search" id="f-busca" placeholder="ex.: Jundiaí" autocomplete="off">
+        </div>
+        <div class="campo">
+          <label for="f-regiao">Região intermediária</label>
+          <select id="f-regiao"><option value="">Todas</option></select>
+        </div>
+        <div class="campo">
+          <label for="f-alerta">Situação de capacidade</label>
+          <select id="f-alerta">
+            <option value="">Todas</option>
+            <option value="Crítico">Crítico</option>
+            <option value="Atenção">Atenção</option>
+            <option value="Adequado">Adequado</option>
+            <option value="Não aplicável">Longa permanência</option>
+            <option value="Sem leitos SUS">Sem leitos SUS</option>
+          </select>
+        </div>
+        <span class="contagem" id="f-contagem"></span>
+      </div>
+      <div class="tabela-box" style="max-height:430px;overflow-y:auto">
+        <table id="tabela">
+          <thead><tr>
+            <th class="ord" data-col="municipio">Município</th>
+            <th class="ord" data-col="populacao">População</th>
+            <th class="ord" data-col="leitos_sus">Leitos SUS</th>
+            <th class="ord" data-col="internacoes_12m" data-dir="desc">Internações 12m</th>
+            <th class="ord" data-col="ocupacao_estimada_pct">Ocupação</th>
+            <th class="ord" data-col="media_permanencia">Permanência</th>
+            <th class="ord" data-col="custo_medio_internacao">Custo médio</th>
+            <th class="ord" data-col="variacao_anualizada_pct">Tendência</th>
+            <th>Situação</th>
+          </tr></thead>
+          <tbody id="tabela-corpo"></tbody>
+        </table>
+      </div>
+    </div>
+    <div class="card" id="detalhe-card"></div>
+  </section>
+
+  <!-- ── PERGUNTE AO PULSO ───────────────────────────────── -->
+  <section class="painel" id="p-perguntar" role="tabpanel" aria-labelledby="t-perguntar" hidden>
+    <div class="card">
+      <div class="card-cab">
+        <h2>Pergunte em português — o SQL é gerado pelo banco</h2>
+        <p>Prévia da camada Select AI do Oracle Autonomous Database 23ai. Cada pergunta
+           abaixo devolve a consulta gerada, o resultado e a leitura de negócio.</p>
+      </div>
+
+      <div class="perguntas" id="perguntas"></div>
+
+      <div class="entrada-sim">
+        <span class="pt">SELECT AI&gt;</span>
+        <span class="txt" id="pergunta-eco">escolha uma pergunta acima<span class="cursor-pisca"></span></span>
+      </div>
+
+      <div class="narrativa" id="narrativa" hidden></div>
+
+      <div class="sql-box" id="sql-box" hidden>
+        <div class="sql-cab">SQL gerado pelo Select AI · executado no Autonomous Database</div>
+        <pre id="sql-txt"></pre>
+      </div>
+
+      <div class="tabela-box" id="resultado-box" hidden>
+        <table><thead id="resultado-cab"></thead><tbody id="resultado-corpo"></tbody></table>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── MODELOS ─────────────────────────────────────────── -->
+  <section class="painel" id="p-modelos" role="tabpanel" aria-labelledby="t-modelos" hidden>
+    <div class="grade">
+      <div class="card">
+        <div class="card-cab">
+          <h2>Agrupamento de municípios por perfil de pressão</h2>
+          <p>K-Means sobre cinco indicadores padronizados · tamanho do ponto = volume anual de internações</p>
+        </div>
+        <div class="chart-box" id="c-cluster"></div>
+        <div class="legenda" id="cluster-legenda"></div>
+      </div>
+
+      <div class="grade duas">
+        <div class="card">
+          <div class="card-cab"><h2>Avaliação dos modelos</h2></div>
+          <dl class="metricas" id="metricas"></dl>
+          <p class="nota-metodo" id="nota-cluster"></p>
+        </div>
+        <div class="card">
+          <div class="card-cab">
+            <h2>Onde a demanda cresce mais rápido</h2>
+            <p>Regressão linear sobre 12 meses · apenas tendências com R² ≥ 0,4</p>
+          </div>
+          <div class="chart-box" id="c-tendencia"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="rodape">
+    <span>PULSO · Painel Único de Leitos, Saúde e Ocupação — Equipe Vital Analytics, turma 1TSCOA</span>
+    <span>Challenge Oracle + FIAP 2026 · Sprint 2</span>
+  </footer>
+</main>
+
+<script type="application/json" id="pulso-dados">__DADOS__</script>
+
+<script>
+/* ═══════════════════════════════════════════════════════════
+   PULSO — camada de apresentação
+   Sem dependências externas. Os gráficos são SVG desenhados à
+   mão para manter a página autocontida e leve.
+   ═══════════════════════════════════════════════════════════ */
+(function () {
+  "use strict";
+
+  const D = JSON.parse(document.getElementById("pulso-dados").textContent);
+  const $  = (s, r) => (r || document).querySelector(s);
+  const $$ = (s, r) => Array.from((r || document).querySelectorAll(s));
+
+  /* ── formatação pt-BR ─────────────────────────────────── */
+  const nf  = new Intl.NumberFormat("pt-BR");
+  const nf1 = new Intl.NumberFormat("pt-BR", { minimumFractionDigits: 1, maximumFractionDigits: 1 });
+  const num = v => (v === null || v === undefined || Number.isNaN(v)) ? "—" : nf.format(Math.round(v));
+  const dec = v => (v === null || v === undefined || Number.isNaN(v)) ? "—" : nf1.format(v);
+  const pct = v => (v === null || v === undefined || Number.isNaN(v)) ? "—" : nf1.format(v) + "%";
+  const brl = v => (v === null || v === undefined || Number.isNaN(v)) ? "—" :
+        "R$ " + nf.format(Math.round(v));
+  const compacto = v => {
+    if (v === null || v === undefined) return "—";
+    if (Math.abs(v) >= 1e9) return nf1.format(v / 1e9) + " bi";
+    if (Math.abs(v) >= 1e6) return nf1.format(v / 1e6) + " mi";
+    if (Math.abs(v) >= 1e3) return nf.format(Math.round(v / 1e3)) + " mil";
+    return nf.format(v);
+  };
+  const MES = ["jan","fev","mar","abr","mai","jun","jul","ago","set","out","nov","dez"];
+  const rotPeriodo = p => { const [a, m] = p.split("-"); return MES[+m - 1] + "/" + a.slice(2); };
+
+  const CV = n => getComputedStyle(document.documentElement).getPropertyValue(n).trim();
+
+  /* ── selo de estado ───────────────────────────────────── */
+  const ESTADO = {
+    "Crítico":        { txt: "Crítico",     cls: "e-critico"  },
+    "Atenção":        { txt: "Atenção",     cls: "e-atencao"  },
+    "Adequado":       { txt: "Adequado",    cls: "e-adequado" },
+    "Não aplicável":  { txt: "Longa perm.", cls: "e-neutro"   },
+    "Sem leitos SUS": { txt: "Sem leitos",  cls: "e-neutro"   },
+  };
+  const selo = a => {
+    const e = ESTADO[a] || { txt: a, cls: "e-neutro" };
+    return `<span class="estado ${e.cls}">${e.txt}</span>`;
+  };
+
+  /* ── SVG helpers ──────────────────────────────────────── */
+  const NS = "http://www.w3.org/2000/svg";
+  function svg(w, h) {
+    const s = document.createElementNS(NS, "svg");
+    s.setAttribute("viewBox", `0 0 ${w} ${h}`);
+    s.setAttribute("preserveAspectRatio", "xMidYMid meet");
+    s.setAttribute("role", "img");
+    return s;
+  }
+  function el(tag, attrs, texto) {
+    const n = document.createElementNS(NS, tag);
+    for (const k in attrs) n.setAttribute(k, attrs[k]);
+    if (texto !== undefined) n.textContent = texto;
+    return n;
+  }
+  function dica(host) {
+    const d = document.createElement("div");
+    d.className = "dica";
+    host.appendChild(d);
+    return {
+      mostrar(x, y, html) {
+        d.innerHTML = html;
+        d.classList.add("ativa");
+        const lim = host.clientWidth;
+        const larg = d.offsetWidth;
+        d.style.left = Math.max(0, Math.min(x - larg / 2, lim - larg)) + "px";
+        d.style.top = Math.max(0, y) + "px";
+      },
+      esconder() { d.classList.remove("ativa"); },
+    };
+  }
+
+  /* ═══ KPIs ═══════════════════════════════════════════════ */
+  function kpis() {
+    const k = D.kpis;
+    const itens = [
+      { rot: "Internações · 12 meses", val: compacto(k.internacoes_12m),
+        nota: "rede SUS do estado de São Paulo", cor: "var(--accent)" },
+      { rot: "Recurso executado", val: compacto(k.valor_total_12m), un: "R$",
+        nota: brl(k.custo_medio) + " por internação", cor: "var(--accent)" },
+      { rot: "Leitos SUS", val: num(k.leitos_sus),
+        nota: num(k.leitos_existentes) + " leitos existentes no total", cor: "var(--accent)" },
+      { rot: "Municípios críticos", val: num(k.criticos),
+        nota: "ocupação estimada ≥ 100%", cor: "var(--critico)" },
+      { rot: "Em atenção", val: num(k.atencao),
+        nota: "ocupação estimada entre 85% e 100%", cor: "var(--atencao)" },
+      { rot: "Permanência média", val: dec(k.permanencia_media), un: "dias",
+        nota: "média ponderada por volume", cor: "var(--accent)" },
+    ];
+    $("#kpis").innerHTML = itens.map(i => `
+      <article class="kpi" style="--linha-cor:${i.cor}">
+        <div class="kpi-rot">${i.rot}</div>
+        <div class="kpi-val">${i.un === "R$" ? '<span class="un">R$</span> ' : ""}${i.val}${
+          i.un && i.un !== "R$" ? `<span class="un">${i.un}</span>` : ""}</div>
+        <div class="kpi-nota">${i.nota}</div>
+      </article>`).join("");
+
+    $("#selo-periodo").innerHTML =
+      `${rotPeriodo(D.meta.periodo_inicio)} – <strong>${rotPeriodo(D.meta.periodo_fim)}</strong>`;
+    $("#rodape-fontes").textContent = "Fontes: " + D.meta.fontes.join("  ·  ");
+  }
+
+  /* ═══ 1. série temporal ══════════════════════════════════ */
+  function gSerie() {
+    const host = $("#c-serie");
+    const dados = D.serie_estado;
+    const W = 880, H = 300, M = { t: 18, r: 18, b: 34, l: 58 };
+    const iw = W - M.l - M.r, ih = H - M.t - M.b;
+    const vs = dados.map(d => d.internacoes);
+    const min = Math.min(...vs) * 0.965, max = Math.max(...vs) * 1.02;
+    const X = i => M.l + (iw * i) / (dados.length - 1);
+    const Y = v => M.t + ih - ((v - min) / (max - min)) * ih;
+
+    const s = svg(W, H);
+    s.setAttribute("aria-label", "Internações mensais no estado de São Paulo");
+
+    for (let g = 0; g <= 4; g++) {
+      const y = M.t + (ih * g) / 4;
+      s.appendChild(el("line", { x1: M.l, x2: W - M.r, y1: y, y2: y, class: "grade-l" }));
+      s.appendChild(el("text", {
+        x: M.l - 9, y: y + 3.5, "text-anchor": "end", class: "eixo",
+      }, nf.format(Math.round(max - ((max - min) * g) / 4))));
+    }
+    dados.forEach((d, i) => {
+      if (i % 2 === 0 || i === dados.length - 1)
+        s.appendChild(el("text", {
+          x: X(i), y: H - 12, "text-anchor": "middle", class: "eixo",
+        }, rotPeriodo(d.periodo)));
+    });
+
+    // tendência (regressão linear)
+    const n = vs.length;
+    const sx = (n - 1) * n / 2, sy = vs.reduce((a, b) => a + b, 0);
+    const sxy = vs.reduce((a, v, i) => a + i * v, 0);
+    const sxx = vs.reduce((a, _, i) => a + i * i, 0);
+    const b1 = (n * sxy - sx * sy) / (n * sxx - sx * sx);
+    const b0 = (sy - b1 * sx) / n;
+    s.appendChild(el("line", {
+      x1: X(0), y1: Y(b0), x2: X(n - 1), y2: Y(b0 + b1 * (n - 1)),
+      stroke: CV("--cat-1"), "stroke-width": 2, "stroke-dasharray": "6 5",
+      "stroke-linecap": "round", opacity: .85,
+    }));
+
+    const linha = dados.map((d, i) => `${X(i)},${Y(d.internacoes)}`).join(" ");
+    s.appendChild(el("polygon", {
+      points: `${M.l},${M.t + ih} ${linha} ${W - M.r},${M.t + ih}`,
+      fill: CV("--accent"), opacity: .09,
+    }));
+    s.appendChild(el("polyline", {
+      points: linha, fill: "none", stroke: CV("--accent"),
+      "stroke-width": 2, "stroke-linejoin": "round", "stroke-linecap": "round",
+    }));
+    dados.forEach((d, i) => {
+      s.appendChild(el("circle", {
+        cx: X(i), cy: Y(d.internacoes), r: 4,
+        fill: CV("--surface"), stroke: CV("--accent"), "stroke-width": 2,
+      }));
+    });
+    // último ponto enfatizado + rótulo direto
+    const ult = dados.length - 1;
+    s.appendChild(el("circle", {
+      cx: X(ult), cy: Y(dados[ult].internacoes), r: 5, fill: CV("--accent"),
+      stroke: CV("--surface"), "stroke-width": 2,
+    }));
+    s.appendChild(el("text", {
+      x: X(ult), y: Y(dados[ult].internacoes) - 13, "text-anchor": "end",
+      class: "rotulo-dado", "font-weight": "600",
+    }, nf.format(dados[ult].internacoes)));
+
+    const cursor = el("line", {
+      y1: M.t, y2: M.t + ih, stroke: CV("--ink-3"),
+      "stroke-width": 1, "stroke-dasharray": "3 3", opacity: 0,
+    });
+    s.appendChild(cursor);
+    const captura = el("rect", {
+      x: M.l, y: M.t, width: iw, height: ih, fill: "transparent",
+    });
+    s.appendChild(captura);
+
+    host.appendChild(s);
+    const tip = dica(host);
+    const tendTxt = (b1 >= 0 ? "+" : "") + nf.format(Math.round(b1)) + "/mês";
+
+    function mover(ev) {
+      const cx = s.getBoundingClientRect();
+      const px = ((ev.clientX - cx.left) / cx.width) * W;
+      let i = Math.round(((px - M.l) / iw) * (dados.length - 1));
+      i = Math.max(0, Math.min(dados.length - 1, i));
+      cursor.setAttribute("x1", X(i)); cursor.setAttribute("x2", X(i));
+      cursor.setAttribute("opacity", .6);
+      const d = dados[i];
+      tip.mostrar(
+        (X(i) / W) * host.clientWidth,
+        (Y(d.internacoes) / H) * host.clientHeight - 10,
+        `<div class="t">${rotPeriodo(d.periodo)}</div>
+         <div class="l"><span>Internações</span><b>${num(d.internacoes)}</b></div>
+         <div class="l"><span>Recurso</span><b>${compacto(d.valor)}</b></div>`
+      );
+    }
+    captura.addEventListener("pointermove", mover);
+    captura.addEventListener("pointerleave", () => {
+      cursor.setAttribute("opacity", 0); tip.esconder();
+    });
+
+    const nota = document.createElement("p");
+    nota.className = "legenda";
+    nota.innerHTML =
+      `<span><i style="background:${CV("--accent")}"></i>Internações por mês</span>
+       <span><i style="background:${CV("--cat-1")}"></i>Tendência (${tendTxt})</span>`;
+    host.appendChild(nota);
+  }
+
+  /* ═══ 2. situação de capacidade ══════════════════════════ */
+  function gAlerta() {
+    const host = $("#c-alerta");
+    const k = D.kpis;
+    const dados = [
+      { r: "Crítico",  v: k.criticos,  c: CV("--critico"),  d: "ocupação ≥ 100%" },
+      { r: "Atenção",  v: k.atencao,   c: CV("--atencao"),  d: "entre 85% e 100%" },
+      { r: "Adequado", v: k.adequado,  c: CV("--adequado"), d: "abaixo de 85%" },
+    ];
+    const total = dados.reduce((a, b) => a + b.v, 0);
+    const W = 420, H = 226, cx = 108, cy = 108, R = 84, r = 52;
+    const s = svg(W, H);
+    s.setAttribute("aria-label", "Distribuição dos municípios por situação de capacidade");
+
+    let ang = -Math.PI / 2;
+    const GAP = 0.022;   // separador de 2px em superfície entre fatias
+    dados.forEach(d => {
+      const frac = d.v / total;
+      const a0 = ang + GAP / 2, a1 = ang + frac * Math.PI * 2 - GAP / 2;
+      const grande = a1 - a0 > Math.PI ? 1 : 0;
+      const p = [
+        `M ${cx + R * Math.cos(a0)} ${cy + R * Math.sin(a0)}`,
+        `A ${R} ${R} 0 ${grande} 1 ${cx + R * Math.cos(a1)} ${cy + R * Math.sin(a1)}`,
+        `L ${cx + r * Math.cos(a1)} ${cy + r * Math.sin(a1)}`,
+        `A ${r} ${r} 0 ${grande} 0 ${cx + r * Math.cos(a0)} ${cy + r * Math.sin(a0)}`,
+        "Z",
+      ].join(" ");
+      s.appendChild(el("path", { d: p, fill: d.c }));
+      ang += frac * Math.PI * 2;
+    });
+
+    s.appendChild(el("text", {
+      x: cx, y: cy + 2, "text-anchor": "middle",
+      "font-family": "IBM Plex Sans Condensed, sans-serif", "font-size": 30,
+      "font-weight": 700, fill: CV("--ink"),
+    }, String(total)));
+    s.appendChild(el("text", {
+      x: cx, y: cy + 20, "text-anchor": "middle", class: "eixo",
+    }, "municípios"));
+
+    dados.forEach((d, i) => {
+      const y = 46 + i * 46;
+      s.appendChild(el("rect", { x: 222, y: y - 9, width: 10, height: 10, rx: 2, fill: d.c }));
+      s.appendChild(el("text", {
+        x: 240, y: y, "font-size": 13, "font-weight": 600, fill: CV("--ink"),
+        "font-family": "IBM Plex Sans, sans-serif",
+      }, `${d.r} · ${d.v}`));
+      s.appendChild(el("text", { x: 240, y: y + 16, class: "eixo" }, d.d));
+    });
+    host.appendChild(s);
+  }
+
+  /* ═══ 3. perfil CID-10 ═══════════════════════════════════ */
+  function gCid() {
+    const host = $("#c-cid");
+    const dados = D.cid_estado.slice(0, 8);
+    const total = D.cid_estado.reduce((a, b) => a + b.internacoes, 0);
+    const W = 420, H = 300, M = { t: 6, r: 74, b: 8, l: 172 };
+    const iw = W - M.l - M.r;
+    const alt = (H - M.t - M.b) / dados.length;
+    const max = dados[0].internacoes;
+    const s = svg(W, H);
+    s.setAttribute("aria-label", "Internações por capítulo CID-10");
+    const tip = dica(host);
+
+    dados.forEach((d, i) => {
+      const y = M.t + i * alt;
+      const larg = (d.internacoes / max) * iw;
+      const nome = d.capitulo.replace(/^[IVX]+\.\s*/, "");
+      s.appendChild(el("text", {
+        x: M.l - 10, y: y + alt / 2 + 3.5, "text-anchor": "end",
+        "font-size": 10.5, fill: CV("--ink-2"),
+        "font-family": "IBM Plex Sans, sans-serif",
+      }, nome.length > 27 ? nome.slice(0, 26) + "…" : nome));
+
+      const b = el("rect", {
+        x: M.l, y: y + 3, width: Math.max(larg, 2), height: alt - 8,
+        rx: 4, fill: i < 3 ? CV("--accent") : CV("--ink-3"),
+        opacity: i < 3 ? 1 : .48,
+      });
+      s.appendChild(b);
+      s.appendChild(el("text", {
+        x: M.l + larg + 8, y: y + alt / 2 + 3.5, class: "rotulo-dado",
+      }, compacto(d.internacoes)));
+
+      const alvo = el("rect", {
+        x: M.l, y: y, width: iw + M.r, height: alt, fill: "transparent",
+      });
+      alvo.addEventListener("pointerenter", ev => {
+        const cx = s.getBoundingClientRect();
+        tip.mostrar(
+          ((M.l + larg) / W) * host.clientWidth,
+          ((y - 6) / H) * host.clientHeight,
+          `<div class="t">${d.capitulo}</div>
+           <div class="l"><span>Internações</span><b>${num(d.internacoes)}</b></div>
+           <div class="l"><span>Participação</span><b>${dec(d.internacoes / total * 100)}%</b></div>`
+        );
+      });
+      alvo.addEventListener("pointerleave", () => tip.esconder());
+      s.appendChild(alvo);
+    });
+    host.appendChild(s);
+  }
+
+  /* ═══ 4. ranking de criticidade ══════════════════════════ */
+  function gRanking() {
+    const host = $("#c-ranking");
+    const dados = D.municipios
+      .filter(m => m.indice_criticidade !== null)
+      .sort((a, b) => b.indice_criticidade - a.indice_criticidade)
+      .slice(0, 10);
+    const W = 420, H = 300, M = { t: 6, r: 96, b: 8, l: 132 };
+    const iw = W - M.l - M.r;
+    const alt = (H - M.t - M.b) / dados.length;
+    const max = dados[0].indice_criticidade;
+    const cor = a => a === "Crítico" ? CV("--critico") :
+                     a === "Atenção" ? CV("--atencao") : CV("--adequado");
+    const s = svg(W, H);
+    s.setAttribute("aria-label", "Municípios por índice de criticidade");
+    const tip = dica(host);
+
+    dados.forEach((m, i) => {
+      const y = M.t + i * alt;
+      const larg = (m.indice_criticidade / max) * iw;
+      s.appendChild(el("text", {
+        x: M.l - 10, y: y + alt / 2 + 3.5, "text-anchor": "end",
+        "font-size": 10.5, fill: CV("--ink-2"),
+        "font-family": "IBM Plex Sans, sans-serif",
+      }, m.municipio.length > 20 ? m.municipio.slice(0, 19) + "…" : m.municipio));
+      s.appendChild(el("rect", {
+        x: M.l, y: y + 3, width: Math.max(larg, 2), height: alt - 8,
+        rx: 4, fill: cor(m.alerta_capacidade),
+      }));
+      s.appendChild(el("text", {
+        x: M.l + larg + 8, y: y + alt / 2 + 3.5, class: "rotulo-dado",
+      }, `${dec(m.indice_criticidade)} · ${Math.round(m.ocupacao_estimada_pct)}%`));
+
+      const alvo = el("rect", { x: M.l, y: y, width: iw + M.r, height: alt, fill: "transparent" });
+      alvo.addEventListener("pointerenter", () => {
+        tip.mostrar(
+          ((M.l + larg) / W) * host.clientWidth,
+          ((y - 6) / H) * host.clientHeight,
+          `<div class="t">${m.municipio}</div>
+           <div class="l"><span>Índice</span><b>${dec(m.indice_criticidade)}</b></div>
+           <div class="l"><span>Ocupação</span><b>${pct(m.ocupacao_estimada_pct)}</b></div>
+           <div class="l"><span>Leitos SUS</span><b>${num(m.leitos_sus)}</b></div>
+           <div class="l"><span>Internações</span><b>${num(m.internacoes_12m)}</b></div>`
+        );
+      });
+      alvo.addEventListener("pointerleave", () => tip.esconder());
+      s.appendChild(alvo);
+    });
+    host.appendChild(s);
+
+    const lg = document.createElement("div");
+    lg.className = "legenda";
+    lg.innerHTML =
+      `<span><i style="background:${CV("--critico")}"></i>Crítico (≥100%)</span>
+       <span><i style="background:${CV("--atencao")}"></i>Atenção (≥85%)</span>
+       <span><i style="background:${CV("--adequado")}"></i>Adequado</span>`;
+    host.appendChild(lg);
+  }
+
+  /* ═══ 5. ranking nacional ════════════════════════════════ */
+  function gUf() {
+    const host = $("#c-uf");
+    const dados = D.ranking_uf.slice(0, 10);
+    const W = 420, H = 300, M = { t: 6, r: 74, b: 8, l: 122 };
+    const iw = W - M.l - M.r;
+    const alt = (H - M.t - M.b) / dados.length;
+    const max = dados[0].internacoes;
+    const total = D.ranking_uf.reduce((a, b) => a + b.internacoes, 0);
+    const s = svg(W, H);
+    s.setAttribute("aria-label", "Internações SUS por unidade da federação");
+    const tip = dica(host);
+
+    dados.forEach((d, i) => {
+      const y = M.t + i * alt;
+      const larg = (d.internacoes / max) * iw;
+      const destaque = d.uf === "São Paulo";
+      s.appendChild(el("text", {
+        x: M.l - 10, y: y + alt / 2 + 3.5, "text-anchor": "end",
+        "font-size": 10.5, fill: destaque ? CV("--ink") : CV("--ink-2"),
+        "font-weight": destaque ? 600 : 400,
+        "font-family": "IBM Plex Sans, sans-serif",
+      }, d.uf));
+      s.appendChild(el("rect", {
+        x: M.l, y: y + 3, width: Math.max(larg, 2), height: alt - 8, rx: 4,
+        fill: destaque ? CV("--accent") : CV("--ink-3"),
+        opacity: destaque ? 1 : .45,
+      }));
+      s.appendChild(el("text", {
+        x: M.l + larg + 8, y: y + alt / 2 + 3.5, class: "rotulo-dado",
+      }, compacto(d.internacoes)));
+
+      const alvo = el("rect", { x: M.l, y: y, width: iw + M.r, height: alt, fill: "transparent" });
+      alvo.addEventListener("pointerenter", () => {
+        tip.mostrar(
+          ((M.l + larg) / W) * host.clientWidth,
+          ((y - 6) / H) * host.clientHeight,
+          `<div class="t">${d.uf}</div>
+           <div class="l"><span>Internações</span><b>${num(d.internacoes)}</b></div>
+           <div class="l"><span>Do total do país</span><b>${dec(d.internacoes / total * 100)}%</b></div>`
+        );
+      });
+      alvo.addEventListener("pointerleave", () => tip.esconder());
+      s.appendChild(alvo);
+    });
+    host.appendChild(s);
+  }
+
+  /* ═══ 6. dispersão de clusters ═══════════════════════════ */
+  const CORES_CLUSTER = {
+    "Polo regional sob pressão":  "--cat-1",
+    "Rede local pressionada":     "--cat-3",
+    "Sede de hospital regional":  "--cat-4",
+    "Rede local equilibrada":     "--cat-2",
+    "Rede com folga":             "--cat-2",
+    "Capacidade ociosa":          "--cat-4",
+  };
+  const NOME_CLUSTER = Object.fromEntries(
+    Object.keys(CORES_CLUSTER).map(k => [k, k]));
+
+  function gCluster() {
+    const host = $("#c-cluster");
+    const dados = D.municipios.filter(m => m.perfil_cluster && m.ocupacao_estimada_pct !== null);
+    const W = 880, H = 380, M = { t: 16, r: 20, b: 46, l: 58 };
+    const iw = W - M.l - M.r, ih = H - M.t - M.b;
+    // Dois municipios sediam hospital regional e chegam a 100+ leitos/10 mil
+    // hab. Manter a escala ate esse extremo comprimiria os 300+ municipios
+    // restantes num canto do grafico. A escala vai ate o percentil 98 e os
+    // pontos acima dele sao declarados na nota, nunca silenciados.
+    const ofertas = dados.map(m => m.leitos_sus_10k_hab).sort((a, b) => a - b);
+    const p98 = ofertas[Math.floor(ofertas.length * 0.98)] || 40;
+    const maxX = Math.ceil(Math.max(30, Math.min(p98, 60)) / 5) * 5;
+    const foraEscala = dados.filter(m => m.leitos_sus_10k_hab > maxX).length;
+    const maxY = 125;
+    const X = v => M.l + Math.min(v / maxX, 1) * iw;
+    const Y = v => M.t + ih - Math.min(v / maxY, 1) * ih;
+    const s = svg(W, H);
+    s.setAttribute("aria-label", "Municípios agrupados por oferta de leitos e ocupação estimada");
+    const tip = dica(host);
+
+    for (let g = 0; g <= 5; g++) {
+      const y = M.t + (ih * g) / 5;
+      s.appendChild(el("line", { x1: M.l, x2: W - M.r, y1: y, y2: y, class: "grade-l" }));
+      s.appendChild(el("text", {
+        x: M.l - 9, y: y + 3.5, "text-anchor": "end", class: "eixo",
+      }, Math.round(maxY - (maxY * g) / 5) + "%"));
+    }
+    for (let g = 0; g <= 4; g++) {
+      const x = M.l + (iw * g) / 4;
+      s.appendChild(el("text", {
+        x: x, y: H - 26, "text-anchor": "middle", class: "eixo",
+      }, String(Math.round((maxX * g) / 4))));
+    }
+    s.appendChild(el("text", {
+      x: M.l + iw / 2, y: H - 8, "text-anchor": "middle", class: "eixo",
+    }, "Leitos SUS por 10 mil habitantes"));
+
+    s.appendChild(el("line", {
+      x1: M.l, x2: W - M.r, y1: Y(100), y2: Y(100),
+      stroke: CV("--critico"), "stroke-width": 1.5, "stroke-dasharray": "6 5",
+    }));
+    s.appendChild(el("text", {
+      x: W - M.r, y: Y(100) - 6, "text-anchor": "end", class: "eixo",
+      fill: CV("--critico"),
+    }, "limite de capacidade"));
+
+    dados.sort((a, b) => b.internacoes_12m - a.internacoes_12m).forEach(m => {
+      const raio = Math.max(3, Math.min(15, Math.sqrt(m.internacoes_12m) / 21));
+      const c = el("circle", {
+        cx: X(m.leitos_sus_10k_hab), cy: Y(m.ocupacao_estimada_pct), r: raio,
+        fill: CV(CORES_CLUSTER[m.perfil_cluster] || "--ink-3"),
+        "fill-opacity": .62, stroke: CV("--surface"), "stroke-width": 2,
+      });
+      c.addEventListener("pointerenter", () => {
+        tip.mostrar(
+          (X(m.leitos_sus_10k_hab) / W) * host.clientWidth,
+          (Y(m.ocupacao_estimada_pct) / H) * host.clientHeight - 12,
+          `<div class="t">${m.municipio}</div>
+           <div class="l"><span>Perfil</span><b>${NOME_CLUSTER[m.perfil_cluster] || m.perfil_cluster}</b></div>
+           <div class="l"><span>Ocupação</span><b>${pct(m.ocupacao_estimada_pct)}</b></div>
+           <div class="l"><span>Leitos/10 mil</span><b>${dec(m.leitos_sus_10k_hab)}</b></div>
+           <div class="l"><span>Internações</span><b>${num(m.internacoes_12m)}</b></div>`
+        );
+      });
+      c.addEventListener("pointerleave", () => tip.esconder());
+      s.appendChild(c);
+    });
+    host.appendChild(s);
+
+    const cont = {};
+    dados.forEach(m => { cont[m.perfil_cluster] = (cont[m.perfil_cluster] || 0) + 1; });
+    const nota = foraEscala
+      ? `<span style="color:var(--ink-3)">${foraEscala} município${foraEscala > 1 ? "s" : ""} com oferta acima de ${maxX} leitos/10 mil hab. aparece${foraEscala > 1 ? "m" : ""} na borda direita</span>`
+      : "";
+    $("#cluster-legenda").innerHTML = Object.keys(CORES_CLUSTER)
+      .filter(k => cont[k])
+      .map(k => `<span><i style="background:${CV(CORES_CLUSTER[k])}"></i>${k} (${cont[k]})</span>`)
+      .join("") + nota;
+  }
+
+  /* ═══ 7. tendência ═══════════════════════════════════════ */
+  function gTendencia() {
+    const host = $("#c-tendencia");
+    // Filtra por R2: um crescimento de +48% com R2 0,14 e ruido, nao tendencia.
+    // Sem esse corte o ranking premia a serie mais instavel, nao a que cresce.
+    const R2_MIN = 0.4;
+    const dados = D.municipios
+      .filter(m => m.variacao_anualizada_pct !== null && m.internacoes_12m >= 600
+                   && m.r2 !== null && m.r2 >= R2_MIN)
+      .sort((a, b) => b.variacao_anualizada_pct - a.variacao_anualizada_pct)
+      .slice(0, 9);
+    const W = 420, H = 288, M = { t: 6, r: 92, b: 8, l: 128 };
+    const iw = W - M.l - M.r;
+    const alt = (H - M.t - M.b) / dados.length;
+    const max = dados[0].variacao_anualizada_pct;
+    const s = svg(W, H);
+    s.setAttribute("aria-label", "Municípios com maior crescimento de internações");
+    const tip = dica(host);
+
+    dados.forEach((m, i) => {
+      const y = M.t + i * alt;
+      const larg = (m.variacao_anualizada_pct / max) * iw;
+      s.appendChild(el("text", {
+        x: M.l - 10, y: y + alt / 2 + 3.5, "text-anchor": "end",
+        "font-size": 10.5, fill: CV("--ink-2"),
+        "font-family": "IBM Plex Sans, sans-serif",
+      }, m.municipio.length > 19 ? m.municipio.slice(0, 18) + "…" : m.municipio));
+      s.appendChild(el("rect", {
+        x: M.l, y: y + 3, width: Math.max(larg, 2), height: alt - 8,
+        rx: 4, fill: CV("--cat-1"), "fill-opacity": .85,
+      }));
+      s.appendChild(el("text", {
+        x: M.l + larg + 8, y: y + alt / 2 + 3.5, class: "rotulo-dado",
+      }, `+${Math.round(m.variacao_anualizada_pct)}% · R² ${m.r2 === null ? "—" : m.r2.toFixed(2).replace(".", ",")}`));
+
+      const alvo = el("rect", { x: M.l, y: y, width: iw + M.r, height: alt, fill: "transparent" });
+      alvo.addEventListener("pointerenter", () => {
+        tip.mostrar(
+          ((M.l + larg) / W) * host.clientWidth,
+          ((y - 6) / H) * host.clientHeight,
+          `<div class="t">${m.municipio}</div>
+           <div class="l"><span>Crescimento anual</span><b>+${dec(m.variacao_anualizada_pct)}%</b></div>
+           <div class="l"><span>Por mês</span><b>+${dec(m.variacao_mensal_pct)}%</b></div>
+           <div class="l"><span>Ajuste (R²)</span><b>${dec(m.r2)}</b></div>
+           <div class="l"><span>Internações</span><b>${num(m.internacoes_12m)}</b></div>`
+        );
+      });
+      alvo.addEventListener("pointerleave", () => tip.esconder());
+      s.appendChild(alvo);
+    });
+    host.appendChild(s);
+  }
+
+  /* ═══ tabela de municípios ═══════════════════════════════ */
+  let ordCol = "internacoes_12m", ordDir = "desc", selecionado = null;
+
+  function filtrados() {
+    const busca = $("#f-busca").value.trim().toLowerCase();
+    const reg = $("#f-regiao").value;
+    const al = $("#f-alerta").value;
+    return D.municipios.filter(m =>
+      (!busca || m.municipio.toLowerCase().includes(busca)) &&
+      (!reg || m.regiao_intermediaria === reg) &&
+      (!al || m.alerta_capacidade === al)
+    ).sort((a, b) => {
+      const va = a[ordCol], vb = b[ordCol];
+      if (va === null || va === undefined) return 1;
+      if (vb === null || vb === undefined) return -1;
+      const cmp = typeof va === "string" ? va.localeCompare(vb, "pt-BR") : va - vb;
+      return ordDir === "asc" ? cmp : -cmp;
+    });
+  }
+
+  function renderTabela() {
+    const linhas = filtrados();
+    $("#f-contagem").textContent = `${linhas.length} de ${D.municipios.length} municípios`;
+    const corpo = $("#tabela-corpo");
+    if (!linhas.length) {
+      corpo.innerHTML = `<tr><td colspan="9" class="vazio">Nenhum município corresponde aos filtros.</td></tr>`;
+      return;
+    }
+    corpo.innerHTML = linhas.slice(0, 200).map(m => `
+      <tr tabindex="0" data-cod="${m.codigo}" class="${selecionado === m.codigo ? "sel" : ""}">
+        <td>${m.municipio}</td>
+        <td>${num(m.populacao)}</td>
+        <td>${num(m.leitos_sus)}</td>
+        <td>${num(m.internacoes_12m)}</td>
+        <td>${pct(m.ocupacao_estimada_pct)}</td>
+        <td>${m.media_permanencia ? dec(m.media_permanencia) + " d" : "—"}</td>
+        <td>${m.custo_medio_internacao ? brl(m.custo_medio_internacao) : "—"}</td>
+        <td>${m.variacao_anualizada_pct === null ? "—" :
+              (m.variacao_anualizada_pct > 0 ? "+" : "") + dec(m.variacao_anualizada_pct) + "%"}</td>
+        <td>${selo(m.alerta_capacidade)}</td>
+      </tr>`).join("");
+
+    $$("#tabela-corpo tr[data-cod]").forEach(tr => {
+      const abrir = () => { selecionado = tr.dataset.cod; renderTabela(); renderDetalhe(); };
+      tr.addEventListener("click", abrir);
+      tr.addEventListener("keydown", e => {
+        if (e.key === "Enter" || e.key === " ") { e.preventDefault(); abrir(); }
+      });
+    });
+  }
+
+  function renderDetalhe() {
+    const card = $("#detalhe-card");
+    const m = D.municipios.find(x => x.codigo === selecionado);
+    if (!m) {
+      card.innerHTML = `<p class="vazio">Selecione um município na tabela para ver o detalhamento.</p>`;
+      return;
+    }
+    const serie = D.series_municipio[m.codigo] || [];
+    const cid = D.cid_municipio[m.codigo] || [];
+
+    let spark = "";
+    if (serie.length > 1) {
+      const W = 420, H = 92, mx = Math.max(...serie), mn = Math.min(...serie);
+      const faixa = mx - mn || 1;
+      const pts = serie.map((v, i) =>
+        `${(W * i) / (serie.length - 1)},${H - 8 - ((v - mn) / faixa) * (H - 22)}`).join(" ");
+      spark = `<svg viewBox="0 0 ${W} ${H}" style="width:100%;height:auto;overflow:visible" role="img"
+                    aria-label="Internações mensais em ${m.municipio}">
+        <polygon points="0,${H} ${pts} ${W},${H}" fill="var(--accent)" opacity=".1"></polygon>
+        <polyline points="${pts}" fill="none" stroke="var(--accent)" stroke-width="2"
+                  stroke-linejoin="round" stroke-linecap="round"></polyline>
+        <circle cx="${W}" cy="${H - 8 - ((serie[serie.length - 1] - mn) / faixa) * (H - 22)}"
+                r="4" fill="var(--accent)" stroke="var(--surface)" stroke-width="2"></circle>
+      </svg>
+      <p style="font-family:'IBM Plex Mono',monospace;font-size:.69rem;color:var(--ink-3);
+                display:flex;justify-content:space-between;margin:6px 0 0">
+        <span>${rotPeriodo(D.periodos[0])}</span>
+        <span>mín ${num(mn)} · máx ${num(mx)}</span>
+        <span>${rotPeriodo(D.periodos[D.periodos.length - 1])}</span></p>`;
+    }
+
+    const itens = [
+      ["População", num(m.populacao)],
+      ["Leitos SUS", num(m.leitos_sus)],
+      ["Internações 12m", num(m.internacoes_12m)],
+      ["Ocupação estimada", pct(m.ocupacao_estimada_pct)],
+      ["Permanência média", m.media_permanencia ? dec(m.media_permanencia) + " dias" : "—"],
+      ["Giro por leito/ano", dec(m.giro_leito_ano)],
+      ["Leitos por 10 mil hab.", dec(m.leitos_sus_10k_hab)],
+      ["Custo médio", brl(m.custo_medio_internacao)],
+      ["Recurso executado 12m", compacto(m.valor_total_12m)],
+      ["Tendência anualizada", m.variacao_anualizada_pct === null ? "—" :
+        (m.variacao_anualizada_pct > 0 ? "+" : "") + dec(m.variacao_anualizada_pct) + "%"],
+    ];
+
+    card.innerHTML = `
+      <div class="detalhe">
+        <div>
+          <h3 class="det-nome">${m.municipio} ${selo(m.alerta_capacidade)}</h3>
+          <p class="det-sub">${m.regiao_intermediaria || "—"} · ${
+            NOME_CLUSTER[m.perfil_cluster] || "sem agrupamento"}${
+            m.posicao ? ` · ${m.posicao}º no índice de criticidade` : ""}</p>
+          <dl class="det-lista">${itens.map(([r, v]) =>
+            `<div class="det-item"><dt>${r}</dt><dd>${v}</dd></div>`).join("")}</dl>
+        </div>
+        <div>
+          <p class="det-sub" style="margin-bottom:8px"><b>Internações por mês</b></p>
+          ${spark || '<p class="vazio">Sem série mensal.</p>'}
+          <p class="det-sub" style="margin:18px 0 8px"><b>Principais perfis de atendimento</b></p>
+          ${cid.length ? `<table><tbody>${cid.map(c => `
+            <tr><td style="padding:5px 0;border:0">${c.c.replace(/^[IVX]+\.\s*/, "")}</td>
+                <td style="padding:5px 0;border:0">${num(c.v)}</td></tr>`).join("")}</tbody></table>`
+            : '<p class="vazio">Sem registro de internações.</p>'}
+        </div>
+      </div>`;
+  }
+
+  /* ═══ Pergunte ao PULSO ══════════════════════════════════ */
+  function realce(sql) {
+    return sql
+      .replace(/&/g, "&amp;").replace(/</g, "&lt;")
+      .replace(/(--[^\n]*)/g, '<span class="cm">$1</span>')
+      .replace(/\b(SELECT|FROM|WHERE|GROUP BY|ORDER BY|HAVING|AND|OR|AS|DESC|ASC|FETCH FIRST|ROWS ONLY|JOIN|ON|CASE|WHEN|THEN|ELSE|END|ROUND|SUM|AVG|COUNT|NOT|NULL|IS|IN|BETWEEN)\b/g,
+        '<span class="kw">$1</span>')
+      .replace(/('[^']*')/g, '<span class="st">$1</span>');
+  }
+
+  const PERGUNTAS = [
+    {
+      p: "Quais municípios estão com a capacidade hospitalar ultrapassada?",
+      sql: `SELECT municipio,
+       leitos_sus,
+       internacoes_12m,
+       ROUND(ocupacao_estimada_pct, 1) AS ocupacao_pct
+FROM   mv_indicadores_municipio
+WHERE  alerta_capacidade = 'Crítico'
+ORDER  BY ocupacao_estimada_pct DESC
+FETCH FIRST 10 ROWS ONLY;`,
+      cols: ["Município", "Leitos SUS", "Internações 12m", "Ocupação"],
+      exec: () => D.municipios
+        .filter(m => m.alerta_capacidade === "Crítico")
+        .sort((a, b) => b.ocupacao_estimada_pct - a.ocupacao_estimada_pct)
+        .slice(0, 10)
+        .map(m => [m.municipio, num(m.leitos_sus), num(m.internacoes_12m), pct(m.ocupacao_estimada_pct)]),
+      nar: () => {
+        const c = D.municipios.filter(m => m.alerta_capacidade === "Crítico");
+        const t = D.municipios.filter(m => m.alerta_capacidade === "Atenção");
+        const top = c.sort((a, b) => b.ocupacao_estimada_pct - a.ocupacao_estimada_pct)[0];
+        return `<strong>${c.length} municípios</strong> operam com ocupação estimada acima de 100%
+          da capacidade de leitos SUS, e outros <strong>${t.length}</strong> estão na faixa de atenção
+          (85% a 100%). O caso mais agudo é <strong>${top.municipio}</strong>, com
+          ${pct(top.ocupacao_estimada_pct)} sobre ${num(top.leitos_sus)} leitos.
+          Juntos, esses ${c.length + t.length} municípios respondem por
+          ${compacto(c.concat(t).reduce((a, m) => a + m.internacoes_12m, 0))} internações por ano.`;
+      },
+    },
+    {
+      p: "Quais perfis de atendimento pressionam mais o sistema?",
+      sql: `SELECT c.capitulo_cid10,
+       SUM(c.internacoes) AS internacoes,
+       ROUND(100 * SUM(c.internacoes) /
+             SUM(SUM(c.internacoes)) OVER (), 1) AS participacao_pct
+FROM   fato_cid_capitulo c
+GROUP  BY c.capitulo_cid10
+ORDER  BY internacoes DESC
+FETCH FIRST 6 ROWS ONLY;`,
+      cols: ["Capítulo CID-10", "Internações", "Participação"],
+      exec: () => {
+        const t = D.cid_estado.reduce((a, b) => a + b.internacoes, 0);
+        return D.cid_estado.slice(0, 6).map(c =>
+          [c.capitulo, num(c.internacoes), dec(c.internacoes / t * 100) + "%"]);
+      },
+      nar: () => {
+        const t = D.cid_estado.reduce((a, b) => a + b.internacoes, 0);
+        const tres = D.cid_estado.slice(0, 3);
+        const soma = tres.reduce((a, c) => a + c.internacoes, 0);
+        return `Três capítulos concentram <strong>${dec(soma / t * 100)}%</strong> de toda a
+          demanda hospitalar do estado: ${tres.map(c =>
+            `<strong>${c.capitulo.replace(/^[IVX]+\.\s*/, "").toLowerCase()}</strong>`).join(", ")}.
+          Gravidez e parto sozinho responde por ${dec(D.cid_estado[0].internacoes / t * 100)}%,
+          o que indica onde a rede de atenção primária tem maior potencial de desafogar o leito hospitalar.`;
+      },
+    },
+    {
+      p: "Onde as internações estão crescendo mais rápido?",
+      sql: `SELECT municipio,
+       internacoes_12m,
+       ROUND(variacao_anualizada_pct, 1) AS crescimento_pct,
+       ROUND(r2, 2) AS ajuste_r2
+FROM   mv_tendencia_municipio
+WHERE  internacoes_12m >= 600
+AND    variacao_anualizada_pct > 0
+AND    r2 >= 0.4                      -- descarta oscilação sem tendência
+ORDER  BY variacao_anualizada_pct DESC
+FETCH FIRST 8 ROWS ONLY;`,
+      cols: ["Município", "Internações 12m", "Crescimento anual", "Ajuste R²"],
+      exec: () => D.municipios
+        .filter(m => m.variacao_anualizada_pct > 0 && m.internacoes_12m >= 600
+                     && m.r2 >= 0.4)
+        .sort((a, b) => b.variacao_anualizada_pct - a.variacao_anualizada_pct)
+        .slice(0, 8)
+        .map(m => [m.municipio, num(m.internacoes_12m),
+                   "+" + dec(m.variacao_anualizada_pct) + "%",
+                   m.r2.toFixed(2).replace(".", ",")]),
+      nar: () => {
+        const alta = D.municipios
+          .filter(m => m.variacao_anualizada_pct > 0 && m.internacoes_12m >= 600
+                       && m.r2 >= 0.4)
+          .sort((a, b) => b.variacao_anualizada_pct - a.variacao_anualizada_pct);
+        const p = alta[0];
+        return `<strong>${p.municipio}</strong> lidera com crescimento anualizado de
+          <strong>+${dec(p.variacao_anualizada_pct)}%</strong> e ajuste R² de ${p.r2.toFixed(2).replace(".", ",")} —
+          ou seja, é tendência consistente, não oscilação de um mês.
+          Ao todo, <strong>${alta.length} municípios</strong> com volume relevante têm alta consistente.
+          O R² é o filtro que separa crescimento real de ruído sazonal.`;
+      },
+    },
+    {
+      p: "Quais municípios têm poucos leitos para a população que atendem?",
+      sql: `SELECT municipio,
+       populacao,
+       leitos_sus,
+       ROUND(leitos_sus_10k_hab, 2) AS leitos_por_10mil,
+       ROUND(ocupacao_estimada_pct, 1) AS ocupacao_pct
+FROM   mv_indicadores_municipio
+WHERE  leitos_sus > 0
+AND    populacao >= 100000
+AND    perfil_permanencia <> 'Longa permanência'
+ORDER  BY leitos_sus_10k_hab ASC
+FETCH FIRST 8 ROWS ONLY;`,
+      cols: ["Município", "População", "Leitos SUS", "Leitos/10 mil", "Ocupação"],
+      exec: () => D.municipios
+        .filter(m => m.leitos_sus > 0 && m.populacao >= 100000 && m.perfil_permanencia !== "Longa permanência")
+        .sort((a, b) => a.leitos_sus_10k_hab - b.leitos_sus_10k_hab)
+        .slice(0, 8)
+        .map(m => [m.municipio, num(m.populacao), num(m.leitos_sus),
+                   dec(m.leitos_sus_10k_hab), pct(m.ocupacao_estimada_pct)]),
+      nar: () => {
+        const b = D.municipios
+          .filter(m => m.leitos_sus > 0 && m.populacao >= 100000 && m.perfil_permanencia !== "Longa permanência")
+          .sort((a, b) => a.leitos_sus_10k_hab - b.leitos_sus_10k_hab);
+        const p = b[0];
+        return `<strong>${p.municipio}</strong> tem apenas <strong>${dec(p.leitos_sus_10k_hab)}
+          leitos SUS por 10 mil habitantes</strong> — referência internacional para leitos de
+          agudos fica entre 20 e 30. Municípios nessa condição normalmente dependem da rede de
+          um polo regional vizinho, o que transforma o problema de leito em problema de
+          transporte e regulação — decisão que o gestor só consegue tomar vendo os dois
+          municípios lado a lado.`;
+      },
+    },
+    {
+      p: "Qual o custo médio de internação e onde ele é mais alto?",
+      sql: `SELECT municipio,
+       internacoes_12m,
+       ROUND(valor_total_12m / 1000000, 1) AS recurso_milhoes,
+       ROUND(custo_medio_internacao, 2) AS custo_medio
+FROM   mv_indicadores_municipio
+WHERE  internacoes_12m >= 2000
+ORDER  BY custo_medio_internacao DESC
+FETCH FIRST 8 ROWS ONLY;`,
+      cols: ["Município", "Internações 12m", "Recurso (R$ mi)", "Custo médio"],
+      exec: () => D.municipios
+        .filter(m => m.internacoes_12m >= 2000)
+        .sort((a, b) => b.custo_medio_internacao - a.custo_medio_internacao)
+        .slice(0, 8)
+        .map(m => [m.municipio, num(m.internacoes_12m),
+                   dec(m.valor_total_12m / 1e6), brl(m.custo_medio_internacao)]),
+      nar: () => {
+        const k = D.kpis;
+        const alto = D.municipios.filter(m => m.internacoes_12m >= 2000)
+          .sort((a, b) => b.custo_medio_internacao - a.custo_medio_internacao)[0];
+        return `O custo médio estadual é <strong>${brl(k.custo_medio)}</strong> por internação, sobre
+          ${compacto(k.valor_total_12m)} de recurso executado em 12 meses. Em
+          <strong>${alto.municipio}</strong> o custo médio chega a
+          <strong>${brl(alto.custo_medio_internacao)}</strong> —
+          ${dec(alto.custo_medio_internacao / k.custo_medio)}× a média do estado, sinal típico de
+          município com hospital de alta complexidade que atende além do próprio território.`;
+      },
+    },
+  ];
+
+  function montarPerguntas() {
+    $("#perguntas").innerHTML = PERGUNTAS.map((q, i) =>
+      `<button class="pergunta" type="button" data-i="${i}" aria-pressed="false">${q.p}</button>`).join("");
+    $$("#perguntas .pergunta").forEach(b =>
+      b.addEventListener("click", () => responder(+b.dataset.i)));
+  }
+
+  function responder(i) {
+    const q = PERGUNTAS[i];
+    $$("#perguntas .pergunta").forEach(b =>
+      b.setAttribute("aria-pressed", String(+b.dataset.i === i)));
+    $("#pergunta-eco").textContent = q.p;
+
+    $("#narrativa").hidden = false;
+    $("#narrativa").innerHTML = q.nar();
+    $("#sql-box").hidden = false;
+    $("#sql-txt").innerHTML = realce(q.sql);
+
+    const linhas = q.exec();
+    $("#resultado-box").hidden = false;
+    $("#resultado-cab").innerHTML =
+      `<tr>${q.cols.map(c => `<th>${c}</th>`).join("")}</tr>`;
+    $("#resultado-corpo").innerHTML = linhas.map(l =>
+      `<tr>${l.map(c => `<td>${c}</td>`).join("")}</tr>`).join("");
+  }
+
+  /* ═══ métricas dos modelos ═══════════════════════════════ */
+  function montarModelos() {
+    const m = D.modelos;
+    const c = m.clusterizacao, t = m.tendencia, ic = m.indice_criticidade;
+    $("#metricas").innerHTML = [
+      ["Algoritmo", c.algoritmo],
+      ["Grupos (k)", c.k_escolhido],
+      ["Silhueta", c.silhueta.toFixed(2).replace(".", ",")],
+      ["Municípios no modelo", num(c.n_municipios)],
+      ["Tendências consistentes", num(t.n_tendencia_consistente) + " mun."],
+      ["Municípios no ranking", num(ic.n_municipios)],
+    ].map(([r, v]) => `<div class="metrica"><dt>${r}</dt><dd>${v}</dd></div>`).join("");
+
+    $("#nota-cluster").innerHTML = `
+      <b>Como os grupos foram definidos.</b> K-Means sobre cinco indicadores padronizados
+      (internações por mil habitantes, leitos por 10 mil habitantes, ocupação estimada,
+      permanência média e custo médio). A silhueta é mais alta em k=2
+      (${c.silhueta_por_k["2"].toFixed(2).replace(".", ",")}), mas k=4 (${c.silhueta.toFixed(2).replace(".", ",")}) foi escolhido por separar
+      situações de gestão que exigem decisões opostas — um polo regional lotado pede regulação
+      de fluxo entre hospitais; uma rede com folga, no mesmo estado, pede realocação de
+      recurso e não mais leito.
+      <br><br>
+      <b>O que ficou fora, de propósito.</b> Municípios com permanência média acima de 20 dias
+      (hospitais psiquiátricos e de retaguarda) foram excluídos dos modelos de capacidade:
+      a ocupação alta neles é estrutural, não é crise assistencial. Sem esse corte eles
+      dominariam qualquer ranking e esconderiam os casos que realmente exigem ação.
+      <br><br>
+      <b>Tendência: o que o R² está dizendo.</b> Das ${num(t.n_municipios)} séries
+      ajustadas, <b>${num(t.n_tendencia_consistente)}</b> têm R² ≥ 0,5 — ou seja, movimento
+      consistente ao longo dos 12 meses (R² mediano desse grupo:
+      ${t.r2_mediano_consistentes.toFixed(2).replace(".", ",")}). O R² mediano do conjunto
+      inteiro é ${t.r2_mediano.toFixed(2).replace(".", ",")}, e isso é o resultado correto:
+      a maior parte dos municípios oscila em torno da média sem tendência real. O painel
+      usa o R² justamente para não confundir ruído sazonal com crescimento de demanda.
+      <br><br>
+      <b>Índice de criticidade.</b> Normalização min-max entre os percentis 5 e 95, com pesos
+      fixos: ocupação ${ic.pesos.ocupacao_estimada_pct * 100}%,
+      demanda por habitante ${ic.pesos.internacoes_mil_hab * 100}%,
+      escassez de leitos ${ic.pesos.escassez_leitos * 100}% e
+      aceleração recente ${ic.pesos.variacao_trimestral_pct * 100}%.`;
+  }
+
+  /* ═══ abas ═══════════════════════════════════════════════ */
+  function abas() {
+    const bts = $$(".aba");
+    bts.forEach(b => b.addEventListener("click", () => {
+      bts.forEach(o => {
+        const at = o === b;
+        o.setAttribute("aria-selected", String(at));
+        $("#" + o.getAttribute("aria-controls")).hidden = !at;
+      });
+    }));
+  }
+
+  /* ═══ tema ═══════════════════════════════════════════════ */
+  function tema() {
+    const raiz = document.documentElement;
+    $("#btn-tema").addEventListener("click", () => {
+      const escuroAgora = raiz.getAttribute("data-theme") === "dark" ||
+        (!raiz.hasAttribute("data-theme") &&
+          window.matchMedia("(prefers-color-scheme: dark)").matches);
+      raiz.setAttribute("data-theme", escuroAgora ? "light" : "dark");
+      redesenhar();
+    });
+  }
+
+  function redesenhar() {
+    ["#c-serie", "#c-alerta", "#c-cid", "#c-ranking", "#c-uf", "#c-cluster", "#c-tendencia"]
+      .forEach(s => { $(s).innerHTML = ""; });
+    gSerie(); gAlerta(); gCid(); gRanking(); gUf(); gCluster(); gTendencia();
+    if (selecionado) renderDetalhe();
+  }
+
+  /* ═══ início ═════════════════════════════════════════════ */
+  function iniciar() {
+    kpis();
+    abas();
+    tema();
+
+    const regioes = [...new Set(D.municipios.map(m => m.regiao_intermediaria).filter(Boolean))]
+      .sort((a, b) => a.localeCompare(b, "pt-BR"));
+    $("#f-regiao").insertAdjacentHTML("beforeend",
+      regioes.map(r => `<option value="${r}">${r}</option>`).join(""));
+
+    $("#f-busca").addEventListener("input", renderTabela);
+    $("#f-regiao").addEventListener("change", renderTabela);
+    $("#f-alerta").addEventListener("change", renderTabela);
+    $$("#tabela thead th.ord").forEach(th => th.addEventListener("click", () => {
+      const col = th.dataset.col;
+      if (ordCol === col) ordDir = ordDir === "desc" ? "asc" : "desc";
+      else { ordCol = col; ordDir = col === "municipio" ? "asc" : "desc"; }
+      $$("#tabela thead th.ord").forEach(o => o.removeAttribute("data-dir"));
+      th.setAttribute("data-dir", ordDir);
+      renderTabela();
+    }));
+
+    renderTabela();
+    renderDetalhe();
+    montarPerguntas();
+    responder(0);
+    montarModelos();
+    redesenhar();
+
+    let t;
+    window.addEventListener("resize", () => { clearTimeout(t); t = setTimeout(redesenhar, 220); });
+  }
+
+  if (document.readyState === "loading")
+    document.addEventListener("DOMContentLoaded", iniciar);
+  else iniciar();
+})();
+</script>

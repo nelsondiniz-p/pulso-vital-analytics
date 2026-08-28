@@ -1,0 +1,14 @@
+# PULSO - Painel Único de Leitos, Saúde e Ocupação
+# Equipe Vital Analytics · 1TSCOA · Challenge Oracle + FIAP 2026
+#
+# A extração usa apenas a biblioteca padrão (urllib) de propósito: o TabNet
+# do DATASUS exige controle fino de encoding latin-1 e de corpo POST, o que
+# fica mais claro sem camada de abstração.
+
+pandas>=2.2
+numpy>=1.26
+scikit-learn>=1.4
+matplotlib>=3.8
+
+# Opcional - apenas para o notebook de análise exploratória
+jupyter>=1.0

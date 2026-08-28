@@ -1,0 +1,22 @@
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+.env
+.DS_Store
+.vscode/
+.idea/
+
+# Dados brutos e processados são regeráveis com `python src/run_pipeline.py`.
+# As amostras versionadas ficam em data/samples/.
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# Credenciais do Oracle nunca entram no repositório
+wallet/
+*.sso
+*.p12
+credenciais*.sql
