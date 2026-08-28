@@ -53,8 +53,7 @@ Todos os números abaixo saem das fontes públicas, não são ilustrativos.
   municípios pequenos que sediam hospital de referência regional e que qualquer
   análise por porte populacional classificaria errado.
 
-**Aplicação funcionando:** o dashboard navegável está em `dashboard/index.html`
-(também publicado via GitHub Pages — link na seção *Entregáveis*).
+**Aplicação funcionando:** <https://nelsondiniz-p.github.io/pulso-vital-analytics/>
 
 ---
 
@@ -293,8 +292,8 @@ pulso-vital-analytics/
 |---|---|
 | Apresentação (PPT) | `EC_Sprint_2_1TSCO_EvidenciasConstrucao_PULSO_VitalAnalytics.pptx` |
 | Vídeo pitch (YouTube) | `link_video_pitch.txt` |
-| Aplicação funcionando | `dashboard/index.html` · GitHub Pages |
-| Repositório técnico | este repositório |
+| Aplicação funcionando | <https://nelsondiniz-p.github.io/pulso-vital-analytics/> |
+| Repositório técnico | <https://github.com/nelsondiniz-p/pulso-vital-analytics> |
 | Evidências visuais | `docs/evidencias/` |
 | Scripts SQL do Oracle | `sql/` |
 

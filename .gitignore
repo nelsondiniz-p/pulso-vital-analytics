@@ -20,3 +20,6 @@ wallet/
 *.sso
 *.p12
 credenciais*.sql
+
+# PDF gerado a partir do PPTX na conferencia visual
+*.pdf

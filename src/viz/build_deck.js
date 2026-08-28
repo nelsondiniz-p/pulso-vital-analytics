@@ -457,9 +457,12 @@ prints.forEach(([arquivo, titulo, sub, descricao], i) => {
     valign: "top", fontFace: TXT, fontSize: 11.5, color: CINZA2,
     lineSpacingMultiple: 1.14,
   });
-  s.addText("Aplicação navegável, sem servidor — roda em GitHub Pages e offline.", {
+  s.addText([
+    { text: "Aplicação no ar: ", options: { italic: true, color: CINZA } },
+    { text: "nelsondiniz-p.github.io/pulso-vital-analytics", options: { bold: true, color: TEAL } },
+  ], {
     x: L, y: 6.36, w: W, h: 0.3, isTextBox: true, margin: 0,
-    fontFace: TXT, fontSize: 10.5, italic: true, color: CINZA,
+    fontFace: TXT, fontSize: 10.5,
   });
   rodape(s, 6 + i);
   s.addNotes(descricao);
@@ -1084,14 +1087,15 @@ prints.forEach(([arquivo, titulo, sub, descricao], i) => {
   });
 
   cartao(s, L, 6.34, W, 0.52, NAVY);
-  s.addText("Repositório público:   github.com/<usuario>/pulso-vital-analytics", {
+  s.addText("Repositório público:   github.com/nelsondiniz-p/pulso-vital-analytics", {
     x: L + 0.32, y: 6.34, w: W - 0.64, h: 0.52, isTextBox: true, margin: 0,
     valign: "middle", fontFace: TXT, fontSize: 12, bold: true, color: TEAL,
   });
   rodape(s, 20);
   s.addNotes(
-    "ATENÇÃO: substituir <usuario> pelo endereço real do repositório antes de " +
-    "gerar o PDF e o vídeo."
+    "Sexta entrega: repositório técnico, que vale 20% da nota. O repositório é " +
+    "público e traz todo o código gerado no projeto, não só o do MVP — scripts " +
+    "de extração, modelos, SQL do Oracle, notebook e documentação."
   );
 }
 

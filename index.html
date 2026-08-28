@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>PULSO — Painel Único de Leitos, Saúde e Ocupação</title>
+<meta name="description" content="Painel de acesso hospitalar do SUS no estado de São Paulo — Equipe Vital Analytics, Challenge Oracle + FIAP 2026.">
+<!--
+  Página de entrada do GitHub Pages.
+
+  Sem este arquivo, a raiz do site serve o README.md renderizado pelo Jekyll,
+  e não a aplicação. Como o link entregue à avaliação é a raiz do domínio, ela
+  precisa levar direto ao painel — o redirecionamento acontece de imediato e o
+  conteúdo abaixo só aparece se ele falhar.
+-->
+<meta http-equiv="refresh" content="0; url=./dashboard/">
+<link rel="canonical" href="./dashboard/">
+<style>
+  :root { color-scheme: light dark; }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; min-height: 100vh; display: grid; place-items: center;
+    background: #0A2A3B; color: #E7F0F3; padding: 24px;
+    font-family: "IBM Plex Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", system-ui, sans-serif;
+    text-align: center;
+  }
+  .marca { display: flex; align-items: center; gap: 12px; justify-content: center; margin-bottom: 22px; }
+  h1 { font-size: 1.6rem; font-weight: 700; letter-spacing: .09em; margin: 0; }
+  p { color: #9FB6C0; margin: 0 0 24px; font-size: .95rem; max-width: 46ch; }
+  a.botao {
+    display: inline-block; background: #009B98; color: #fff; text-decoration: none;
+    padding: 12px 26px; border-radius: 8px; font-weight: 600; font-size: .95rem;
+  }
+  a.botao:hover { background: #00807E; }
+  .rodape { margin-top: 30px; font-size: .78rem; color: #6B8592; }
+  .rodape a { color: #9FB6C0; }
+</style>
+</head>
+<body>
+  <main>
+    <div class="marca">
+      <svg width="34" height="34" viewBox="0 0 30 30" aria-hidden="true">
+        <rect width="30" height="30" rx="7" fill="#009B98"></rect>
+        <path d="M4 15.5h4.4l2.1-6.4 3.4 12.2 2.7-8.2 1.9 3.6H26"
+              fill="none" stroke="#fff" stroke-width="1.9"
+              stroke-linecap="round" stroke-linejoin="round"></path>
+      </svg>
+      <h1>PULSO</h1>
+    </div>
+    <p>Painel Único de Leitos, Saúde e Ocupação — abrindo a aplicação…</p>
+    <a class="botao" href="./dashboard/">Abrir o painel</a>
+    <p class="rodape">
+      Equipe Vital Analytics · Turma 1TSCOA · Challenge Oracle + FIAP 2026<br>
+      <a href="https://github.com/nelsondiniz-p/pulso-vital-analytics">Repositório e documentação técnica</a>
+    </p>
+  </main>
+</body>
+</html>
