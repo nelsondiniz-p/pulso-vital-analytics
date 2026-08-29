@@ -1,0 +1,266 @@
+codigo,media_mensal,inclinacao_mes,variacao_mensal_pct,variacao_anualizada_pct,r2,classificacao,municipio,populacao,internacoes_12m,ocupacao_estimada_pct,alerta_capacidade
+351840,842.6,83.85,9.95,119.4,0.712,Alta forte,Guaratinguetá,121916,10111,68.5,Adequado
+353650,588.1,54.43,9.26,111.1,0.549,Alta forte,Paulínia,116674,5293,35.4,Adequado
+355630,91.1,6.68,7.34,88.0,0.622,Alta forte,Valparaíso,24779,1093,24.8,Adequado
+354760,92.8,3.8,4.1,49.2,0.623,Alta forte,Santa Rosa de Viterbo,23710,1114,66.3,Adequado
+351150,83.7,3.31,3.96,47.5,0.141,Alta forte,Cerquilho,46391,1004,44.3,Adequado
+351340,527.4,20.69,3.92,47.1,0.731,Alta forte,Cruzeiro,76444,6329,62.1,Adequado
+355260,84.9,3.28,3.86,46.3,0.593,Alta forte,Tabapuã,11498,1019,88.6,Atenção
+355600,105.2,3.7,3.52,42.2,0.691,Alta forte,Urupês,14073,1263,67.2,Adequado
+353530,195.9,6.63,3.39,40.6,0.568,Alta forte,Palmital,19714,2351,44.6,Adequado
+355380,181.3,5.82,3.21,38.5,0.235,Alta forte,Taquarituba,24932,2176,43.6,Adequado
+352270,307.6,9.58,3.11,37.4,0.412,Alta forte,Itápolis,40445,3691,77.8,Adequado
+353800,657.2,19.93,3.03,36.4,0.208,Alta forte,Pindamonhangaba,172681,7887,85.6,Atenção
+354540,63.5,1.81,2.85,34.2,0.221,Alta forte,Salto Grande,9221,762,23.5,Adequado
+353790,90.8,2.51,2.76,33.2,0.316,Alta forte,Pilar do Sul,28459,1089,27.6,Adequado
+350900,429.3,11.38,2.65,31.8,0.308,Alta forte,Caieiras,98549,5152,48.1,Adequado
+350270,311.6,7.56,2.43,29.1,0.572,Alta forte,Apiaí,24857,3739,59.4,Adequado
+350840,83.5,2.02,2.42,29.0,0.015,Alta forte,Cabreúva,48654,919,37.5,Adequado
+351570,741.4,17.88,2.41,28.9,0.088,Alta forte,Ferraz de Vasconcelos,186479,8897,67.1,Adequado
+350635,314.2,7.45,2.37,28.5,0.452,Alta forte,Bertioga,67436,3771,57.8,Adequado
+350330,670.8,14.97,2.23,26.8,0.536,Alta forte,Araras,135744,8050,55.4,Adequado
+353630,81.9,1.79,2.19,26.3,0.18,Alta forte,Patrocínio Paulista,14888,983,28.2,Adequado
+355300,55.9,1.19,2.13,25.6,0.13,Alta forte,Taguaí,13068,671,21.3,Adequado
+354080,73.0,1.49,2.04,24.5,0.064,Alta forte,Potirendaba,19097,876,28.1,Adequado
+350420,224.3,4.58,2.04,24.5,0.254,Alta forte,Auriflama,13856,2692,36.9,Adequado
+352430,187.4,3.69,1.97,23.6,0.352,Alta forte,Jaboticabal,73473,2249,71.3,Adequado
+351060,1420.2,26.92,1.9,22.7,0.164,Alta forte,Carapicuíba,398236,17043,80.0,Adequado
+353670,170.3,3.12,1.83,22.0,0.13,Alta forte,Pederneiras,46337,2044,43.3,Adequado
+350920,291.2,5.29,1.82,21.8,0.424,Alta forte,Cajamar,98365,3495,87.4,Atenção
+352570,205.9,3.65,1.77,21.3,0.601,Alta forte,José Bonifácio,37992,2471,70.1,Adequado
+355020,115.0,2.02,1.76,21.1,0.14,Alta forte,São Miguel Arcanjo,32924,1380,52.6,Adequado
+355160,219.6,3.72,1.69,20.3,0.195,Alta forte,Serra Negra,31047,2635,59.5,Adequado
+355340,124.1,2.07,1.67,20.0,0.149,Alta forte,Tanabi,26071,1489,91.1,Atenção
+352640,135.9,2.26,1.66,19.9,0.378,Alta forte,Laranjal Paulista,27044,1631,57.8,Adequado
+351830,129.7,2.15,1.66,19.9,0.272,Alta forte,Guararema,32620,1556,43.8,Adequado
+355720,102.9,1.7,1.65,19.9,0.18,Alta forte,Chavantes,12415,1235,33.5,Adequado
+354100,931.7,15.26,1.64,19.7,0.359,Alta forte,Praia Grande,368539,11180,80.1,Adequado
+354750,143.9,2.3,1.6,19.2,0.11,Alta forte,Santa Rita do Passa Quatro,24996,1727,35.3,Adequado
+351900,63.8,1.01,1.59,19.0,0.058,Alta forte,Herculândia,9316,765,12.8,Adequado
+351600,86.8,1.35,1.55,18.7,0.452,Alta forte,Flórida Paulista,13175,1042,22.0,Adequado
+354160,352.8,5.48,1.55,18.6,0.135,Alta forte,Promissão,35973,4234,63.4,Adequado
+351860,118.6,1.73,1.46,17.5,0.215,Alta forte,Guariba,38678,1423,20.6,Adequado
+353260,232.4,3.35,1.44,17.3,0.197,Alta forte,Nhandeara,9915,2789,80.3,Adequado
+351440,280.5,4.03,1.44,17.3,0.363,Alta forte,Dracena,46735,3366,45.5,Adequado
+354390,1012.9,14.31,1.41,17.0,0.295,Alta forte,Rio Claro,210323,12155,85.4,Atenção
+354240,83.3,1.16,1.39,16.7,0.03,Alta forte,Regente Feijó,20620,1000,25.6,Adequado
+354560,91.3,1.22,1.33,16.0,0.104,Alta forte,Santa Adélia,14193,1096,48.5,Adequado
+352590,3665.9,48.64,1.33,15.9,0.202,Alta forte,Jundiaí,463039,43991,105.0,Crítico
+354770,178.2,2.32,1.3,15.6,0.327,Alta forte,Santo Anastácio,17960,2139,54.9,Adequado
+355060,440.7,5.64,1.28,15.3,0.067,Alta forte,São Roque,81366,5288,86.0,Atenção
+353780,257.3,3.25,1.26,15.2,0.151,Alta forte,Piedade,54266,3088,45.0,Adequado
+352680,259.4,3.26,1.26,15.1,0.24,Alta forte,Lençóis Paulista,68568,3113,63.3,Adequado
+350810,125.0,1.51,1.21,14.5,0.063,Alta forte,Buritama,17658,1500,40.9,Adequado
+355370,369.2,4.35,1.18,14.1,0.098,Alta forte,Taquaritinga,53264,4431,56.1,Adequado
+352850,238.2,2.81,1.18,14.2,0.301,Alta forte,Mairiporã,97835,2858,59.8,Adequado
+353950,121.9,1.35,1.11,13.3,0.133,Alta forte,Pitangueiras,34361,1463,30.9,Adequado
+355410,2051.4,22.58,1.1,13.2,0.175,Alta forte,Taubaté,322397,24617,76.8,Adequado
+353710,100.4,1.05,1.05,12.6,0.183,Alta forte,Pedreira,44385,1205,47.0,Adequado
+350570,3424.8,35.71,1.04,12.5,0.183,Alta forte,Barueri,333737,41097,70.3,Adequado
+350600,3693.7,38.14,1.03,12.4,0.522,Alta forte,Bauru,392947,44324,88.3,Atenção
+351200,90.4,0.86,0.95,11.4,0.035,Alta,Colina,18880,1085,39.8,Adequado
+354880,1255.2,11.62,0.93,11.1,0.053,Alta,São Caetano do Sul,172693,13807,58.9,Adequado
+354260,755.2,7.0,0.93,11.1,0.021,Alta,Registro,61927,9062,48.0,Adequado
+353740,79.0,0.73,0.92,11.0,0.033,Alta,Pereira Barreto,24360,869,13.8,Adequado
+355330,106.3,0.94,0.89,10.7,0.009,Alta,Tambaú,21650,1276,37.8,Adequado
+352440,1263.8,11.2,0.89,10.6,0.157,Alta,Jacareí,250952,15166,82.1,Adequado
+355170,575.9,5.05,0.88,10.5,0.094,Alta,Sertãozinho,132176,6911,111.7,Crítico
+353430,229.6,1.95,0.85,10.2,0.029,Alta,Orlândia,39144,2755,19.8,Adequado
+352090,70.2,0.58,0.83,9.9,0.02,Alta,Ipaussu,13935,842,25.5,Adequado
+353010,292.1,2.4,0.82,9.8,0.041,Alta,Mirandópolis,28754,3505,52.6,Adequado
+352190,62.6,0.51,0.81,9.7,0.017,Alta,Itajobi,17502,751,43.2,Adequado
+351630,1157.4,8.77,0.76,9.1,0.056,Alta,Francisco Morato,171476,13889,102.5,Crítico
+355620,405.2,3.03,0.75,9.0,0.208,Alta,Valinhos,132258,4862,110.2,Crítico
+351000,207.0,1.5,0.73,8.7,0.024,Alta,Cândido Mota,30157,2484,74.6,Adequado
+351640,732.0,5.15,0.7,8.4,0.108,Alta,Franco da Rocha,150241,8784,48.5,Adequado
+353080,438.4,3.08,0.7,8.4,0.095,Alta,Mogi Mirim,95742,5261,90.2,Atenção
+353880,165.8,1.13,0.68,8.2,0.024,Alta,Piraju,30294,1990,33.2,Adequado
+355540,400.9,2.51,0.63,7.5,0.009,Alta,Ubatuba,97096,4811,46.7,Adequado
+352930,543.3,3.43,0.63,7.6,0.08,Alta,Matão,81075,6520,89.1,Atenção
+354220,372.6,2.29,0.61,7.4,0.056,Alta,Rancharia,29387,4471,43.1,Adequado
+351550,616.8,3.79,0.61,7.4,0.048,Alta,Fernandópolis,73508,7402,79.7,Adequado
+351930,79.8,0.48,0.6,7.1,0.036,Alta,Ibaté,33160,958,26.2,Adequado
+354120,103.8,0.62,0.6,7.2,0.032,Alta,Presidente Bernardes,14803,1245,36.1,Adequado
+351300,1124.3,6.56,0.58,7.0,0.024,Alta,Cotia,289493,13492,103.7,Crítico
+350170,562.5,3.2,0.57,6.8,0.021,Alta,Américo Brasiliense,33708,6750,65.2,Adequado
+352710,670.6,3.65,0.54,6.5,0.138,Alta,Lins,76844,8047,75.0,Adequado
+354070,204.8,1.08,0.53,6.4,0.022,Alta,Porto Ferreira,53966,2458,70.0,Adequado
+355400,414.4,2.05,0.49,5.9,0.042,Alta,Tatuí,129130,4973,61.0,Adequado
+352310,1261.8,5.74,0.46,5.5,0.112,Alta,Itaquaquecetuba,382983,15141,93.5,Atenção
+350580,95.7,0.44,0.46,5.5,0.008,Alta,Bastos,21936,1148,35.7,Adequado
+351380,2000.2,9.23,0.46,5.5,0.037,Alta,Diadema,403579,24003,78.9,Adequado
+353460,218.2,0.99,0.45,5.4,0.046,Alta,Osvaldo Cruz,32112,2619,41.2,Adequado
+352180,85.3,0.38,0.45,5.4,0.009,Alta,Itaí,25979,1024,23.2,Adequado
+354330,156.6,0.68,0.44,5.2,0.024,Alta,Ribeirão Pires,118954,1879,70.2,Adequado
+353730,502.8,2.08,0.41,5.0,0.055,Alta,Penápolis,63426,6033,82.4,Adequado
+355070,531.6,2.19,0.41,4.9,0.047,Alta,São Sebastião,84280,6379,61.7,Adequado
+350220,150.2,0.59,0.4,4.7,0.009,Alta,Angatuba,24573,1802,27.0,Adequado
+351518,385.2,1.49,0.39,4.6,0.053,Alta,Espírito Santo do Pinhal,40610,4622,101.0,Não aplicável
+351110,1583.2,6.06,0.38,4.6,0.033,Alta,Catanduva,119275,18998,101.1,Crítico
+354520,588.0,2.26,0.38,4.6,0.114,Alta,Salto,141111,7056,44.5,Adequado
+353150,138.2,0.52,0.37,4.5,0.01,Alta,Monte Azul Paulista,18337,1658,16.6,Adequado
+350790,58.4,0.2,0.34,4.1,0.006,Alta,Brotas,24501,701,38.2,Adequado
+355510,113.2,0.37,0.33,3.9,0.033,Alta,Tupi Paulista,16259,1358,54.2,Adequado
+354630,103.2,0.33,0.32,3.9,0.011,Alta,Santa Cruz das Palmeiras,29489,1239,31.4,Adequado
+352210,1000.9,3.07,0.31,3.7,0.03,Alta,Itanhaém,118495,12011,105.0,Crítico
+354850,2840.8,8.5,0.3,3.6,0.023,Alta,Santos,429547,34090,74.5,Adequado
+353350,195.6,0.56,0.28,3.4,0.012,Alta,Novo Horizonte,39494,2347,49.1,Adequado
+350970,233.4,0.65,0.28,3.3,0.014,Alta,Campos do Jordão,47956,2801,82.1,Adequado
+352920,253.9,0.71,0.28,3.4,0.023,Alta,Martinópolis,25240,3047,37.3,Adequado
+354400,77.5,0.21,0.27,3.2,0.002,Alta,Rio das Pedras,32329,930,6.3,Adequado
+350960,334.0,0.87,0.26,3.1,0.013,Alta,Campo Limpo Paulista,79781,4008,71.0,Adequado
+352530,2270.2,5.58,0.25,2.9,0.007,Estavel,Jaú,137409,27242,71.1,Adequado
+353870,3027.8,7.47,0.25,3.0,0.015,Estavel,Piracicaba,440835,36333,75.7,Adequado
+350700,187.1,0.43,0.23,2.8,0.004,Estavel,Boituva,63850,2245,42.2,Adequado
+350280,1169.2,2.71,0.23,2.8,0.008,Estavel,Araçatuba,208415,14031,118.2,Crítico
+352940,1158.1,2.63,0.23,2.7,0.036,Estavel,Mauá,429014,13897,78.2,Adequado
+354940,335.2,0.74,0.22,2.7,0.004,Estavel,São Joaquim da Barra,49885,4022,51.5,Adequado
+353390,309.8,0.65,0.21,2.5,0.006,Estavel,Olímpia,56874,3718,88.4,Atenção
+353620,793.2,1.69,0.21,2.6,0.02,Estavel,Pariquera-Açu,19603,9518,79.4,Adequado
+354890,1802.3,3.26,0.18,2.2,0.015,Estavel,São Carlos,266427,21628,101.1,Crítico
+352690,1366.5,2.49,0.18,2.2,0.008,Estavel,Limeira,301292,16398,107.2,Crítico
+352400,183.6,0.31,0.17,2.0,0.001,Estavel,Itupeva,74994,2203,43.6,Adequado
+354910,567.4,0.98,0.17,2.1,0.01,Estavel,São João da Boa Vista,96080,6809,83.5,Adequado
+351050,1970.8,3.09,0.16,1.9,0.005,Estavel,Caraguatatuba,142248,23649,82.3,Adequado
+353900,132.2,0.2,0.15,1.8,0.001,Estavel,Pirangi,11085,1586,34.0,Adequado
+354990,4982.8,6.97,0.14,1.7,0.006,Estavel,São José dos Campos,727078,59794,94.1,Atenção
+350400,918.2,1.26,0.14,1.6,0.005,Estavel,Assis,104858,11019,85.9,Atenção
+350940,272.6,0.36,0.13,1.6,0.001,Estavel,Cajuru,24233,3271,51.5,Adequado
+353340,135.3,0.18,0.13,1.6,0.003,Estavel,Nova Odessa,64596,1624,37.9,Adequado
+352720,391.6,0.44,0.11,1.4,0.001,Estavel,Lorena,87468,4699,59.6,Adequado
+354980,7997.3,5.51,0.07,0.8,0.004,Estavel,São José do Rio Preto,504166,95968,102.1,Crítico
+354140,3677.7,2.72,0.07,0.9,0.002,Estavel,Presidente Prudente,234706,44132,91.3,Atenção
+351620,2093.8,1.51,0.07,0.9,0.003,Estavel,Franca,365494,25125,68.7,Adequado
+355500,658.3,0.24,0.04,0.4,0.0,Estavel,Tupã,65433,7900,77.2,Adequado
+352230,871.8,0.32,0.04,0.4,0.001,Estavel,Itapetininga,164256,10461,101.5,Crítico
+352220,1430.1,-0.21,-0.01,-0.2,0.0,Estavel,Itapecerica da Serra,163003,17161,90.7,Atenção
+354970,361.2,-0.04,-0.01,-0.1,0.0,Estavel,São José do Rio Pardo,53427,4334,48.4,Adequado
+353300,163.8,-0.02,-0.01,-0.2,0.0,Estavel,Nova Granada,19733,1966,51.1,Adequado
+350650,408.3,-0.14,-0.03,-0.4,0.0,Estavel,Birigui,123340,4900,76.0,Adequado
+350320,1781.8,-0.47,-0.03,-0.3,0.0,Estavel,Araraquara,253474,21381,86.7,Atenção
+354870,3430.2,-1.97,-0.06,-0.7,0.001,Estavel,São Bernardo do Campo,841154,41162,99.6,Atenção
+352320,347.5,-0.25,-0.07,-0.9,0.002,Estavel,Itararé,45213,4170,45.3,Adequado
+350760,1553.9,-1.21,-0.08,-0.9,0.002,Estavel,Bragança Paulista,185688,18647,92.3,Atenção
+354020,117.8,-0.11,-0.09,-1.1,0.0,Estavel,Pontal,38286,1414,19.9,Adequado
+353440,2266.7,-2.2,-0.1,-1.2,0.003,Estavel,Osasco,759524,27200,65.7,Adequado
+350050,104.2,-0.13,-0.12,-1.5,0.003,Estavel,Águas de Lindóia,18257,1250,43.6,Adequado
+354580,752.8,-1.01,-0.13,-1.6,0.003,Estavel,Santa Bárbara d'Oeste,189456,9034,48.9,Adequado
+354660,296.0,-0.38,-0.13,-1.6,0.007,Estavel,Santa Fé do Sul,36288,3552,71.0,Adequado
+350450,646.9,-0.86,-0.13,-1.6,0.004,Estavel,Avaré,96450,7763,61.6,Adequado
+351020,243.5,-0.34,-0.14,-1.7,0.004,Estavel,Capão Bonito,47409,2922,73.1,Adequado
+352480,725.9,-1.11,-0.15,-1.8,0.004,Estavel,Jales,50078,8711,74.6,Adequado
+350550,2729.8,-4.49,-0.16,-2.0,0.011,Estavel,Barretos,126957,32758,103.6,Crítico
+355220,5188.1,-9.35,-0.18,-2.2,0.027,Estavel,Sorocaba,762172,62257,87.9,Atenção
+355640,181.4,-0.33,-0.18,-2.2,0.002,Estavel,Vargem Grande do Sul,41256,2177,61.5,Adequado
+353930,222.9,-0.42,-0.19,-2.3,0.011,Estavel,Pirassununga,75594,2675,47.6,Adequado
+352390,704.1,-1.37,-0.2,-2.3,0.008,Estavel,Itu,175047,8449,83.1,Adequado
+355280,1690.4,-3.61,-0.21,-2.6,0.006,Estavel,Taboão da Serra,285307,20285,76.8,Adequado
+355030,62621.0,-130.94,-0.21,-2.5,0.025,Estavel,São Paulo,11904961,751452,72.7,Adequado
+350750,2554.8,-5.68,-0.22,-2.7,0.053,Estavel,Botucatu,151053,30657,90.9,Atenção
+352050,1895.4,-5.16,-0.27,-3.3,0.036,Queda,Indaiatuba,269657,22745,89.4,Atenção
+354425,260.8,-0.77,-0.29,-3.5,0.009,Queda,Rosana,17434,3129,72.5,Adequado
+352900,2600.2,-7.64,-0.29,-3.5,0.059,Queda,Marília,247348,31202,80.1,Adequado
+351370,144.3,-0.48,-0.33,-4.0,0.007,Queda,Descalvado,32663,1732,44.2,Adequado
+351910,65.7,-0.23,-0.35,-4.2,0.003,Queda,Iacanga,10648,788,17.6,Adequado
+355670,465.9,-1.73,-0.37,-4.5,0.048,Queda,Vinhedo,79089,5591,80.7,Adequado
+354780,3639.9,-13.55,-0.37,-4.5,0.016,Queda,Santo André,782048,43679,83.3,Adequado
+354000,69.7,-0.27,-0.39,-4.7,0.004,Queda,Pompéia,20520,836,42.8,Adequado
+351960,420.8,-1.72,-0.41,-4.9,0.023,Queda,Ibitinga,62143,5050,66.8,Adequado
+354680,171.6,-0.71,-0.41,-5.0,0.024,Queda,Santa Isabel,54691,2059,87.1,Atenção
+350250,428.8,-1.98,-0.46,-5.5,0.012,Queda,Aparecida,33141,5145,88.0,Atenção
+350740,71.7,-0.34,-0.47,-5.6,0.019,Queda,Borborema,14405,860,55.1,Adequado
+350010,446.7,-2.22,-0.5,-6.0,0.122,Queda,Adamantina,35673,5360,97.2,Atenção
+352670,452.7,-2.3,-0.51,-6.1,0.101,Queda,Leme,101537,5432,60.7,Adequado
+351140,132.8,-0.69,-0.52,-6.3,0.024,Queda,Cerqueira César,22210,1594,32.6,Adequado
+351390,391.2,-2.15,-0.55,-6.6,0.02,Queda,Divinolândia,11305,4694,73.9,Adequado
+351970,358.4,-1.99,-0.56,-6.7,0.038,Queda,Ibiúna,77801,4301,62.1,Adequado
+351350,543.0,-3.06,-0.56,-6.8,0.147,Queda,Cubatão,114870,6516,103.3,Crítico
+353190,148.3,-0.88,-0.59,-7.1,0.042,Queda,Morro Agudo,28521,1780,39.3,Adequado
+352240,792.2,-4.66,-0.59,-7.1,0.031,Queda,Itapeva,92393,9507,93.9,Atenção
+355650,59.8,-0.37,-0.63,-7.5,0.025,Queda,Várzea Paulista,119655,717,9.1,Adequado
+355240,1067.0,-7.02,-0.66,-7.9,0.16,Queda,Sumaré,291116,12804,88.7,Atenção
+354730,331.8,-2.21,-0.67,-8.0,0.004,Queda,Santana de Parnaíba,163787,3981,71.4,Adequado
+350870,160.8,-1.07,-0.67,-8.0,0.014,Queda,Caconde,17228,1930,81.6,Adequado
+350410,365.6,-2.46,-0.67,-8.1,0.121,Queda,Atibaia,167161,4387,86.1,Atenção
+350950,7290.3,-50.52,-0.69,-8.3,0.116,Queda,Campinas,1187974,87484,96.5,Atenção
+351360,113.2,-0.81,-0.71,-8.6,0.089,Queda,Cunha,22460,1359,42.1,Adequado
+352730,212.2,-1.53,-0.72,-8.7,0.116,Queda,Louveira,54865,2546,50.0,Adequado
+352250,1318.2,-9.52,-0.72,-8.7,0.198,Queda,Itapevi,242995,15818,78.9,Adequado
+353070,814.4,-5.98,-0.73,-8.8,0.135,Queda,Mogi Guaçu,160318,9773,82.9,Adequado
+351740,284.1,-2.12,-0.74,-8.9,0.059,Queda,Guaíra,40489,3409,73.2,Adequado
+354340,7855.1,-58.55,-0.75,-8.9,0.259,Queda,Ribeirão Preto,731639,94261,82.8,Adequado
+351880,4749.0,-36.13,-0.76,-9.1,0.127,Queda,Guarulhos,1349100,56988,89.9,Atenção
+350070,92.2,-0.7,-0.76,-9.1,0.042,Queda,Agudos,38988,1106,20.8,Adequado
+352170,95.4,-0.74,-0.77,-9.3,0.033,Queda,Itaberá,18263,1049,32.5,Adequado
+355270,75.4,-0.6,-0.79,-9.5,0.017,Queda,Tabatinga,14997,905,38.9,Adequado
+353470,879.8,-7.06,-0.8,-9.6,0.286,Queda,Ourinhos,106911,10558,106.3,Crítico
+351870,1088.1,-8.94,-0.82,-9.9,0.181,Queda,Guarujá,294871,13057,68.1,Adequado
+350590,305.7,-2.69,-0.88,-10.5,0.141,Queda,Batatais,59939,3668,44.3,Adequado
+355710,971.8,-8.69,-0.89,-10.7,0.271,Queda,Votuporanga,100568,11662,93.7,Atenção
+354150,181.5,-1.62,-0.89,-10.7,0.07,Queda,Presidente Venceslau,35810,2178,39.7,Adequado
+354130,247.3,-2.23,-0.9,-10.8,0.075,Queda,Presidente Epitácio,40322,2968,40.2,Adequado
+352340,586.4,-5.32,-0.91,-10.9,0.062,Queda,Itatiba,127112,7037,66.9,Adequado
+351820,130.8,-1.19,-0.91,-10.9,0.079,Queda,Guararapes,31888,1569,29.5,Adequado
+353060,3009.9,-27.74,-0.92,-11.1,0.123,Queda,Mogi das Cruzes,470302,36119,82.3,Adequado
+350190,383.6,-3.55,-0.93,-11.1,0.206,Queda,Amparo,69792,4603,83.6,Adequado
+353140,279.8,-2.73,-0.98,-11.7,0.073,Queda,Monte Aprazível,22668,3357,61.9,Adequado
+353550,443.8,-4.39,-0.99,-11.9,0.022,Queda,Paraguaçu Paulista,42049,5326,61.4,Adequado
+350210,279.3,-2.76,-0.99,-11.9,0.167,Queda,Andradina,61625,3352,66.5,Adequado
+355040,370.8,-3.88,-1.05,-12.6,0.121,Queda forte,São Pedro,39855,4450,38.4,Adequado
+353580,66.4,-0.7,-1.05,-12.6,0.055,Queda forte,Paranapanema,19853,797,40.1,Adequado
+352740,53.6,-0.56,-1.05,-12.6,0.069,Queda forte,Lucélia,20378,643,29.8,Adequado
+350630,62.7,-0.66,-1.06,-12.7,0.064,Queda forte,Bernardino de Campos,11881,752,27.0,Adequado
+351410,107.0,-1.15,-1.08,-12.9,0.091,Queda forte,Dois Córregos,24847,1284,29.5,Adequado
+352880,74.9,-0.82,-1.1,-13.2,0.058,Queda forte,Maracaí,12804,899,34.0,Adequado
+354640,345.6,-3.81,-1.1,-13.2,0.163,Queda forte,Santa Cruz do Rio Pardo,47759,4147,77.7,Adequado
+352450,58.4,-0.65,-1.12,-13.4,0.009,Queda forte,Jaci,7944,701,108.8,Não aplicável
+351280,147.0,-1.69,-1.15,-13.8,0.17,Queda forte,Cosmópolis,61167,1764,50.9,Adequado
+351990,59.7,-0.71,-1.2,-14.3,0.056,Queda forte,Iepê,7739,716,33.2,Adequado
+355210,299.8,-3.62,-1.21,-14.5,0.049,Queda forte,Socorro,41527,3597,49.5,Adequado
+352470,327.1,-4.07,-1.25,-14.9,0.255,Queda forte,Jaguariúna,62309,3925,43.4,Adequado
+351907,478.2,-6.26,-1.31,-15.7,0.186,Queda forte,Hortolândia,248842,5739,58.8,Adequado
+353890,112.3,-1.48,-1.31,-15.8,0.056,Queda forte,Pirajuí,22734,1348,57.4,Adequado
+350610,703.9,-9.61,-1.37,-16.4,0.388,Queda forte,Bebedouro,78257,8447,48.3,Adequado
+352280,90.9,-1.26,-1.39,-16.7,0.171,Queda forte,Itaporanga,14245,1091,20.4,Adequado
+353520,59.5,-0.83,-1.4,-16.8,0.05,Queda forte,Palmeira d'Oeste,8971,714,47.8,Adequado
+353050,420.0,-6.0,-1.43,-17.1,0.586,Queda forte,Mococa,69372,5040,56.7,Adequado
+355150,291.1,-4.46,-1.53,-18.4,0.182,Queda forte,Serrana,45580,3493,60.8,Adequado
+350160,781.2,-12.04,-1.54,-18.5,0.184,Queda forte,Americana,247571,9375,74.8,Adequado
+354530,230.2,-3.62,-1.57,-18.9,0.128,Queda forte,Salto de Pirapora,45262,2763,30.0,Adequado
+350100,156.8,-2.47,-1.58,-18.9,0.287,Queda forte,Altinópolis,17197,1881,52.3,Adequado
+351220,219.0,-3.51,-1.6,-19.2,0.048,Queda forte,Conchal,29132,2628,36.2,Adequado
+353130,211.9,-3.44,-1.63,-19.5,0.278,Queda forte,Monte Alto,48758,2543,74.0,Adequado
+352130,90.8,-1.51,-1.66,-19.9,0.397,Queda forte,Ipuã,14701,1089,19.6,Adequado
+355430,95.4,-1.59,-1.67,-20.0,0.122,Queda forte,Teodoro Sampaio,22598,1145,25.8,Adequado
+355700,323.9,-5.52,-1.7,-20.5,0.132,Queda forte,Votorantim,133510,3887,64.9,Adequado
+352800,63.2,-1.13,-1.79,-21.4,0.108,Queda forte,Macatuba,17140,759,31.9,Adequado
+355010,137.1,-2.53,-1.84,-22.1,0.126,Queda forte,São Manuel,38131,1645,36.9,Adequado
+351040,226.9,-4.29,-1.89,-22.7,0.132,Queda forte,Capivari,51369,2723,41.0,Adequado
+351080,188.5,-3.71,-1.97,-23.6,0.177,Queda forte,Casa Branca,28779,2262,35.5,Adequado
+351510,96.4,-1.92,-1.99,-23.9,0.454,Queda forte,Embu-Guaçu,68913,1157,17.0,Adequado
+353700,89.0,-1.77,-1.99,-23.9,0.356,Queda forte,Pedregulho,15737,1068,13.4,Adequado
+352044,229.6,-4.58,-2.0,-24.0,0.27,Queda forte,Ilha Solteira,26257,2755,41.9,Adequado
+351500,288.3,-5.85,-2.03,-24.4,0.085,Queda forte,Embu das Artes,259788,3460,50.4,Adequado
+350850,333.4,-6.81,-2.04,-24.5,0.047,Queda forte,Caçapava,100071,4001,12.0,Adequado
+353110,78.3,-1.64,-2.09,-25.1,0.146,Queda forte,Mongaguá,64845,940,29.6,Adequado
+352010,114.9,-2.45,-2.13,-25.6,0.297,Queda forte,Igarapava,26696,1379,51.8,Adequado
+352600,95.4,-2.05,-2.15,-25.8,0.311,Queda forte,Junqueirópolis,20939,1145,80.9,Adequado
+355100,797.3,-17.56,-2.2,-26.4,0.255,Queda forte,São Vicente,338326,9568,60.1,Adequado
+351770,66.8,-1.55,-2.32,-27.8,0.168,Queda forte,Guará,18748,801,14.9,Adequado
+352410,307.2,-7.45,-2.42,-29.1,0.415,Queda forte,Ituverava,38413,3686,68.9,Adequado
+350130,61.0,-1.56,-2.56,-30.7,0.332,Queda forte,Álvares Machado,28386,732,46.0,Adequado
+351670,223.7,-5.73,-2.56,-30.7,0.469,Queda forte,Garça,43081,2684,80.6,Não aplicável
+352260,488.5,-12.55,-2.57,-30.8,0.582,Queda forte,Itapira,74038,5862,106.1,Não aplicável
+355250,702.2,-18.73,-2.67,-32.0,0.192,Queda forte,Suzano,320261,8426,90.4,Atenção
+350880,70.3,-1.9,-2.7,-32.5,0.327,Queda forte,Cafelândia,16907,844,19.5,Adequado
+354060,368.6,-10.14,-2.75,-33.0,0.394,Queda forte,Porto Feliz,58605,4423,43.7,Adequado
+353180,90.8,-2.6,-2.86,-34.4,0.477,Queda forte,Monte Mor,67832,1090,38.8,Adequado
+350520,174.8,-5.22,-2.99,-35.8,0.546,Queda forte,Bariri,32406,2097,43.2,Adequado
+355450,172.4,-5.37,-3.12,-37.4,0.662,Queda forte,Tietê,38723,2069,50.0,Adequado
+350530,161.3,-5.41,-3.35,-40.3,0.299,Queda forte,Barra Bonita,35129,1936,34.8,Adequado
+351540,77.5,-2.93,-3.78,-45.4,0.265,Queda forte,Fartura,17029,930,67.7,Adequado
+351450,114.6,-4.64,-4.05,-48.6,0.555,Queda forte,Duartina,12532,1375,22.2,Adequado
+352040,235.2,-9.85,-4.19,-50.2,0.502,Queda forte,Ilhabela,36559,2822,49.8,Adequado
+352970,86.8,-3.97,-4.57,-54.9,0.272,Queda forte,Miguelópolis,19621,1041,17.8,Adequado
+351520,52.0,-3.14,-6.04,-72.5,0.774,Queda forte,Estrela d'Oeste,9696,624,23.0,Adequado
+351100,78.8,-5.54,-7.03,-84.3,0.599,Queda forte,Castilho,20485,946,26.6,Adequado

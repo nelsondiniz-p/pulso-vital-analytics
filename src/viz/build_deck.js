@@ -1054,7 +1054,7 @@ prints.forEach(([arquivo, titulo, sub, descricao], i) => {
     "  viz/                  gráficos e dashboard\n" +
     "sql/                    01 a 05 — Oracle 23ai\n" +
     "notebooks/              análise exploratória\n" +
-    "data/samples/           amostras versionadas\n" +
+    "data/                   dados tratados: raw + processed\n" +
     "docs/                   arquitetura, dicionário,\n" +
     "                        implantação, evidências\n" +
     "dashboard/              aplicação navegável",

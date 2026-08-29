@@ -271,9 +271,9 @@ pulso-vital-analytics/
 ├── notebooks/
 │   └── 01_analise_exploratoria.ipynb
 ├── data/
-│   ├── raw/                        saída bruta das fontes
-│   ├── processed/                  modelo dimensional em CSV
-│   └── samples/                    amostras versionadas
+│   ├── README.md                   o que há em cada camada
+│   ├── raw/                        saída bruta das três fontes
+│   └── processed/                  modelo dimensional — é o que carrega no Oracle
 ├── dashboard/
 │   ├── index.html                  aplicação (autocontida)
 │   └── dados.json                  payload
@@ -295,6 +295,7 @@ pulso-vital-analytics/
 | Aplicação funcionando | <https://nelsondiniz-p.github.io/pulso-vital-analytics/> |
 | Repositório técnico | <https://github.com/nelsondiniz-p/pulso-vital-analytics> |
 | Evidências visuais | `docs/evidencias/` |
+| Dados tratados do projeto | `data/processed/` · `data/raw/` |
 | Scripts SQL do Oracle | `sql/` |
 
 ---

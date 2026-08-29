@@ -1,0 +1,48 @@
+{
+  "clusterizacao": {
+    "algoritmo": "K-Means",
+    "k_escolhido": 4,
+    "silhueta": 0.3523,
+    "silhueta_por_k": {
+      "2": 0.3784,
+      "3": 0.3532,
+      "4": 0.3523,
+      "5": 0.26,
+      "6": 0.2844,
+      "7": 0.2295
+    },
+    "inercia": 716.83,
+    "atributos": [
+      "internacoes_mil_hab",
+      "leitos_sus_10k_hab",
+      "ocupacao_estimada_pct",
+      "media_permanencia",
+      "custo_medio_internacao"
+    ],
+    "n_municipios": 321,
+    "perfis": {
+      "Polo regional sob pressão": 22,
+      "Rede local pressionada": 114,
+      "Sede de hospital regional": 2,
+      "Rede com folga": 183
+    }
+  },
+  "indice_criticidade": {
+    "metodo": "normalizacao min-max (p5-p95) com pesos fixos",
+    "pesos": {
+      "ocupacao_estimada_pct": 0.4,
+      "internacoes_mil_hab": 0.25,
+      "escassez_leitos": 0.2,
+      "variacao_trimestral_pct": 0.15
+    },
+    "n_municipios": 321
+  },
+  "tendencia": {
+    "metodo": "regressao linear ordinaria sobre 12 observacoes mensais",
+    "n_municipios": 265,
+    "r2_mediano": 0.069,
+    "n_tendencia_consistente": 20,
+    "r2_mediano_consistentes": 0.589,
+    "criterio_consistencia": "R2 >= 0,5"
+  }
+}

@@ -1,0 +1,646 @@
+codigo,codigo_ibge,municipio,regiao_imediata,regiao_intermediaria,mesorregiao,populacao,ano,leitos_existentes,leitos_sus,leitos_sus_10k_hab,tem_rede_hospitalar,internacoes_12m,valor_total_12m,media_permanencia,internacoes_ult_trim,internacoes_prim_trim,variacao_trimestral_pct,perfil_dominante,internacoes_mil_hab,giro_leito_ano,ocupacao_estimada_pct,custo_medio_internacao,perfil_permanencia,alerta_capacidade
+350010,3500105,Adamantina,Adamantina - Lucélia,Presidente Prudente,Presidente Prudente,35673,2025,194,133,37.28,True,5360,8103843.44,8.8,1345.0,1388.0,-3.1,V. Transtornos mentais e comportamentais,150.25,40.3,97.2,1511.91,Permanência elevada,Atenção
+350020,3500204,Adolfo,São José do Rio Preto,São José do Rio Preto,São José do Rio Preto,4505,2025,0,0,0.0,False,0,0.0,0.0,,,,,0.0,,,0.0,Sem internações,Não aplicável
+350030,3500303,Aguaí,São João da Boa Vista,Campinas,Campinas,32886,2025,24,24,7.3,True,409,240289.21,6.34,102.0,118.0,-13.6,X. Doenças do aparelho respiratório,12.44,17.0,29.6,587.5,Agudos,Adequado
+350040,3500402,Águas da Prata,São João da Boa Vista,Campinas,Campinas,7463,2025,0,0,0.0,False,0,0.0,0.0,,,,,0.0,,,0.0,Sem internações,Não aplicável
+350050,3500501,Águas de Lindóia,Amparo,Campinas,Campinas,18257,2025,42,30,16.43,True,1250,540344.62,3.82,311.0,304.0,2.3,X. Doenças do aparelho respiratório,68.47,41.7,43.6,432.28,Agudos,Adequado
+350055,3500550,Águas de Santa Bárbara,Avaré,Sorocaba,Bauru,7460,2025,0,0,0.0,False,0,0.0,0.0,,,,,0.0,,,0.0,Sem internações,Não aplicável
+350060,3500600,Águas de São Pedro,Piracicaba,Campinas,Piracicaba,2928,2025,0,0,0.0,False,0,0.0,0.0,,,,,0.0,,,0.0,Sem internações,Não aplicável
+350070,3500709,Agudos,Bauru,Bauru,Bauru,38988,2025,36,28,7.18,True,1106,544823.59,1.92,282.0,308.0,-8.4,"XV. Gravidez, parto e puerpério",28.37,39.5,20.8,492.61,Agudos,Adequado
+350075,3500758,Alambari,Itapetininga,Sorocaba,Itapetininga,6373,2025,0,0,0.0,False,0,0.0,0.0,,,,,0.0,,,0.0,Sem internações,Não aplicável
+350080,3500808,Alfredo Marcondes,Presidente Prudente,Presidente Prudente,Presidente Prudente,4574,2025,0,0,0.0,False,0,0.0,0.0,,,,,0.0,,,0.0,Sem internações,Não aplicável
+350090,3500907,Altair,São José do Rio Preto,São José do Rio Preto,São José do Rio Preto,3467,2025,0,0,0.0,False,0,0.0,0.0,,,,,0.0,,,0.0,Sem internações,Não aplicável
+350100,3501004,Altinópolis,Ribeirão Preto,Ribeirão Preto,Ribeirão Preto,17197,2025,21,19,11.05,True,1881,596019.18,1.93,450.0,501.0,-10.2,XIX. Lesões e envenenamentos por causas externas,109.38,99.0,52.3,316.86,Agudos,Adequado
+350110,3501103,Alto Alegre,Birigui - Penápolis,Araçatuba,Araçatuba,3874,2025,16,16,41.3,True,45,15591.21,4.34,17.0,10.0,70.0,X. Doenças do aparelho respiratório,11.62,2.8,3.3,346.47,Agudos,Adequado
+350115,3501152,Alumínio,Sorocaba,Sorocaba,Macro Metropolitana Paulista,17607,2025,120,0,0.0,True,0,0.0,0.0,,,,,0.0,,,0.0,Sem internações,Não aplicável
+350120,3501202,Álvares Florence,Votuporanga,São José do Rio Preto,São José do Rio Preto,3979,2025,0,0,0.0,False,0,0.0,0.0,,,,,0.0,,,0.0,Sem internações,Não aplicável
+350130,3501301,Álvares Machado,Presidente Prudente,Presidente Prudente,Presidente Prudente,28386,2025,28,17,5.99,True,732,267302.86,3.9,151.0,199.0,-24.1,XIV. Doenças do aparelho geniturinário,25.79,43.1,46.0,365.17,Agudos,Adequado
+350140,3501400,Álvaro de Carvalho,Marília,Marília,Marília,4901,2025,0,0,0.0,False,0,0.0,0.0,,,,,0.0,,,0.0,Sem internações,Não aplicável
+350150,3501509,Alvinlândia,Marília,Marília,Marília,2919,2025,0,0,0.0,False,0,0.0,0.0,,,,,0.0,,,0.0,Sem internações,Não aplicável
+350160,3501608,Americana,Campinas,Campinas,Campinas,247571,2025,416,149,6.02,True,9375,11799091.59,4.34,2348.0,2713.0,-13.5,"XV. Gravidez, parto e puerpério",37.87,62.9,74.8,1258.57,Agudos,Adequado
+350170,3501707,Américo Brasiliense,Araraquara,Araraquara,Araraquara,33708,2025,148,148,43.91,True,6750,7714216.45,5.22,1823.0,1633.0,11.6,VII. Doenças do olho e anexos,200.25,45.6,65.2,1142.85,Agudos,Adequado
+350180,3501806,Américo de Campos,Votuporanga,São José do Rio Preto,São José do Rio Preto,5981,2025,0,0,0.0,False,0,0.0,0.0,,,,,0.0,,,0.0,Sem internações,Não aplicável
+350190,3501905,Amparo,Amparo,Campinas,Campinas,69792,2025,382,217,31.09,True,4603,9236938.29,14.39,1095.0,1164.0,-5.9,V. Transtornos mentais e comportamentais,65.95,21.2,83.6,2006.72,Permanência elevada,Adequado
+350200,3502002,Analândia,Rio Claro,Campinas,Araraquara,4694,2025,0,0,0.0,False,0,0.0,0.0,,,,,0.0,,,0.0,Sem internações,Não aplicável
+350210,3502101,Andradina,Andradina,Araçatuba,Araçatuba,61625,2025,99,59,9.57,True,3352,3652473.4,4.27,815.0,907.0,-10.1,"XV. Gravidez, parto e puerpério",54.39,56.8,66.5,1089.64,Agudos,Adequado
+350220,3502200,Angatuba,Itapetininga,Sorocaba,Itapetininga,24573,2025,57,54,21.98,True,1802,701680.47,2.95,488.0,488.0,0.0,"XV. Gravidez, parto e puerpério",73.33,33.4,27.0,389.39,Agudos,Adequado
+350230,3502309,Anhembi,Botucatu,Bauru,Bauru,5766,2025,0,0,0.0,False,0,0.0,0.0,,,,,0.0,,,0.0,Sem internações,Não aplicável
+350240,3502408,Anhumas,Presidente Prudente,Presidente Prudente,Presidente Prudente,4118,2025,0,0,0.0,False,0,0.0,0.0,,,,,0.0,,,0.0,Sem internações,Não aplicável
+350250,3502507,Aparecida,Guaratinguetá,São José dos Campos,Vale do Paraíba Paulista,33141,2025,92,49,14.79,True,5145,6971784.69,3.06,1229.0,1183.0,3.9,XIV. Doenças do aparelho geniturinário,155.25,105.0,88.0,1355.06,Agudos,Atenção
+350260,3502606,Aparecida d'Oeste,Jales,São José do Rio Preto,São José do Rio Preto,4112,2025,13,12,29.18,True,89,37116.37,3.36,20.0,20.0,0.0,X. Doenças do aparelho respiratório,21.64,7.4,6.8,417.04,Agudos,Adequado
+350270,3502705,Apiaí,Itapeva,Sorocaba,Itapetininga,24857,2025,51,45,18.1,True,3739,2023972.99,2.61,1065.0,847.0,25.7,"XV. Gravidez, parto e puerpério",150.42,83.1,59.4,541.31,Agudos,Adequado
+350275,3502754,Araçariguama,Sorocaba,Sorocaba,Macro Metropolitana Paulista,22314,2025,0,0,0.0,False,0,0.0,0.0,,,,,0.0,,,0.0,Sem internações,Não aplicável
+350280,3502804,Araçatuba,Araçatuba,Araçatuba,Araçatuba,208415,2025,413,264,12.67,True,14031,53334687.0,8.12,3634.0,3628.0,0.2,IX. Doenças do aparelho circulatório,67.32,53.1,118.2,3801.2,Permanência elevada,Crítico
+350290,3502903,Araçoiaba da Serra,Sorocaba,Sorocaba,Macro Metropolitana Paulista,33832,2025,103,0,0.0,True,0,0.0,0.0,,,,,0.0,,,0.0,Sem internações,Não aplicável
+350300,3503000,Aramina,Ituverava,Ribeirão Preto,Ribeirão Preto,5535,2025,0,0,0.0,False,0,0.0,0.0,,,,,0.0,,,0.0,Sem internações,Não aplicável
+350310,3503109,Arandu,Avaré,Sorocaba,Bauru,7076,2025,6,6,8.48,True,93,38343.73,5.0,16.0,31.0,-48.4,X. Doenças do aparelho respiratório,13.14,15.5,21.2,412.3,Agudos,Adequado
+350315,3503158,Arapeí,Cruzeiro,São José dos Campos,Vale do Paraíba Paulista,2355,2025,0,0,0.0,False,0,0.0,0.0,,,,,0.0,,,0.0,Sem internações,Não aplicável
+350320,3503208,Araraquara,Araraquara,Araraquara,Araraquara,253474,2025,463,258,10.18,True,21381,50330142.74,3.82,5469.0,5414.0,1.0,IX. Doenças do aparelho circulatório,84.35,82.9,86.7,2353.97,Agudos,Atenção
+350330,3503307,Araras,Araras,Campinas,Piracicaba,135744,2025,392,180,13.26,True,8050,16153885.45,4.52,2286.0,1805.0,26.6,IX. Doenças do aparelho circulatório,59.3,44.7,55.4,2006.69,Agudos,Adequado
+350335,3503356,Arco-Íris,Tupã,Marília,Marília,2089,2025,0,0,0.0,False,0,0.0,0.0,,,,,0.0,,,0.0,Sem internações,Não aplicável
+350340,3503406,Arealva,Bauru,Bauru,Bauru,8290,2025,26,15,18.09,True,260,59852.04,2.41,62.0,73.0,-15.1,XIX. Lesões e envenenamentos por causas externas,31.36,17.3,11.4,230.2,Agudos,Adequado
+350350,3503505,Areias,Cruzeiro,São José dos Campos,Vale do Paraíba Paulista,3617,2025,0,0,0.0,False,0,0.0,0.0,,,,,0.0,,,0.0,Sem internações,Não aplicável
+350360,3503604,Areiópolis,Botucatu,Bauru,Bauru,10242,2025,0,0,0.0,False,0,0.0,0.0,,,,,0.0,,,0.0,Sem internações,Não aplicável
+350370,3503703,Ariranha,Catanduva,São José do Rio Preto,São José do Rio Preto,7621,2025,0,0,0.0,False,0,0.0,0.0,,,,,0.0,,,0.0,Sem internações,Não aplicável
+350380,3503802,Artur Nogueira,Campinas,Campinas,Campinas,53467,2025,8,8,1.5,True,0,0.0,0.0,,,,,0.0,0.0,0.0,0.0,Sem internações,Não aplicável
+350390,3503901,Arujá,São Paulo,São Paulo,Metropolitana de São Paulo,90273,2025,69,29,3.21,True,0,0.0,0.0,,,,,0.0,0.0,0.0,0.0,Sem internações,Não aplicável
+350395,3503950,Aspásia,Jales,São José do Rio Preto,São José do Rio Preto,1875,2025,0,0,0.0,False,0,0.0,0.0,,,,,0.0,,,0.0,Sem internações,Não aplicável
+350400,3504008,Assis,Assis,Marília,Assis,104858,2025,288,161,15.35,True,11019,18553177.93,4.58,2801.0,2756.0,1.6,"XV. Gravidez, parto e puerpério",105.08,68.4,85.9,1683.74,Agudos,Atenção
+350410,3504107,Atibaia,Bragança Paulista,Campinas,Macro Metropolitana Paulista,167161,2025,310,66,3.95,True,4387,4740496.54,4.73,1091.0,1159.0,-5.9,"XV. Gravidez, parto e puerpério",26.24,66.5,86.1,1080.58,Agudos,Atenção
+350420,3504206,Auriflama,Araçatuba,Araçatuba,São José do Rio Preto,13856,2025,44,35,25.26,True,2692,2965980.54,1.75,782.0,603.0,29.7,XI. Doenças do aparelho digestivo,194.28,76.9,36.9,1101.78,Agudos,Adequado
+350430,3504305,Avaí,Bauru,Bauru,Bauru,4503,2025,0,0,0.0,False,0,0.0,0.0,,,,,0.0,,,0.0,Sem internações,Não aplicável
+350440,3504404,Avanhandava,Birigui - Penápolis,Araçatuba,Araçatuba,11436,2025,0,0,0.0,False,0,0.0,0.0,,,,,0.0,,,0.0,Sem internações,Não aplicável
+350450,3504503,Avaré,Avaré,Sorocaba,Bauru,96450,2025,184,142,14.72,True,7763,12505243.31,4.11,2003.0,2076.0,-3.5,XIX. Lesões e envenenamentos por causas externas,80.49,54.7,61.6,1610.88,Agudos,Adequado
+350460,3504602,Bady Bassitt,São José do Rio Preto,São José do Rio Preto,São José do Rio Preto,29346,2025,0,0,0.0,False,0,0.0,0.0,,,,,0.0,,,0.0,Sem internações,Não aplicável
+350470,3504701,Balbinos,Bauru,Bauru,Bauru,3969,2025,0,0,0.0,False,0,0.0,0.0,,,,,0.0,,,0.0,Sem internações,Não aplicável
+350480,3504800,Bálsamo,São José do Rio Preto,São José do Rio Preto,São José do Rio Preto,9902,2025,0,0,0.0,False,0,0.0,0.0,,,,,0.0,,,0.0,Sem internações,Não aplicável
+350490,3504909,Bananal,Cruzeiro,São José dos Campos,Vale do Paraíba Paulista,10097,2025,15,15,14.86,True,0,0.0,0.0,,,,,0.0,0.0,0.0,0.0,Sem internações,Não aplicável
+350500,3505005,Barão de Antonina,Itapeva,Sorocaba,Itapetininga,3632,2025,0,0,0.0,False,0,0.0,0.0,,,,,0.0,,,0.0,Sem internações,Não aplicável
+350510,3505104,Barbosa,Birigui - Penápolis,Araçatuba,Araçatuba,5627,2025,0,0,0.0,False,0,0.0,0.0,,,,,0.0,,,0.0,Sem internações,Não aplicável
+350520,3505203,Bariri,Jaú,Bauru,Bauru,32406,2025,48,42,12.96,True,2097,1068894.28,3.16,459.0,605.0,-24.1,"XV. Gravidez, parto e puerpério",64.71,49.9,43.2,509.73,Agudos,Adequado
+350530,3505302,Barra Bonita,Jaú,Bauru,Bauru,35129,2025,58,47,13.38,True,1936,1542668.06,3.08,480.0,602.0,-20.3,X. Doenças do aparelho respiratório,55.11,41.2,34.8,796.83,Agudos,Adequado
+350535,3505351,Barra do Chapéu,Itapeva,Sorocaba,Itapetininga,5254,2025,0,0,0.0,False,0,0.0,0.0,,,,,0.0,,,0.0,Sem internações,Não aplicável
+350540,3505401,Barra do Turvo,Registro,Sorocaba,Litoral Sul Paulista,6894,2025,0,0,0.0,False,0,0.0,0.0,,,,,0.0,,,0.0,Sem internações,Não aplicável
+350550,3505500,Barretos,Barretos,Ribeirão Preto,Ribeirão Preto,126957,2025,486,442,34.81,True,32758,102607767.53,5.1,8378.0,8373.0,0.1,II. Neoplasias (tumores),258.02,74.1,103.6,3132.3,Agudos,Crítico
+350560,3505609,Barrinha,Ribeirão Preto,Ribeirão Preto,Ribeirão Preto,33304,2025,7,7,2.1,True,0,0.0,0.0,,,,,0.0,0.0,0.0,0.0,Sem internações,Não aplicável
+350570,3505708,Barueri,São Paulo,São Paulo,Metropolitana de São Paulo,333737,2025,735,609,18.25,True,41097,34490939.01,3.8,11229.0,10177.0,10.3,XI. Doenças do aparelho digestivo,123.14,67.5,70.3,839.26,Agudos,Adequado
+350580,3505807,Bastos,Tupã,Marília,Marília,21936,2025,30,22,10.03,True,1148,460432.89,2.5,322.0,298.0,8.1,X. Doenças do aparelho respiratório,52.33,52.2,35.7,401.07,Agudos,Adequado
+350590,3505906,Batatais,Ribeirão Preto,Ribeirão Preto,Ribeirão Preto,59939,2025,147,97,16.18,True,3668,5054844.37,4.28,915.0,1002.0,-8.7,XIX. Lesões e envenenamentos por causas externas,61.2,37.8,44.3,1378.09,Agudos,Adequado
+350600,3506003,Bauru,Bauru,Bauru,Bauru,392947,2025,1255,726,18.48,True,44324,78563508.61,5.28,11654.0,10466.0,11.4,XIX. Lesões e envenenamentos por causas externas,112.8,61.1,88.3,1772.48,Agudos,Atenção
+350610,3506102,Bebedouro,Barretos,Ribeirão Preto,Ribeirão Preto,78257,2025,179,139,17.76,True,8447,8691279.35,2.9,2068.0,2273.0,-9.0,XI. Doenças do aparelho digestivo,107.94,60.8,48.3,1028.92,Agudos,Adequado
+350620,3506201,Bento de Abreu,Araçatuba,Araçatuba,Araçatuba,2640,2025,0,0,0.0,False,0,0.0,0.0,,,,,0.0,,,0.0,Sem internações,Não aplicável
+350630,3506300,Bernardino de Campos,Ourinhos,Marília,Assis,11881,2025,27,27,22.73,True,752,388971.79,3.54,186.0,205.0,-9.3,X. Doenças do aparelho respiratório,63.29,27.9,27.0,517.25,Agudos,Adequado
+350635,3506359,Bertioga,Santos,São Paulo,Metropolitana de São Paulo,67436,2025,74,74,10.97,True,3771,2222259.79,4.14,1038.0,840.0,23.6,"XV. Gravidez, parto e puerpério",55.92,51.0,57.8,589.3,Agudos,Adequado
+350640,3506409,Bilac,Birigui - Penápolis,Araçatuba,Araçatuba,7464,2025,36,35,46.89,True,218,79624.22,2.67,50.0,63.0,-20.6,X. Doenças do aparelho respiratório,29.21,6.2,4.6,365.25,Agudos,Adequado
+350650,3506508,Birigui,Birigui - Penápolis,Araçatuba,Araçatuba,123340,2025,148,77,6.24,True,4900,5359160.58,4.36,1269.0,1250.0,1.5,"XV. Gravidez, parto e puerpério",39.73,63.6,76.0,1093.71,Agudos,Adequado
+350660,3506607,Biritiba Mirim,São Paulo,São Paulo,Metropolitana de São Paulo,30564,2025,13,13,4.25,True,0,0.0,0.0,,,,,0.0,0.0,0.0,0.0,Sem internações,Não aplicável
+350670,3506706,Boa Esperança do Sul,Araraquara,Araraquara,Araraquara,13113,2025,15,14,10.68,True,132,61503.85,3.88,31.0,31.0,0.0,X. Doenças do aparelho respiratório,10.07,9.4,10.0,465.94,Agudos,Adequado
+350680,3506805,Bocaina,Jaú,Bauru,Bauru,11480,2025,18,18,15.68,True,158,75668.47,2.77,40.0,42.0,-4.8,X. Doenças do aparelho respiratório,13.76,8.8,6.7,478.91,Agudos,Adequado
+350690,3506904,Bofete,Botucatu,Bauru,Bauru,10710,2025,0,0,0.0,False,0,0.0,0.0,,,,,0.0,,,0.0,Sem internações,Não aplicável
+350700,3507001,Boituva,Sorocaba,Sorocaba,Itapetininga,63850,2025,64,44,6.89,True,2245,1336041.15,3.02,599.0,600.0,-0.2,"XV. Gravidez, parto e puerpério",35.16,51.0,42.2,595.12,Agudos,Adequado
+350710,3507100,Bom Jesus dos Perdões,Bragança Paulista,Campinas,Macro Metropolitana Paulista,22579,2025,11,11,4.87,True,196,77049.2,5.92,38.0,58.0,-34.5,X. Doenças do aparelho respiratório,8.68,17.8,28.9,393.11,Agudos,Adequado
+350715,3507159,Bom Sucesso de Itararé,Itapeva,Sorocaba,Itapetininga,3609,2025,0,0,0.0,False,0,0.0,0.0,,,,,0.0,,,0.0,Sem internações,Não aplicável
+350720,3507209,Borá,Assis,Marília,Assis,932,2025,0,0,0.0,False,0,0.0,0.0,,,,,0.0,,,0.0,Sem internações,Não aplicável
+350730,3507308,Boracéia,Jaú,Bauru,Bauru,4838,2025,0,0,0.0,False,0,0.0,0.0,,,,,0.0,,,0.0,Sem internações,Não aplicável
+350740,3507407,Borborema,Araraquara,Araraquara,Araraquara,14405,2025,26,16,11.11,True,860,459856.24,3.74,206.0,215.0,-4.2,X. Doenças do aparelho respiratório,59.7,53.8,55.1,534.72,Agudos,Adequado
+350745,3507456,Borebi,Bauru,Bauru,Bauru,2801,2025,0,0,0.0,False,0,0.0,0.0,,,,,0.0,,,0.0,Sem internações,Não aplicável
+350750,3507506,Botucatu,Botucatu,Bauru,Bauru,151053,2025,839,537,35.55,True,30657,91856681.93,5.81,7476.0,7691.0,-2.8,IX. Doenças do aparelho circulatório,202.96,57.1,90.9,2996.27,Agudos,Atenção
+350760,3507605,Bragança Paulista,Bragança Paulista,Campinas,Macro Metropolitana Paulista,185688,2025,342,206,11.09,True,18647,39696858.95,3.72,4700.0,4867.0,-3.4,"XV. Gravidez, parto e puerpério",100.42,90.5,92.3,2128.86,Agudos,Atenção
+350770,3507704,Braúna,Birigui - Penápolis,Araçatuba,Araçatuba,5477,2025,0,0,0.0,False,0,0.0,0.0,,,,,0.0,,,0.0,Sem internações,Não aplicável
+350775,3507753,Brejo Alegre,Birigui - Penápolis,Araçatuba,Araçatuba,2605,2025,0,0,0.0,False,0,0.0,0.0,,,,,0.0,,,0.0,Sem internações,Não aplicável
+350780,3507803,Brodowski,Ribeirão Preto,Ribeirão Preto,Ribeirão Preto,26314,2025,0,0,0.0,False,0,0.0,0.0,,,,,0.0,,,0.0,Sem internações,Não aplicável
+350790,3507902,Brotas,Jaú,Bauru,Piracicaba,24501,2025,53,35,14.29,True,701,455313.14,6.96,190.0,191.0,-0.5,X. Doenças do aparelho respiratório,28.61,20.0,38.2,649.52,Agudos,Adequado
+350800,3508009,Buri,Itapeva,Sorocaba,Itapetininga,20731,2025,0,0,0.0,False,0,0.0,0.0,,,,,0.0,,,0.0,Sem internações,Não aplicável
+350810,3508108,Buritama,Birigui - Penápolis,Araçatuba,Araçatuba,17658,2025,38,24,13.59,True,1500,884660.09,2.39,431.0,368.0,17.1,XI. Doenças do aparelho digestivo,84.95,62.5,40.9,589.77,Agudos,Adequado
+350820,3508207,Buritizal,Ituverava,Ribeirão Preto,Ribeirão Preto,4458,2025,0,0,0.0,False,0,0.0,0.0,,,,,0.0,,,0.0,Sem internações,Não aplicável
+350830,3508306,Cabrália Paulista,Bauru,Bauru,Bauru,4360,2025,0,0,0.0,False,0,0.0,0.0,,,,,0.0,,,0.0,Sem internações,Não aplicável
+350840,3508405,Cabreúva,Jundiaí,Campinas,Macro Metropolitana Paulista,48654,2025,22,19,3.91,True,919,323878.66,2.83,229.0,123.0,86.2,"XV. Gravidez, parto e puerpério",18.89,48.4,37.5,352.43,Agudos,Adequado
+350850,3508504,Caçapava,São José dos Campos,São José dos Campos,Vale do Paraíba Paulista,100071,2025,472,413,41.27,True,4001,4013122.64,4.54,1043.0,1240.0,-15.9,XIX. Lesões e envenenamentos por causas externas,39.98,9.7,12.0,1003.03,Agudos,Adequado
+350860,3508603,Cachoeira Paulista,Cruzeiro,São José dos Campos,Vale do Paraíba Paulista,32534,2025,62,62,19.06,True,0,0.0,0.0,,,,,0.0,0.0,0.0,0.0,Sem internações,Não aplicável
+350870,3508702,Caconde,São José do Rio Pardo - Mococa,Campinas,Campinas,17228,2025,66,66,38.31,True,1930,3790848.38,10.18,527.0,551.0,-4.4,XI. Doenças do aparelho digestivo,112.03,29.2,81.6,1964.17,Permanência elevada,Adequado
+350880,3508801,Cafelândia,Lins,Bauru,Bauru,16907,2025,45,34,20.11,True,844,324274.25,2.87,201.0,254.0,-20.9,VI. Doenças do sistema nervoso,49.92,24.8,19.5,384.21,Agudos,Adequado
+350890,3508900,Caiabu,Presidente Prudente,Presidente Prudente,Presidente Prudente,3726,2025,0,0,0.0,False,0,0.0,0.0,,,,,0.0,,,0.0,Sem internações,Não aplicável
+350900,3509007,Caieiras,São Paulo,São Paulo,Metropolitana de São Paulo,98549,2025,135,81,8.22,True,5152,2972589.4,2.76,1571.0,1253.0,25.4,"XV. Gravidez, parto e puerpério",52.28,63.6,48.1,576.98,Agudos,Adequado
+350910,3509106,Caiuá,Presidente Epitácio-Presidente Venceslau,Presidente Prudente,Presidente Prudente,5599,2025,0,0,0.0,False,0,0.0,0.0,,,,,0.0,,,0.0,Sem internações,Não aplicável
+350920,3509205,Cajamar,São Paulo,São Paulo,Metropolitana de São Paulo,98365,2025,139,39,3.96,True,3495,1232346.28,3.56,914.0,793.0,15.3,"XV. Gravidez, parto e puerpério",35.53,89.6,87.4,352.6,Agudos,Atenção
+350925,3509254,Cajati,Registro,Sorocaba,Litoral Sul Paulista,29262,2025,0,0,0.0,False,0,0.0,0.0,,,,,0.0,,,0.0,Sem internações,Não aplicável
+350930,3509304,Cajobi,Barretos,Ribeirão Preto,São José do Rio Preto,9210,2025,32,26,28.23,True,497,215395.59,2.81,131.0,146.0,-10.3,II. Neoplasias (tumores),53.96,19.1,14.7,433.39,Agudos,Adequado
+350940,3509403,Cajuru,Ribeirão Preto,Ribeirão Preto,Ribeirão Preto,24233,2025,73,55,22.7,True,3271,1972438.81,3.16,871.0,864.0,0.8,XI. Doenças do aparelho digestivo,134.98,59.5,51.5,603.01,Agudos,Adequado
+350945,3509452,Campina do Monte Alegre,Itapetininga,Sorocaba,Itapetininga,6090,2025,0,0,0.0,False,0,0.0,0.0,,,,,0.0,,,0.0,Sem internações,Não aplicável
+350950,3509502,Campinas,Campinas,Campinas,Campinas,1187974,2025,2833,1406,11.84,True,87484,246594207.82,5.66,21907.0,23042.0,-4.9,IX. Doenças do aparelho circulatório,73.64,62.2,96.5,2818.73,Agudos,Atenção
+350960,3509601,Campo Limpo Paulista,Jundiaí,Campinas,Macro Metropolitana Paulista,79781,2025,54,54,6.77,True,4008,3729632.05,3.49,1024.0,986.0,3.9,"XV. Gravidez, parto e puerpério",50.24,74.2,71.0,930.55,Agudos,Adequado
+350970,3509700,Campos do Jordão,Taubaté - Pindamonhangaba,São José dos Campos,Vale do Paraíba Paulista,47956,2025,211,185,38.58,True,2801,5363899.81,19.79,736.0,704.0,4.5,"XV. Gravidez, parto e puerpério",58.41,15.1,82.1,1914.99,Permanência elevada,Adequado
+350980,3509809,Campos Novos Paulista,Marília,Marília,Assis,5003,2025,0,0,0.0,False,0,0.0,0.0,,,,,0.0,,,0.0,Sem internações,Não aplicável
+350990,3509908,Cananéia,Registro,Sorocaba,Litoral Sul Paulista,12491,2025,0,0,0.0,False,0,0.0,0.0,,,,,0.0,,,0.0,Sem internações,Não aplicável
+350995,3509957,Canas,Guaratinguetá,São José dos Campos,Vale do Paraíba Paulista,5068,2025,0,0,0.0,False,0,0.0,0.0,,,,,0.0,,,0.0,Sem internações,Não aplicável
+351000,3510005,Cândido Mota,Assis,Marília,Assis,30157,2025,30,25,8.29,True,2484,2364547.19,2.74,705.0,658.0,7.1,XI. Doenças do aparelho digestivo,82.37,99.4,74.6,951.91,Agudos,Adequado
+351010,3510104,Cândido Rodrigues,Araraquara,Araraquara,Ribeirão Preto,2959,2025,0,0,0.0,False,0,0.0,0.0,,,,,0.0,,,0.0,Sem internações,Não aplicável
+351015,3510153,Canitar,Ourinhos,Marília,Assis,6589,2025,0,0,0.0,False,0,0.0,0.0,,,,,0.0,,,0.0,Sem internações,Não aplicável
+351020,3510203,Capão Bonito,Itapeva,Sorocaba,Itapetininga,47409,2025,46,37,7.8,True,2922,2935171.16,3.38,740.0,743.0,-0.4,"XV. Gravidez, parto e puerpério",61.63,79.0,73.1,1004.51,Agudos,Adequado
+351030,3510302,Capela do Alto,Sorocaba,Sorocaba,Macro Metropolitana Paulista,23777,2025,17,0,0.0,True,0,0.0,0.0,,,,,0.0,,,0.0,Sem internações,Não aplicável
+351040,3510401,Capivari,Piracicaba,Campinas,Piracicaba,51369,2025,104,65,12.65,True,2723,3050997.67,3.57,599.0,721.0,-16.9,"XV. Gravidez, parto e puerpério",53.01,41.9,41.0,1120.45,Agudos,Adequado
+351050,3510500,Caraguatatuba,Caraguatatuba - Ubatuba - São Sebastião,São José dos Campos,Vale do Paraíba Paulista,142248,2025,319,262,18.42,True,23649,30374609.16,3.33,6109.0,5859.0,4.3,XI. Doenças do aparelho digestivo,166.25,90.3,82.3,1284.39,Agudos,Adequado
+351060,3510609,Carapicuíba,São Paulo,São Paulo,Metropolitana de São Paulo,398236,2025,230,203,5.1,True,17043,19625595.47,3.48,4694.0,3659.0,28.3,"XV. Gravidez, parto e puerpério",42.8,84.0,80.0,1151.53,Agudos,Adequado
+351070,3510708,Cardoso,Votuporanga,São José do Rio Preto,São José do Rio Preto,11476,2025,31,10,8.71,True,417,161995.82,3.73,105.0,113.0,-7.1,XIV. Doenças do aparelho geniturinário,36.34,41.7,42.6,388.48,Agudos,Adequado
+351080,3510807,Casa Branca,São João da Boa Vista,Campinas,Campinas,28779,2025,250,239,83.05,True,2262,2352589.64,13.68,546.0,616.0,-11.4,V. Transtornos mentais e comportamentais,78.6,9.5,35.5,1040.05,Permanência elevada,Adequado
+351090,3510906,Cássia dos Coqueiros,Ribeirão Preto,Ribeirão Preto,Ribeirão Preto,2861,2025,0,0,0.0,False,0,0.0,0.0,,,,,0.0,,,0.0,Sem internações,Não aplicável
+351100,3511003,Castilho,Andradina,Araçatuba,Araçatuba,20485,2025,31,30,14.64,True,946,510165.47,3.08,143.0,292.0,-51.0,IX. Doenças do aparelho circulatório,46.18,31.5,26.6,539.29,Agudos,Adequado
+351110,3511102,Catanduva,Catanduva,São José do Rio Preto,São José do Rio Preto,119275,2025,638,377,31.61,True,18998,45125804.58,7.32,4720.0,4725.0,-0.1,XIX. Lesões e envenenamentos por causas externas,159.28,50.4,101.1,2375.29,Agudos,Crítico
+351120,3511201,Catiguá,Catanduva,São José do Rio Preto,São José do Rio Preto,7101,2025,0,0,0.0,False,0,0.0,0.0,,,,,0.0,,,0.0,Sem internações,Não aplicável
+351130,3511300,Cedral,São José do Rio Preto,São José do Rio Preto,São José do Rio Preto,13314,2025,0,0,0.0,False,0,0.0,0.0,,,,,0.0,,,0.0,Sem internações,Não aplicável
+351140,3511409,Cerqueira César,Avaré,Sorocaba,Bauru,22210,2025,38,35,15.76,True,1594,856927.21,2.61,368.0,408.0,-9.8,"XV. Gravidez, parto e puerpério",71.77,45.5,32.6,537.6,Agudos,Adequado
+351150,3511508,Cerquilho,Sorocaba,Sorocaba,Itapetininga,46391,2025,41,26,5.6,True,1004,493958.95,4.19,284.0,187.0,51.9,IX. Doenças do aparelho circulatório,21.64,38.6,44.3,491.99,Agudos,Adequado
+351160,3511607,Cesário Lange,Tatuí,Sorocaba,Itapetininga,19707,2025,27,23,11.67,True,551,290381.24,2.6,140.0,133.0,5.3,XI. Doenças do aparelho digestivo,27.96,24.0,17.1,527.01,Agudos,Adequado
+351170,3511706,Charqueada,Piracicaba,Campinas,Piracicaba,15814,2025,35,28,17.71,True,312,86971.69,4.55,77.0,89.0,-13.5,XVIII. Sintomas e achados anormais não classificados,19.73,11.1,13.9,278.76,Agudos,Adequado
+351190,3511904,Clementina,Birigui - Penápolis,Araçatuba,Araçatuba,7084,2025,24,21,29.64,True,237,93324.12,3.97,71.0,63.0,12.7,X. Doenças do aparelho respiratório,33.46,11.3,12.3,393.77,Agudos,Adequado
+351200,3512001,Colina,Barretos,Ribeirão Preto,Ribeirão Preto,18880,2025,41,32,16.95,True,1085,2019695.1,4.28,296.0,269.0,10.0,XIV. Doenças do aparelho geniturinário,57.47,33.9,39.8,1861.47,Agudos,Adequado
+351210,3512100,Colômbia,Barretos,Ribeirão Preto,Ribeirão Preto,6802,2025,20,20,29.4,True,22,1620.1,2.48,0.0,12.0,-100.0,XVIII. Sintomas e achados anormais não classificados,3.23,1.1,0.7,73.64,Agudos,Adequado
+351220,3512209,Conchal,Araras,Campinas,Piracicaba,29132,2025,50,40,13.73,True,2628,1706942.43,2.01,617.0,595.0,3.7,VII. Doenças do olho e anexos,90.21,65.7,36.2,649.52,Agudos,Adequado
+351230,3512308,Conchas,Botucatu,Bauru,Bauru,15345,2025,15,14,9.12,True,299,123925.33,4.75,81.0,84.0,-3.6,X. Doenças do aparelho respiratório,19.49,21.4,27.8,414.47,Agudos,Adequado
+351240,3512407,Cordeirópolis,Limeira,Campinas,Piracicaba,25286,2025,0,0,0.0,False,0,0.0,0.0,,,,,0.0,,,0.0,Sem internações,Não aplicável
+351250,3512506,Coroados,Birigui - Penápolis,Araçatuba,Araçatuba,5504,2025,0,0,0.0,False,0,0.0,0.0,,,,,0.0,,,0.0,Sem internações,Não aplicável
+351260,3512605,Coronel Macedo,Avaré,Sorocaba,Itapetininga,4271,2025,2,2,4.68,True,0,0.0,0.0,,,,,0.0,0.0,0.0,0.0,Sem internações,Não aplicável
+351270,3512704,Corumbataí,Rio Claro,Campinas,Piracicaba,4296,2025,2,2,4.66,True,0,0.0,0.0,,,,,0.0,0.0,0.0,0.0,Sem internações,Não aplicável
+351280,3512803,Cosmópolis,Campinas,Campinas,Campinas,61167,2025,61,34,5.56,True,1764,1793267.28,3.58,432.0,469.0,-7.9,XIX. Lesões e envenenamentos por causas externas,28.84,51.9,50.9,1016.59,Agudos,Adequado
+351290,3512902,Cosmorama,Votuporanga,São José do Rio Preto,São José do Rio Preto,9019,2025,0,0,0.0,False,0,0.0,0.0,,,,,0.0,,,0.0,Sem internações,Não aplicável
+351300,3513009,Cotia,São Paulo,São Paulo,Metropolitana de São Paulo,289493,2025,444,138,4.77,True,13492,13125898.45,3.87,3521.0,3059.0,15.1,"XV. Gravidez, parto e puerpério",46.61,97.8,103.7,972.87,Agudos,Crítico
+351310,3513108,Cravinhos,Ribeirão Preto,Ribeirão Preto,Ribeirão Preto,34307,2025,15,13,3.79,True,204,88263.89,5.51,0.0,99.0,-100.0,X. Doenças do aparelho respiratório,5.95,15.7,23.7,432.67,Agudos,Adequado
+351320,3513207,Cristais Paulista,Franca,Ribeirão Preto,Ribeirão Preto,9600,2025,0,0,0.0,False,0,0.0,0.0,,,,,0.0,,,0.0,Sem internações,Não aplicável
+351330,3513306,Cruzália,Assis,Marília,Assis,2123,2025,0,0,0.0,False,0,0.0,0.0,,,,,0.0,,,0.0,Sem internações,Não aplicável
+351340,3513405,Cruzeiro,Cruzeiro,São José dos Campos,Vale do Paraíba Paulista,76444,2025,179,141,18.44,True,6329,8213897.36,5.05,1950.0,1382.0,41.1,"XV. Gravidez, parto e puerpério",82.79,44.9,62.1,1297.82,Agudos,Adequado
+351350,3513504,Cubatão,Santos,São Paulo,Metropolitana de São Paulo,114870,2025,109,109,9.49,True,6516,8249386.49,6.31,1621.0,1662.0,-2.5,"XV. Gravidez, parto e puerpério",56.72,59.8,103.3,1266.02,Agudos,Crítico
+351360,3513603,Cunha,Guaratinguetá,São José dos Campos,Vale do Paraíba Paulista,22460,2025,40,25,11.13,True,1359,817011.25,2.83,337.0,348.0,-3.2,IX. Doenças do aparelho circulatório,60.51,54.4,42.1,601.19,Agudos,Adequado
+351370,3513702,Descalvado,São Carlos,Araraquara,Araraquara,32663,2025,40,25,7.65,True,1732,1419832.24,2.33,455.0,459.0,-0.9,X. Doenças do aparelho respiratório,53.03,69.3,44.2,819.76,Agudos,Adequado
+351380,3513801,Diadema,São Paulo,São Paulo,Metropolitana de São Paulo,403579,2025,432,432,10.7,True,24003,37020423.5,5.18,6090.0,6109.0,-0.3,XIX. Lesões e envenenamentos por causas externas,59.48,55.6,78.9,1542.32,Agudos,Adequado
+351385,3513850,Dirce Reis,Jales,São José do Rio Preto,São José do Rio Preto,1639,2025,0,0,0.0,False,0,0.0,0.0,,,,,0.0,,,0.0,Sem internações,Não aplicável
+351390,3513900,Divinolândia,São José do Rio Pardo - Mococa,Campinas,Campinas,11305,2025,186,186,164.53,True,4694,8993775.5,10.69,1246.0,1267.0,-1.7,XI. Doenças do aparelho digestivo,415.21,25.2,73.9,1916.02,Permanência elevada,Adequado
+351400,3514007,Dobrada,Araraquara,Araraquara,Araraquara,8986,2025,0,0,0.0,False,0,0.0,0.0,,,,,0.0,,,0.0,Sem internações,Não aplicável
+351410,3514106,Dois Córregos,Jaú,Bauru,Bauru,24847,2025,67,47,18.92,True,1284,634141.05,3.94,321.0,363.0,-11.6,X. Doenças do aparelho respiratório,51.68,27.3,29.5,493.88,Agudos,Adequado
+351420,3514205,Dolcinópolis,Jales,São José do Rio Preto,São José do Rio Preto,2254,2025,0,0,0.0,False,0,0.0,0.0,,,,,0.0,,,0.0,Sem internações,Não aplicável
+351430,3514304,Dourado,São Carlos,Araraquara,Araraquara,8169,2025,10,10,12.24,True,0,0.0,0.0,,,,,0.0,0.0,0.0,0.0,Sem internações,Não aplicável
+351440,3514403,Dracena,Dracena,Presidente Prudente,Presidente Prudente,46735,2025,148,108,23.11,True,3366,6648258.79,5.33,933.0,819.0,13.9,X. Doenças do aparelho respiratório,72.02,31.2,45.5,1975.12,Agudos,Adequado
+351450,3514502,Duartina,Bauru,Bauru,Bauru,12532,2025,39,35,27.93,True,1375,413245.86,2.06,311.0,415.0,-25.1,XIX. Lesões e envenenamentos por causas externas,109.72,39.3,22.2,300.54,Agudos,Adequado
+351460,3514601,Dumont,Ribeirão Preto,Ribeirão Preto,Ribeirão Preto,9764,2025,0,0,0.0,False,0,0.0,0.0,,,,,0.0,,,0.0,Sem internações,Não aplicável
+351470,3514700,Echaporã,Marília,Marília,Marília,6291,2025,0,0,0.0,False,0,0.0,0.0,,,,,0.0,,,0.0,Sem internações,Não aplicável
+351480,3514809,Eldorado,Registro,Sorocaba,Litoral Sul Paulista,13109,2025,0,0,0.0,False,0,0.0,0.0,,,,,0.0,,,0.0,Sem internações,Não aplicável
+351490,3514908,Elias Fausto,Campinas,Campinas,Campinas,18168,2025,6,6,3.3,True,0,0.0,0.0,,,,,0.0,0.0,0.0,0.0,Sem internações,Não aplicável
+351492,3514924,Elisiário,Catanduva,São José do Rio Preto,São José do Rio Preto,3190,2025,0,0,0.0,False,0,0.0,0.0,,,,,0.0,,,0.0,Sem internações,Não aplicável
+351495,3514957,Embaúba,Catanduva,São José do Rio Preto,São José do Rio Preto,2349,2025,0,0,0.0,False,0,0.0,0.0,,,,,0.0,,,0.0,Sem internações,Não aplicável
+351500,3515004,Embu das Artes,São Paulo,São Paulo,Metropolitana de São Paulo,259788,2025,99,89,3.43,True,3460,1541990.69,4.73,923.0,1060.0,-12.9,X. Doenças do aparelho respiratório,13.32,38.9,50.4,445.66,Agudos,Adequado
+351510,3515103,Embu-Guaçu,São Paulo,São Paulo,Metropolitana de São Paulo,68913,2025,17,17,2.47,True,1157,473130.99,0.91,260.0,311.0,-16.4,XIX. Lesões e envenenamentos por causas externas,16.79,68.1,17.0,408.93,Agudos,Adequado
+351512,3515129,Emilianópolis,Presidente Prudente,Presidente Prudente,Presidente Prudente,3061,2025,0,0,0.0,False,0,0.0,0.0,,,,,0.0,,,0.0,Sem internações,Não aplicável
+351515,3515152,Engenheiro Coelho,Limeira,Campinas,Campinas,20261,2025,0,0,0.0,False,0,0.0,0.0,,,,,0.0,,,0.0,Sem internações,Não aplicável
+351518,3515186,Espírito Santo do Pinhal,São João da Boa Vista,Campinas,Campinas,40610,2025,674,298,73.38,True,4622,10458895.11,23.76,1156.0,1098.0,5.3,V. Transtornos mentais e comportamentais,113.81,15.5,101.0,2262.85,Longa permanência,Não aplicável
+351519,3515194,Espírito Santo do Turvo,Ourinhos,Marília,Assis,4214,2025,0,0,0.0,False,0,0.0,0.0,,,,,0.0,,,0.0,Sem internações,Não aplicável
+351520,3515202,Estrela d'Oeste,Fernandópolis,São José do Rio Preto,São José do Rio Preto,9696,2025,51,27,27.85,True,624,331919.06,3.64,123.0,201.0,-38.8,I. Doenças infecciosas e parasitárias,64.36,23.1,23.0,531.92,Agudos,Adequado
+351530,3515301,Estrela do Norte,Presidente Prudente,Presidente Prudente,Presidente Prudente,2751,2025,0,0,0.0,False,0,0.0,0.0,,,,,0.0,,,0.0,Sem internações,Não aplicável
+351535,3515350,Euclides da Cunha Paulista,Presidente Prudente,Presidente Prudente,Presidente Prudente,7883,2025,0,0,0.0,False,0,0.0,0.0,,,,,0.0,,,0.0,Sem internações,Não aplicável
+351540,3515400,Fartura,Piraju,Marília,Assis,17029,2025,20,12,7.05,True,930,392808.96,3.19,191.0,231.0,-17.3,X. Doenças do aparelho respiratório,54.61,77.5,67.7,422.38,Agudos,Adequado
+351550,3515509,Fernandópolis,Fernandópolis,São José do Rio Preto,São José do Rio Preto,73508,2025,135,84,11.43,True,7402,8959925.37,3.3,1919.0,1786.0,7.4,XI. Doenças do aparelho digestivo,100.7,88.1,79.7,1210.47,Agudos,Adequado
+351560,3515608,Fernando Prestes,Catanduva,São José do Rio Preto,Ribeirão Preto,6080,2025,0,0,0.0,False,0,0.0,0.0,,,,,0.0,,,0.0,Sem internações,Não aplicável
+351565,3515657,Fernão,Marília,Marília,Marília,1692,2025,0,0,0.0,False,0,0.0,0.0,,,,,0.0,,,0.0,Sem internações,Não aplicável
+351570,3515707,Ferraz de Vasconcelos,São Paulo,São Paulo,Metropolitana de São Paulo,186479,2025,178,178,9.55,True,8897,7855249.29,4.9,2990.0,2118.0,41.2,"XV. Gravidez, parto e puerpério",47.71,50.0,67.1,882.91,Agudos,Adequado
+351580,3515806,Flora Rica,Dracena,Presidente Prudente,Presidente Prudente,1483,2025,0,0,0.0,False,0,0.0,0.0,,,,,0.0,,,0.0,Sem internações,Não aplicável
+351590,3515905,Floreal,Votuporanga,São José do Rio Preto,São José do Rio Preto,2747,2025,0,0,0.0,False,0,0.0,0.0,,,,,0.0,,,0.0,Sem internações,Não aplicável
+351600,3516002,Flórida Paulista,Adamantina - Lucélia,Presidente Prudente,Presidente Prudente,13175,2025,47,30,22.77,True,1042,334318.45,2.31,267.0,234.0,14.1,X. Doenças do aparelho respiratório,79.09,34.7,22.0,320.84,Agudos,Adequado
+351610,3516101,Florínea,Assis,Marília,Assis,4022,2025,0,0,0.0,False,0,0.0,0.0,,,,,0.0,,,0.0,Sem internações,Não aplicável
+351620,3516200,Franca,Franca,Ribeirão Preto,Ribeirão Preto,365494,2025,746,543,14.86,True,25125,63550473.62,5.42,6495.0,6354.0,2.2,"XV. Gravidez, parto e puerpério",68.74,46.3,68.7,2529.37,Agudos,Adequado
+351630,3516309,Francisco Morato,São Paulo,São Paulo,Metropolitana de São Paulo,171476,2025,150,150,8.75,True,13889,13248972.7,4.04,3716.0,3219.0,15.4,"XV. Gravidez, parto e puerpério",81.0,92.6,102.5,953.92,Agudos,Crítico
+351640,3516408,Franco da Rocha,São Paulo,São Paulo,Metropolitana de São Paulo,150241,2025,455,384,25.56,True,8784,12122049.15,7.74,2232.0,2141.0,4.3,XIX. Lesões e envenenamentos por causas externas,58.47,22.9,48.5,1380.01,Agudos,Adequado
+351650,3516507,Gabriel Monteiro,Birigui - Penápolis,Araçatuba,Araçatuba,2813,2025,0,0,0.0,False,0,0.0,0.0,,,,,0.0,,,0.0,Sem internações,Não aplicável
+351660,3516606,Gália,Marília,Marília,Marília,6413,2025,45,27,42.1,True,149,65997.06,4.8,26.0,42.0,-38.1,XIV. Doenças do aparelho geniturinário,23.23,5.5,7.3,442.93,Agudos,Adequado
+351670,3516705,Garça,Marília,Marília,Marília,43081,2025,269,221,51.3,True,2684,6233100.46,24.21,587.0,764.0,-23.2,V. Transtornos mentais e comportamentais,62.3,12.1,80.6,2322.32,Longa permanência,Não aplicável
+351680,3516804,Gastão Vidigal,Araçatuba,Araçatuba,São José do Rio Preto,3203,2025,0,0,0.0,False,0,0.0,0.0,,,,,0.0,,,0.0,Sem internações,Não aplicável
+351685,3516853,Gavião Peixoto,Araraquara,Araraquara,Araraquara,4806,2025,0,0,0.0,False,0,0.0,0.0,,,,,0.0,,,0.0,Sem internações,Não aplicável
+351690,3516903,General Salgado,Araçatuba,Araçatuba,São José do Rio Preto,10437,2025,28,19,18.2,True,451,239263.83,3.97,116.0,125.0,-7.2,IX. Doenças do aparelho circulatório,43.21,23.7,25.8,530.52,Agudos,Adequado
+351700,3517000,Getulina,Marília,Marília,Bauru,10337,2025,38,33,31.92,True,362,125460.55,3.95,72.0,116.0,-37.9,X. Doenças do aparelho respiratório,35.02,11.0,11.9,346.58,Agudos,Adequado
+351710,3517109,Glicério,Birigui - Penápolis,Araçatuba,Araçatuba,4158,2025,0,0,0.0,False,0,0.0,0.0,,,,,0.0,,,0.0,Sem internações,Não aplicável
+351720,3517208,Guaiçara,Lins,Bauru,Bauru,11478,2025,0,0,0.0,False,0,0.0,0.0,,,,,0.0,,,0.0,Sem internações,Não aplicável
+351730,3517307,Guaimbê,Marília,Marília,Bauru,5609,2025,0,0,0.0,False,0,0.0,0.0,,,,,0.0,,,0.0,Sem internações,Não aplicável
+351740,3517406,Guaíra,Barretos,Ribeirão Preto,Ribeirão Preto,40489,2025,51,38,9.39,True,3409,5471449.46,2.98,847.0,915.0,-7.4,I. Doenças infecciosas e parasitárias,84.2,89.7,73.2,1605.0,Agudos,Adequado
+351750,3517505,Guapiaçu,São José do Rio Preto,São José do Rio Preto,São José do Rio Preto,22445,2025,0,0,0.0,False,0,0.0,0.0,,,,,0.0,,,0.0,Sem internações,Não aplicável
+351760,3517604,Guapiara,Itapeva,Sorocaba,Itapetininga,17225,2025,12,12,6.97,True,291,114640.79,4.05,62.0,69.0,-10.1,X. Doenças do aparelho respiratório,16.89,24.2,26.9,393.95,Agudos,Adequado
+351770,3517703,Guará,Ituverava,Ribeirão Preto,Ribeirão Preto,18748,2025,50,46,24.54,True,801,397287.05,3.12,191.0,219.0,-12.8,"XV. Gravidez, parto e puerpério",42.72,17.4,14.9,495.99,Agudos,Adequado
+351780,3517802,Guaraçaí,Andradina,Araçatuba,Araçatuba,7453,2025,23,15,20.13,True,540,265568.85,3.39,152.0,142.0,7.0,XI. Doenças do aparelho digestivo,72.45,36.0,33.4,491.79,Agudos,Adequado
+351790,3517901,Guaraci,Barretos,Ribeirão Preto,São José do Rio Preto,10554,2025,0,0,0.0,False,0,0.0,0.0,,,,,0.0,,,0.0,Sem internações,Não aplicável
+351800,3518008,Guarani d'Oeste,Fernandópolis,São José do Rio Preto,São José do Rio Preto,1999,2025,0,0,0.0,False,0,0.0,0.0,,,,,0.0,,,0.0,Sem internações,Não aplicável
+351810,3518107,Guarantã,Lins,Bauru,Bauru,6532,2025,0,0,0.0,False,0,0.0,0.0,,,,,0.0,,,0.0,Sem internações,Não aplicável
+351820,3518206,Guararapes,Araçatuba,Araçatuba,Araçatuba,31888,2025,74,63,19.76,True,1569,815426.16,4.33,398.0,415.0,-4.1,X. Doenças do aparelho respiratório,49.2,24.9,29.5,519.71,Agudos,Adequado
+351830,3518305,Guararema,São Paulo,São Paulo,Metropolitana de São Paulo,32620,2025,31,29,8.89,True,1556,592049.72,2.98,442.0,378.0,16.9,"XV. Gravidez, parto e puerpério",47.7,53.7,43.8,380.49,Agudos,Adequado
+351840,3518404,Guaratinguetá,Guaratinguetá,São José dos Campos,Vale do Paraíba Paulista,121916,2025,291,207,16.98,True,10111,17335864.83,5.12,3815.0,1736.0,119.8,XI. Doenças do aparelho digestivo,82.93,48.8,68.5,1714.55,Agudos,Adequado
+351850,3518503,Guareí,Itapetininga,Sorocaba,Itapetininga,15285,2025,0,0,0.0,False,0,0.0,0.0,,,,,0.0,,,0.0,Sem internações,Não aplicável
+351860,3518602,Guariba,Ribeirão Preto,Ribeirão Preto,Ribeirão Preto,38678,2025,61,53,13.7,True,1423,709835.84,2.8,379.0,336.0,12.8,"XV. Gravidez, parto e puerpério",36.79,26.8,20.6,498.83,Agudos,Adequado
+351870,3518701,Guarujá,Santos,São Paulo,Metropolitana de São Paulo,294871,2025,396,312,10.58,True,13057,28195697.88,5.94,3142.0,3369.0,-6.7,"XV. Gravidez, parto e puerpério",44.28,41.8,68.1,2159.43,Agudos,Adequado
+351880,3518800,Guarulhos,São Paulo,São Paulo,Metropolitana de São Paulo,1349100,2025,1924,1417,10.5,True,56988,97389251.01,8.16,13823.0,14826.0,-6.8,"XV. Gravidez, parto e puerpério",42.24,40.2,89.9,1708.94,Permanência elevada,Atenção
+351885,3518859,Guatapará,Ribeirão Preto,Ribeirão Preto,Ribeirão Preto,7474,2025,0,0,0.0,False,0,0.0,0.0,,,,,0.0,,,0.0,Sem internações,Não aplicável
+351890,3518909,Guzolândia,Araçatuba,Araçatuba,São José do Rio Preto,4259,2025,0,0,0.0,False,0,0.0,0.0,,,,,0.0,,,0.0,Sem internações,Não aplicável
+351900,3519006,Herculândia,Tupã,Marília,Marília,9316,2025,58,58,62.26,True,765,281076.93,3.55,210.0,182.0,15.4,X. Doenças do aparelho respiratório,82.12,13.2,12.8,367.42,Agudos,Adequado
+351905,3519055,Holambra,Campinas,Campinas,Campinas,15718,2025,0,0,0.0,False,0,0.0,0.0,,,,,0.0,,,0.0,Sem internações,Não aplicável
+351907,3519071,Hortolândia,Campinas,Campinas,Campinas,248842,2025,125,103,4.14,True,5739,5475326.58,3.85,1322.0,1552.0,-14.8,"XV. Gravidez, parto e puerpério",23.06,55.7,58.8,954.06,Agudos,Adequado
+351910,3519105,Iacanga,Bauru,Bauru,Bauru,10648,2025,30,28,26.3,True,788,192313.49,2.28,210.0,230.0,-8.7,XIX. Lesões e envenenamentos por causas externas,74.0,28.1,17.6,244.05,Agudos,Adequado
+351920,3519204,Iacri,Tupã,Marília,Marília,6197,2025,0,0,0.0,False,0,0.0,0.0,,,,,0.0,,,0.0,Sem internações,Não aplicável
+351925,3519253,Iaras,Avaré,Sorocaba,Bauru,8313,2025,0,0,0.0,False,0,0.0,0.0,,,,,0.0,,,0.0,Sem internações,Não aplicável
+351930,3519303,Ibaté,São Carlos,Araraquara,Araraquara,33160,2025,30,29,8.75,True,958,723352.39,2.89,273.0,250.0,9.2,"XV. Gravidez, parto e puerpério",28.89,33.0,26.2,755.07,Agudos,Adequado
+351940,3519402,Ibirá,São José do Rio Preto,São José do Rio Preto,São José do Rio Preto,11952,2025,27,9,7.53,True,415,195047.8,4.23,109.0,106.0,2.8,X. Doenças do aparelho respiratório,34.72,46.1,53.4,469.99,Agudos,Adequado
+351950,3519501,Ibirarema,Ourinhos,Marília,Assis,6450,2025,0,0,0.0,False,0,0.0,0.0,,,,,0.0,,,0.0,Sem internações,Não aplicável
+351960,3519600,Ibitinga,Araraquara,Araraquara,Araraquara,62143,2025,109,57,9.17,True,5050,6472463.5,2.75,1252.0,1353.0,-7.5,XIX. Lesões e envenenamentos por causas externas,81.26,88.6,66.8,1281.68,Agudos,Adequado
+351970,3519709,Ibiúna,Sorocaba,Sorocaba,Macro Metropolitana Paulista,77801,2025,315,63,8.1,True,4301,2270205.8,3.32,1056.0,1138.0,-7.2,XIX. Lesões e envenenamentos por causas externas,55.28,68.3,62.1,527.83,Agudos,Adequado
+351980,3519808,Icém,São José do Rio Preto,São José do Rio Preto,São José do Rio Preto,7982,2025,0,0,0.0,False,0,0.0,0.0,,,,,0.0,,,0.0,Sem internações,Não aplicável
+351990,3519907,Iepê,Presidente Prudente,Presidente Prudente,Assis,7739,2025,20,20,25.84,True,716,260948.47,3.38,196.0,205.0,-4.4,XIV. Doenças do aparelho geniturinário,92.52,35.8,33.2,364.45,Agudos,Adequado
+352000,3520004,Igaraçu do Tietê,Jaú,Bauru,Bauru,23421,2025,0,0,0.0,False,0,0.0,0.0,,,,,0.0,,,0.0,Sem internações,Não aplicável
+352010,3520103,Igarapava,Ituverava,Ribeirão Preto,Ribeirão Preto,26696,2025,46,36,13.49,True,1379,894418.53,4.94,344.0,394.0,-12.7,X. Doenças do aparelho respiratório,51.66,38.3,51.8,648.6,Agudos,Adequado
+352020,3520202,Igaratá,São José dos Campos,São José dos Campos,Vale do Paraíba Paulista,10984,2025,8,8,7.28,True,0,0.0,0.0,,,,,0.0,0.0,0.0,0.0,Sem internações,Não aplicável
+352030,3520301,Iguape,Registro,Sorocaba,Litoral Sul Paulista,29891,2025,0,0,0.0,False,0,0.0,0.0,,,,,0.0,,,0.0,Sem internações,Não aplicável
+352040,3520400,Ilhabela,Caraguatatuba - Ubatuba - São Sebastião,São José dos Campos,Vale do Paraíba Paulista,36559,2025,47,47,12.86,True,2822,2190660.64,3.03,547.0,840.0,-34.9,"XV. Gravidez, parto e puerpério",77.19,60.0,49.8,776.28,Agudos,Adequado
+352042,3520426,Ilha Comprida,Registro,Sorocaba,Litoral Sul Paulista,14104,2025,0,0,0.0,False,0,0.0,0.0,,,,,0.0,,,0.0,Sem internações,Não aplicável
+352044,3520442,Ilha Solteira,Andradina,Araçatuba,Araçatuba,26257,2025,71,67,25.52,True,2755,3414321.58,3.72,693.0,776.0,-10.7,X. Doenças do aparelho respiratório,104.92,41.1,41.9,1239.32,Agudos,Adequado
+352050,3520509,Indaiatuba,Campinas,Campinas,Campinas,269657,2025,431,246,9.12,True,22745,27675591.54,3.53,5712.0,5826.0,-2.0,XIX. Lesões e envenenamentos por causas externas,84.35,92.5,89.4,1216.78,Agudos,Atenção
+352060,3520608,Indiana,Presidente Prudente,Presidente Prudente,Presidente Prudente,5200,2025,0,0,0.0,False,0,0.0,0.0,,,,,0.0,,,0.0,Sem internações,Não aplicável
+352070,3520707,Indiaporã,Fernandópolis,São José do Rio Preto,São José do Rio Preto,4113,2025,36,4,9.73,True,384,145961.01,3.2,102.0,86.0,18.6,XIV. Doenças do aparelho geniturinário,93.36,96.0,84.2,380.11,Agudos,Adequado
+352080,3520806,Inúbia Paulista,Adamantina - Lucélia,Presidente Prudente,Presidente Prudente,3671,2025,0,0,0.0,False,0,0.0,0.0,,,,,0.0,,,0.0,Sem internações,Não aplicável
+352090,3520905,Ipaussu,Ourinhos,Marília,Assis,13935,2025,49,28,20.09,True,842,429245.07,3.1,228.0,241.0,-5.4,X. Doenças do aparelho respiratório,60.42,30.1,25.5,509.79,Agudos,Adequado
+352100,3521002,Iperó,Sorocaba,Sorocaba,Macro Metropolitana Paulista,38277,2025,15,15,3.92,True,0,0.0,0.0,,,,,0.0,0.0,0.0,0.0,Sem internações,Não aplicável
+352110,3521101,Ipeúna,Rio Claro,Campinas,Piracicaba,7027,2025,0,0,0.0,False,0,0.0,0.0,,,,,0.0,,,0.0,Sem internações,Não aplicável
+352115,3521150,Ipiguá,São José do Rio Preto,São José do Rio Preto,São José do Rio Preto,7115,2025,0,0,0.0,False,0,0.0,0.0,,,,,0.0,,,0.0,Sem internações,Não aplicável
+352120,3521200,Iporanga,Registro,Sorocaba,Itapetininga,4083,2025,0,0,0.0,False,0,0.0,0.0,,,,,0.0,,,0.0,Sem internações,Não aplicável
+352130,3521309,Ipuã,São Joaquim da Barra ¿ Orlândia,Ribeirão Preto,Ribeirão Preto,14701,2025,50,43,29.25,True,1089,544667.32,2.83,252.0,302.0,-16.6,XII. Doenças da pele e do tecido subcutâneo,74.08,25.3,19.6,500.15,Agudos,Adequado
+352140,3521408,Iracemápolis,Limeira,Campinas,Piracicaba,22500,2025,3,3,1.33,True,0,0.0,0.0,,,,,0.0,0.0,0.0,0.0,Sem internações,Não aplicável
+352150,3521507,Irapuã,São José do Rio Preto,São José do Rio Preto,São José do Rio Preto,6932,2025,0,0,0.0,False,0,0.0,0.0,,,,,0.0,,,0.0,Sem internações,Não aplicável
+352160,3521606,Irapuru,Dracena,Presidente Prudente,Presidente Prudente,7120,2025,0,0,0.0,False,0,0.0,0.0,,,,,0.0,,,0.0,Sem internações,Não aplicável
+352170,3521705,Itaberá,Itapeva,Sorocaba,Itapetininga,18263,2025,19,19,10.4,True,1049,545731.36,2.15,176.0,278.0,-36.7,X. Doenças do aparelho respiratório,57.44,55.2,32.5,520.24,Agudos,Adequado
+352180,3521804,Itaí,Avaré,Sorocaba,Bauru,25979,2025,35,33,12.7,True,1024,396706.24,2.73,276.0,262.0,5.3,X. Doenças do aparelho respiratório,39.42,31.0,23.2,387.41,Agudos,Adequado
+352190,3521903,Itajobi,Catanduva,São José do Rio Preto,São José do Rio Preto,17502,2025,50,35,20.0,True,751,258749.52,7.35,223.0,219.0,1.8,X. Doenças do aparelho respiratório,42.91,21.5,43.2,344.54,Agudos,Adequado
+352200,3522000,Itaju,Jaú,Bauru,Bauru,3715,2025,0,0,0.0,False,0,0.0,0.0,,,,,0.0,,,0.0,Sem internações,Não aplicável
+352210,3522109,Itanhaém,Santos,São Paulo,Litoral Sul Paulista,118495,2025,141,137,11.56,True,12011,15544990.86,4.37,3125.0,3001.0,4.1,"XV. Gravidez, parto e puerpério",101.36,87.7,105.0,1294.23,Agudos,Crítico
+352215,3522158,Itaoca,Itapeva,Sorocaba,Itapetininga,3497,2025,0,0,0.0,False,0,0.0,0.0,,,,,0.0,,,0.0,Sem internações,Não aplicável
+352220,3522208,Itapecerica da Serra,São Paulo,São Paulo,Metropolitana de São Paulo,163003,2025,704,195,11.96,True,17161,19600600.44,3.76,4161.0,3830.0,8.6,"XV. Gravidez, parto e puerpério",105.28,88.0,90.7,1142.16,Agudos,Atenção
+352230,3522307,Itapetininga,Itapetininga,Sorocaba,Itapetininga,164256,2025,216,166,10.11,True,10461,12023489.0,5.88,2704.0,2687.0,0.6,"XV. Gravidez, parto e puerpério",63.69,63.0,101.5,1149.36,Agudos,Crítico
+352240,3522406,Itapeva,Itapeva,Sorocaba,Itapetininga,92393,2025,158,109,11.8,True,9507,15944886.97,3.93,2484.0,2391.0,3.9,"XV. Gravidez, parto e puerpério",102.9,87.2,93.9,1677.17,Agudos,Atenção
+352250,3522505,Itapevi,São Paulo,São Paulo,Metropolitana de São Paulo,242995,2025,351,224,9.22,True,15818,15504261.6,4.08,3918.0,4216.0,-7.1,"XV. Gravidez, parto e puerpério",65.1,70.6,78.9,980.17,Agudos,Adequado
+352260,3522604,Itapira,Mogi Guaçu,Campinas,Campinas,74038,2025,904,381,51.46,True,5862,13183066.17,25.18,1269.0,1615.0,-21.4,V. Transtornos mentais e comportamentais,79.18,15.4,106.1,2248.9,Longa permanência,Não aplicável
+352265,3522653,Itapirapuã Paulista,Itapeva,Sorocaba,Itapetininga,4420,2025,0,0,0.0,False,0,0.0,0.0,,,,,0.0,,,0.0,Sem internações,Não aplicável
+352270,3522703,Itápolis,Araraquara,Araraquara,Araraquara,40445,2025,69,43,10.63,True,3691,4180604.83,3.31,1161.0,878.0,32.2,X. Doenças do aparelho respiratório,91.26,85.8,77.8,1132.65,Agudos,Adequado
+352280,3522802,Itaporanga,Itapeva,Sorocaba,Itapetininga,14245,2025,38,32,22.46,True,1091,449843.86,2.18,261.0,294.0,-11.2,X. Doenças do aparelho respiratório,76.59,34.1,20.4,412.32,Agudos,Adequado
+352290,3522901,Itapuí,Jaú,Bauru,Bauru,14035,2025,35,35,24.94,True,12,4064.97,4.8,0.0,12.0,-100.0,IX. Doenças do aparelho circulatório,0.86,0.3,0.5,338.75,Agudos,Adequado
+352300,3523008,Itapura,Andradina,Araçatuba,Araçatuba,4002,2025,0,0,0.0,False,0,0.0,0.0,,,,,0.0,,,0.0,Sem internações,Não aplicável
+352310,3523107,Itaquaquecetuba,São Paulo,São Paulo,Metropolitana de São Paulo,382983,2025,267,267,6.97,True,15141,17757521.77,6.02,3877.0,3808.0,1.8,"XV. Gravidez, parto e puerpério",39.53,56.7,93.5,1172.81,Agudos,Atenção
+352320,3523206,Itararé,Itapeva,Sorocaba,Itapetininga,45213,2025,78,51,11.28,True,4170,2940444.15,2.02,1006.0,1025.0,-1.9,XIX. Lesões e envenenamentos por causas externas,92.23,81.8,45.3,705.14,Agudos,Adequado
+352330,3523305,Itariri,Santos,São Paulo,Litoral Sul Paulista,15916,2025,0,0,0.0,False,0,0.0,0.0,,,,,0.0,,,0.0,Sem internações,Não aplicável
+352340,3523404,Itatiba,Jundiaí,Campinas,Macro Metropolitana Paulista,127112,2025,156,96,7.55,True,7037,10215477.78,3.33,1583.0,1723.0,-8.1,XIV. Doenças do aparelho geniturinário,55.36,73.3,66.9,1451.68,Agudos,Adequado
+352350,3523503,Itatinga,Botucatu,Bauru,Bauru,19462,2025,14,7,3.6,True,302,121179.72,4.34,78.0,90.0,-13.3,X. Doenças do aparelho respiratório,15.52,43.1,51.3,401.26,Agudos,Adequado
+352360,3523602,Itirapina,São Carlos,Araraquara,Piracicaba,16454,2025,10,10,6.08,True,123,59042.04,4.59,48.0,31.0,54.8,X. Doenças do aparelho respiratório,7.48,12.3,15.5,480.02,Agudos,Adequado
+352370,3523701,Itirapuã,Franca,Ribeirão Preto,Ribeirão Preto,5857,2025,0,0,0.0,False,0,0.0,0.0,,,,,0.0,,,0.0,Sem internações,Não aplicável
+352380,3523800,Itobi,São José do Rio Pardo - Mococa,Campinas,Campinas,8227,2025,0,0,0.0,False,0,0.0,0.0,,,,,0.0,,,0.0,Sem internações,Não aplicável
+352390,3523909,Itu,Sorocaba,Sorocaba,Macro Metropolitana Paulista,175047,2025,416,304,17.37,True,8449,17415310.36,10.91,2198.0,2258.0,-2.7,"XV. Gravidez, parto e puerpério",48.27,27.8,83.1,2061.23,Permanência elevada,Adequado
+352400,3524006,Itupeva,Jundiaí,Campinas,Macro Metropolitana Paulista,74994,2025,86,48,6.4,True,2203,901998.21,3.47,557.0,563.0,-1.1,"XV. Gravidez, parto e puerpério",29.38,45.9,43.6,409.44,Agudos,Adequado
+352410,3524105,Ituverava,Ituverava,Ribeirão Preto,Ribeirão Preto,38413,2025,123,55,14.32,True,3686,6074590.68,3.75,883.0,1079.0,-18.2,XIV. Doenças do aparelho geniturinário,95.96,67.0,68.9,1648.02,Agudos,Adequado
+352420,3524204,Jaborandi,Barretos,Ribeirão Preto,Ribeirão Preto,6280,2025,17,17,27.07,True,56,23539.69,4.05,12.0,13.0,-7.7,XIV. Doenças do aparelho geniturinário,8.92,3.3,3.7,420.35,Agudos,Adequado
+352430,3524303,Jaboticabal,Ribeirão Preto,Ribeirão Preto,Ribeirão Preto,73473,2025,262,38,5.17,True,2249,2165626.81,4.4,631.0,531.0,18.8,XI. Doenças do aparelho digestivo,30.61,59.2,71.3,962.93,Agudos,Adequado
+352440,3524402,Jacareí,São José dos Campos,São José dos Campos,Vale do Paraíba Paulista,250952,2025,325,204,8.13,True,15166,23980961.86,4.03,4064.0,3753.0,8.3,II. Neoplasias (tumores),60.43,74.3,82.1,1581.23,Agudos,Adequado
+352450,3524501,Jaci,São José do Rio Preto,São José do Rio Preto,São José do Rio Preto,7944,2025,249,173,217.77,True,701,4902842.78,97.99,137.0,181.0,-24.3,IX. Doenças do aparelho circulatório,88.24,4.1,108.8,6994.07,Longa permanência,Não aplicável
+352460,3524600,Jacupiranga,Registro,Sorocaba,Litoral Sul Paulista,16216,2025,0,0,0.0,False,0,0.0,0.0,,,,,0.0,,,0.0,Sem internações,Não aplicável
+352470,3524709,Jaguariúna,Campinas,Campinas,Campinas,62309,2025,120,84,13.48,True,3925,4628614.31,3.39,915.0,1042.0,-12.2,"XV. Gravidez, parto e puerpério",62.99,46.7,43.4,1179.26,Agudos,Adequado
+352480,3524808,Jales,Jales,São José do Rio Preto,São José do Rio Preto,50078,2025,153,103,20.57,True,8711,15349431.16,3.22,2115.0,2224.0,-4.9,II. Neoplasias (tumores),173.95,84.6,74.6,1762.07,Agudos,Adequado
+352490,3524907,Jambeiro,São José dos Campos,São José dos Campos,Vale do Paraíba Paulista,6611,2025,0,0,0.0,False,0,0.0,0.0,,,,,0.0,,,0.0,Sem internações,Não aplicável
+352500,3525003,Jandira,São Paulo,São Paulo,Metropolitana de São Paulo,121550,2025,15,0,0.0,True,0,0.0,0.0,,,,,0.0,,,0.0,Sem internações,Não aplicável
+352510,3525102,Jardinópolis,Ribeirão Preto,Ribeirão Preto,Ribeirão Preto,47125,2025,0,0,0.0,False,0,0.0,0.0,,,,,0.0,,,0.0,Sem internações,Não aplicável
+352520,3525201,Jarinu,Jundiaí,Campinas,Macro Metropolitana Paulista,40007,2025,29,17,4.25,True,565,115188.18,3.36,143.0,170.0,-15.9,XXI. Contatos com serviços de saúde,14.12,33.2,30.6,203.87,Agudos,Adequado
+352530,3525300,Jaú,Jaú,Bauru,Bauru,137409,2025,783,569,41.41,True,27242,73824035.71,5.42,6981.0,6827.0,2.3,II. Neoplasias (tumores),198.25,47.9,71.1,2709.93,Agudos,Adequado
+352540,3525409,Jeriquara,Franca,Ribeirão Preto,Ribeirão Preto,4000,2025,0,0,0.0,False,0,0.0,0.0,,,,,0.0,,,0.0,Sem internações,Não aplicável
+352550,3525508,Joanópolis,Bragança Paulista,Campinas,Macro Metropolitana Paulista,13131,2025,12,12,9.14,True,216,84777.81,4.08,44.0,42.0,4.8,XIV. Doenças do aparelho geniturinário,16.45,18.0,20.1,392.49,Agudos,Adequado
+352560,3525607,João Ramalho,Presidente Prudente,Presidente Prudente,Presidente Prudente,4464,2025,0,0,0.0,False,0,0.0,0.0,,,,,0.0,,,0.0,Sem internações,Não aplicável
+352570,3525706,José Bonifácio,São José do Rio Preto,São José do Rio Preto,São José do Rio Preto,37992,2025,67,43,11.32,True,2471,1579778.41,4.45,677.0,568.0,19.2,X. Doenças do aparelho respiratório,65.04,57.5,70.1,639.33,Agudos,Adequado
+352580,3525805,Júlio Mesquita,Marília,Marília,Bauru,4302,2025,0,0,0.0,False,0,0.0,0.0,,,,,0.0,,,0.0,Sem internações,Não aplicável
+352585,3525854,Jumirim,Sorocaba,Sorocaba,Piracicaba,3132,2025,0,0,0.0,False,0,0.0,0.0,,,,,0.0,,,0.0,Sem internações,Não aplicável
+352590,3525904,Jundiaí,Jundiaí,Campinas,Macro Metropolitana Paulista,463039,2025,958,443,9.57,True,43991,61493119.52,3.86,11540.0,10701.0,7.8,XI. Doenças do aparelho digestivo,95.0,99.3,105.0,1397.86,Agudos,Crítico
+352600,3526001,Junqueirópolis,Dracena,Presidente Prudente,Presidente Prudente,20939,2025,52,25,11.94,True,1145,543785.15,6.45,268.0,318.0,-15.7,V. Transtornos mentais e comportamentais,54.68,45.8,80.9,474.92,Agudos,Adequado
+352610,3526100,Juquiá,Registro,Sorocaba,Litoral Sul Paulista,17184,2025,0,0,0.0,False,0,0.0,0.0,,,,,0.0,,,0.0,Sem internações,Não aplicável
+352620,3526209,Juquitiba,São Paulo,São Paulo,Metropolitana de São Paulo,27969,2025,0,0,0.0,False,0,0.0,0.0,,,,,0.0,,,0.0,Sem internações,Não aplicável
+352630,3526308,Lagoinha,Taubaté - Pindamonhangaba,São José dos Campos,Vale do Paraíba Paulista,5183,2025,0,0,0.0,False,0,0.0,0.0,,,,,0.0,,,0.0,Sem internações,Não aplicável
+352640,3526407,Laranjal Paulista,Piracicaba,Campinas,Itapetininga,27044,2025,46,28,10.35,True,1631,796356.99,3.62,448.0,380.0,17.9,"XV. Gravidez, parto e puerpério",60.31,58.2,57.8,488.26,Agudos,Adequado
+352650,3526506,Lavínia,Andradina,Araçatuba,Araçatuba,9940,2025,0,0,0.0,False,0,0.0,0.0,,,,,0.0,,,0.0,Sem internações,Não aplicável
+352660,3526605,Lavrinhas,Cruzeiro,São José dos Campos,Vale do Paraíba Paulista,7348,2025,0,0,0.0,False,0,0.0,0.0,,,,,0.0,,,0.0,Sem internações,Não aplicável
+352670,3526704,Leme,Araras,Campinas,Piracicaba,101537,2025,150,86,8.47,True,5432,5410406.22,3.51,1322.0,1373.0,-3.7,"XV. Gravidez, parto e puerpério",53.5,63.2,60.7,996.02,Agudos,Adequado
+352680,3526803,Lençóis Paulista,Bauru,Bauru,Bauru,68568,2025,171,43,6.27,True,3113,3665657.3,3.19,798.0,706.0,13.0,"XV. Gravidez, parto e puerpério",45.4,72.4,63.3,1177.53,Agudos,Adequado
+352690,3526902,Limeira,Limeira,Campinas,Piracicaba,301292,2025,354,179,5.94,True,16398,46094158.33,4.27,4325.0,4158.0,4.0,"XV. Gravidez, parto e puerpério",54.43,91.6,107.2,2810.96,Agudos,Crítico
+352700,3527009,Lindóia,Amparo,Campinas,Campinas,7158,2025,0,0,0.0,False,0,0.0,0.0,,,,,0.0,,,0.0,Sem internações,Não aplicável
+352710,3527108,Lins,Lins,Bauru,Bauru,76844,2025,333,260,33.83,True,8047,10223571.31,8.85,2104.0,1960.0,7.3,V. Transtornos mentais e comportamentais,104.72,31.0,75.0,1270.48,Permanência elevada,Adequado
+352720,3527207,Lorena,Guaratinguetá,São José dos Campos,Vale do Paraíba Paulista,87468,2025,177,106,12.12,True,4699,7878953.35,4.91,1286.0,1262.0,1.9,"XV. Gravidez, parto e puerpério",53.72,44.3,59.6,1676.73,Agudos,Adequado
+352725,3527256,Lourdes,Birigui - Penápolis,Araçatuba,Araçatuba,1962,2025,0,0,0.0,False,0,0.0,0.0,,,,,0.0,,,0.0,Sem internações,Não aplicável
+352730,3527306,Louveira,Jundiaí,Campinas,Macro Metropolitana Paulista,54865,2025,39,35,6.38,True,2546,1635215.99,2.51,628.0,666.0,-5.7,XI. Doenças do aparelho digestivo,46.4,72.7,50.0,642.27,Agudos,Adequado
+352740,3527405,Lucélia,Adamantina - Lucélia,Presidente Prudente,Presidente Prudente,20378,2025,32,26,12.76,True,643,226944.08,4.4,157.0,179.0,-12.3,X. Doenças do aparelho respiratório,31.55,24.7,29.8,352.95,Agudos,Adequado
+352750,3527504,Lucianópolis,Bauru,Bauru,Bauru,2423,2025,0,0,0.0,False,0,0.0,0.0,,,,,0.0,,,0.0,Sem internações,Não aplicável
+352760,3527603,Luís Antônio,Ribeirão Preto,Ribeirão Preto,Ribeirão Preto,12564,2025,0,0,0.0,False,0,0.0,0.0,,,,,0.0,,,0.0,Sem internações,Não aplicável
+352770,3527702,Luiziânia,Birigui - Penápolis,Araçatuba,Araçatuba,4740,2025,0,0,0.0,False,0,0.0,0.0,,,,,0.0,,,0.0,Sem internações,Não aplicável
+352780,3527801,Lupércio,Marília,Marília,Marília,4004,2025,0,0,0.0,False,0,0.0,0.0,,,,,0.0,,,0.0,Sem internações,Não aplicável
+352790,3527900,Lutécia,Assis,Marília,Assis,2697,2025,0,0,0.0,False,0,0.0,0.0,,,,,0.0,,,0.0,Sem internações,Não aplicável
+352800,3528007,Macatuba,Bauru,Bauru,Bauru,17140,2025,31,18,10.5,True,759,307410.68,2.76,187.0,224.0,-16.5,XI. Doenças do aparelho digestivo,44.28,42.2,31.9,405.02,Agudos,Adequado
+352810,3528106,Macaubal,São José do Rio Preto,São José do Rio Preto,São José do Rio Preto,7581,2025,15,10,13.19,True,81,31471.32,2.53,27.0,25.0,8.0,X. Doenças do aparelho respiratório,10.68,8.1,5.6,388.53,Agudos,Adequado
+352820,3528205,Macedônia,Fernandópolis,São José do Rio Preto,São José do Rio Preto,4058,2025,0,0,0.0,False,0,0.0,0.0,,,,,0.0,,,0.0,Sem internações,Não aplicável
+352830,3528304,Magda,Araçatuba,Araçatuba,São José do Rio Preto,3211,2025,0,0,0.0,False,0,0.0,0.0,,,,,0.0,,,0.0,Sem internações,Não aplicável
+352840,3528403,Mairinque,Sorocaba,Sorocaba,Macro Metropolitana Paulista,51888,2025,0,0,0.0,False,0,0.0,0.0,,,,,0.0,,,0.0,Sem internações,Não aplicável
+352850,3528502,Mairiporã,São Paulo,São Paulo,Metropolitana de São Paulo,97835,2025,39,39,3.99,True,2858,949303.75,2.98,789.0,683.0,15.5,XIX. Lesões e envenenamentos por causas externas,29.21,73.3,59.8,332.16,Agudos,Adequado
+352860,3528601,Manduri,Avaré,Sorocaba,Assis,10122,2025,0,0,0.0,False,0,0.0,0.0,,,,,0.0,,,0.0,Sem internações,Não aplicável
+352870,3528700,Marabá Paulista,Presidente Epitácio-Presidente Venceslau,Presidente Prudente,Presidente Prudente,4619,2025,0,0,0.0,False,0,0.0,0.0,,,,,0.0,,,0.0,Sem internações,Não aplicável
+352880,3528809,Maracaí,Assis,Marília,Assis,12804,2025,26,22,17.18,True,899,541918.82,3.04,228.0,257.0,-11.3,II. Neoplasias (tumores),70.21,40.9,34.0,602.8,Agudos,Adequado
+352885,3528858,Marapoama,Catanduva,São José do Rio Preto,São José do Rio Preto,3415,2025,0,0,0.0,False,0,0.0,0.0,,,,,0.0,,,0.0,Sem internações,Não aplicável
+352890,3528908,Mariápolis,Adamantina - Lucélia,Presidente Prudente,Presidente Prudente,3526,2025,0,0,0.0,False,0,0.0,0.0,,,,,0.0,,,0.0,Sem internações,Não aplicável
+352900,3529005,Marília,Marília,Marília,Marília,247348,2025,883,601,24.3,True,31202,84051959.01,5.63,7819.0,8021.0,-2.5,IX. Doenças do aparelho circulatório,126.15,51.9,80.1,2693.8,Agudos,Adequado
+352910,3529104,Marinópolis,Jales,São José do Rio Preto,São José do Rio Preto,1862,2025,0,0,0.0,False,0,0.0,0.0,,,,,0.0,,,0.0,Sem internações,Não aplicável
+352920,3529203,Martinópolis,Presidente Prudente,Presidente Prudente,Presidente Prudente,25240,2025,49,43,17.04,True,3047,1289770.9,1.92,794.0,758.0,4.7,XI. Doenças do aparelho digestivo,120.72,70.9,37.3,423.29,Agudos,Adequado
+352930,3529302,Matão,Araraquara,Araraquara,Araraquara,81075,2025,277,86,10.61,True,6520,21196940.75,4.29,1747.0,1657.0,5.4,IX. Doenças do aparelho circulatório,80.42,75.8,89.1,3251.06,Agudos,Atenção
+352940,3529401,Mauá,São Paulo,São Paulo,Metropolitana de São Paulo,429014,2025,496,246,5.73,True,13897,15807735.02,5.05,3505.0,3523.0,-0.5,XIX. Lesões e envenenamentos por causas externas,32.39,56.5,78.2,1137.49,Agudos,Adequado
+352950,3529500,Mendonça,São José do Rio Preto,São José do Rio Preto,São José do Rio Preto,6420,2025,0,0,0.0,False,0,0.0,0.0,,,,,0.0,,,0.0,Sem internações,Não aplicável
+352960,3529609,Meridiano,Fernandópolis,São José do Rio Preto,São José do Rio Preto,4721,2025,0,0,0.0,False,0,0.0,0.0,,,,,0.0,,,0.0,Sem internações,Não aplicável
+352965,3529658,Mesópolis,Jales,São José do Rio Preto,São José do Rio Preto,1990,2025,0,0,0.0,False,0,0.0,0.0,,,,,0.0,,,0.0,Sem internações,Não aplicável
+352970,3529708,Miguelópolis,Ituverava,Ribeirão Preto,Ribeirão Preto,19621,2025,72,51,25.99,True,1041,551587.95,3.19,259.0,351.0,-26.2,I. Doenças infecciosas e parasitárias,53.06,20.4,17.8,529.86,Agudos,Adequado
+352980,3529807,Mineiros do Tietê,Jaú,Bauru,Bauru,11322,2025,11,11,9.72,True,0,0.0,0.0,,,,,0.0,0.0,0.0,0.0,Sem internações,Não aplicável
+352990,3529906,Miracatu,Registro,Sorocaba,Litoral Sul Paulista,18610,2025,0,0,0.0,False,0,0.0,0.0,,,,,0.0,,,0.0,Sem internações,Não aplicável
+353000,3530003,Mira Estrela,Fernandópolis,São José do Rio Preto,São José do Rio Preto,3209,2025,0,0,0.0,False,0,0.0,0.0,,,,,0.0,,,0.0,Sem internações,Não aplicável
+353010,3530102,Mirandópolis,Andradina,Araçatuba,Araçatuba,28754,2025,80,80,27.82,True,3505,3513336.81,4.38,940.0,866.0,8.5,X. Doenças do aparelho respiratório,121.9,43.8,52.6,1002.38,Agudos,Adequado
+353020,3530201,Mirante do Paranapanema,Presidente Prudente,Presidente Prudente,Presidente Prudente,16031,2025,23,23,14.35,True,0,0.0,0.0,,,,,0.0,0.0,0.0,0.0,Sem internações,Não aplicável
+353030,3530300,Mirassol,São José do Rio Preto,São José do Rio Preto,São José do Rio Preto,65811,2025,167,0,0.0,True,610,310855.84,2.25,0.0,551.0,-100.0,"XV. Gravidez, parto e puerpério",9.27,,,509.6,Agudos,Sem leitos SUS
+353040,3530409,Mirassolândia,São José do Rio Preto,São José do Rio Preto,São José do Rio Preto,4783,2025,0,0,0.0,False,0,0.0,0.0,,,,,0.0,,,0.0,Sem internações,Não aplicável
+353050,3530508,Mococa,São José do Rio Pardo - Mococa,Campinas,Campinas,69372,2025,125,82,11.82,True,5040,5494353.56,3.37,1210.0,1351.0,-10.4,"XV. Gravidez, parto e puerpério",72.65,61.5,56.7,1090.15,Agudos,Adequado
+353060,3530607,Mogi das Cruzes,São Paulo,São Paulo,Metropolitana de São Paulo,470302,2025,854,617,13.12,True,36119,63679186.4,5.13,9111.0,9858.0,-7.6,XIX. Lesões e envenenamentos por causas externas,76.8,58.5,82.3,1763.04,Agudos,Adequado
+353070,3530706,Mogi Guaçu,Mogi Guaçu,Campinas,Campinas,160318,2025,331,155,9.67,True,9773,18810744.6,4.8,2458.0,2660.0,-7.6,"XV. Gravidez, parto e puerpério",60.96,63.1,82.9,1924.77,Agudos,Adequado
+353080,3530805,Mogi Mirim,Mogi Guaçu,Campinas,Campinas,95742,2025,172,109,11.38,True,5261,11709160.52,6.82,1418.0,1284.0,10.4,XI. Doenças do aparelho digestivo,54.95,48.3,90.2,2225.65,Agudos,Atenção
+353090,3530904,Mombuca,Piracicaba,Campinas,Piracicaba,3830,2025,0,0,0.0,False,0,0.0,0.0,,,,,0.0,,,0.0,Sem internações,Não aplicável
+353100,3531001,Monções,Araçatuba,Araçatuba,São José do Rio Preto,1947,2025,0,0,0.0,False,0,0.0,0.0,,,,,0.0,,,0.0,Sem internações,Não aplicável
+353110,3531100,Mongaguá,Santos,São Paulo,Litoral Sul Paulista,64845,2025,36,36,5.55,True,940,234656.5,4.14,239.0,268.0,-10.8,X. Doenças do aparelho respiratório,14.5,26.1,29.6,249.63,Agudos,Adequado
+353120,3531209,Monte Alegre do Sul,Amparo,Campinas,Campinas,8923,2025,0,0,0.0,False,0,0.0,0.0,,,,,0.0,,,0.0,Sem internações,Não aplicável
+353130,3531308,Monte Alto,Ribeirão Preto,Ribeirão Preto,Ribeirão Preto,48758,2025,88,42,8.61,True,2543,4639547.4,4.46,599.0,716.0,-16.3,XI. Doenças do aparelho digestivo,52.16,60.5,74.0,1824.44,Agudos,Adequado
+353140,3531407,Monte Aprazível,São José do Rio Preto,São José do Rio Preto,São José do Rio Preto,22668,2025,80,30,13.23,True,3357,1660494.66,2.02,798.0,870.0,-8.3,X. Doenças do aparelho respiratório,148.09,111.9,61.9,494.64,Agudos,Adequado
+353150,3531506,Monte Azul Paulista,Barretos,Ribeirão Preto,Ribeirão Preto,18337,2025,70,51,27.81,True,1658,2983859.97,1.86,441.0,431.0,2.3,VII. Doenças do olho e anexos,90.42,32.5,16.6,1799.67,Agudos,Adequado
+353160,3531605,Monte Castelo,Dracena,Presidente Prudente,Presidente Prudente,4306,2025,0,0,0.0,False,0,0.0,0.0,,,,,0.0,,,0.0,Sem internações,Não aplicável
+353170,3531704,Monteiro Lobato,São José dos Campos,São José dos Campos,Vale do Paraíba Paulista,4205,2025,0,0,0.0,False,0,0.0,0.0,,,,,0.0,,,0.0,Sem internações,Não aplicável
+353180,3531803,Monte Mor,Campinas,Campinas,Campinas,67832,2025,35,26,3.83,True,1090,518326.75,3.38,255.0,317.0,-19.6,"XV. Gravidez, parto e puerpério",16.07,41.9,38.8,475.53,Agudos,Adequado
+353190,3531902,Morro Agudo,São Joaquim da Barra ¿ Orlândia,Ribeirão Preto,Ribeirão Preto,28521,2025,47,35,12.27,True,1780,2144490.62,2.82,400.0,445.0,-10.1,XI. Doenças do aparelho digestivo,62.41,50.9,39.3,1204.77,Agudos,Adequado
+353200,3532009,Morungaba,Jundiaí,Campinas,Macro Metropolitana Paulista,14147,2025,8,8,5.65,True,230,100599.75,2.82,58.0,74.0,-21.6,X. Doenças do aparelho respiratório,16.26,28.8,22.2,437.39,Agudos,Adequado
+353205,3532058,Motuca,Araraquara,Araraquara,Araraquara,4071,2025,0,0,0.0,False,0,0.0,0.0,,,,,0.0,,,0.0,Sem internações,Não aplicável
+353210,3532108,Murutinga do Sul,Andradina,Araçatuba,Araçatuba,3748,2025,0,0,0.0,False,0,0.0,0.0,,,,,0.0,,,0.0,Sem internações,Não aplicável
+353215,3532157,Nantes,Presidente Prudente,Presidente Prudente,Assis,2697,2025,0,0,0.0,False,0,0.0,0.0,,,,,0.0,,,0.0,Sem internações,Não aplicável
+353220,3532207,Narandiba,Presidente Prudente,Presidente Prudente,Presidente Prudente,5956,2025,0,0,0.0,False,0,0.0,0.0,,,,,0.0,,,0.0,Sem internações,Não aplicável
+353230,3532306,Natividade da Serra,Taubaté - Pindamonhangaba,São José dos Campos,Vale do Paraíba Paulista,7155,2025,0,0,0.0,False,0,0.0,0.0,,,,,0.0,,,0.0,Sem internações,Não aplicável
+353240,3532405,Nazaré Paulista,Bragança Paulista,Campinas,Macro Metropolitana Paulista,18675,2025,26,17,9.1,True,332,121984.88,4.96,0.0,127.0,-100.0,X. Doenças do aparelho respiratório,17.78,19.5,26.5,367.42,Agudos,Adequado
+353250,3532504,Neves Paulista,São José do Rio Preto,São José do Rio Preto,São José do Rio Preto,9953,2025,21,10,10.05,True,54,21044.49,3.94,3.0,15.0,-80.0,X. Doenças do aparelho respiratório,5.43,5.4,5.8,389.71,Agudos,Adequado
+353260,3532603,Nhandeara,Votuporanga,São José do Rio Preto,São José do Rio Preto,9915,2025,129,35,35.3,True,2789,2664152.81,3.68,769.0,668.0,15.1,X. Doenças do aparelho respiratório,281.29,79.7,80.3,955.24,Agudos,Adequado
+353270,3532702,Nipoã,São José do Rio Preto,São José do Rio Preto,São José do Rio Preto,4876,2025,0,0,0.0,False,0,0.0,0.0,,,,,0.0,,,0.0,Sem internações,Não aplicável
+353280,3532801,Nova Aliança,São José do Rio Preto,São José do Rio Preto,São José do Rio Preto,6885,2025,0,0,0.0,False,0,0.0,0.0,,,,,0.0,,,0.0,Sem internações,Não aplicável
+353282,3532827,Nova Campina,Itapeva,Sorocaba,Itapetininga,8630,2025,0,0,0.0,False,0,0.0,0.0,,,,,0.0,,,0.0,Sem internações,Não aplicável
+353284,3532843,Nova Canaã Paulista,Santa Fé do Sul,São José do Rio Preto,São José do Rio Preto,2055,2025,0,0,0.0,False,0,0.0,0.0,,,,,0.0,,,0.0,Sem internações,Não aplicável
+353286,3532868,Nova Castilho,Araçatuba,Araçatuba,São José do Rio Preto,1072,2025,0,0,0.0,False,0,0.0,0.0,,,,,0.0,,,0.0,Sem internações,Não aplicável
+353290,3532900,Nova Europa,Araraquara,Araraquara,Araraquara,9459,2025,16,12,12.69,True,336,167989.61,3.92,91.0,79.0,15.2,IX. Doenças do aparelho circulatório,35.52,28.0,30.1,499.97,Agudos,Adequado
+353300,3533007,Nova Granada,São José do Rio Preto,São José do Rio Preto,São José do Rio Preto,19733,2025,62,31,15.71,True,1966,758405.03,2.94,537.0,494.0,8.7,X. Doenças do aparelho respiratório,99.63,63.4,51.1,385.76,Agudos,Adequado
+353310,3533106,Nova Guataporanga,Dracena,Presidente Prudente,Presidente Prudente,2188,2025,0,0,0.0,False,0,0.0,0.0,,,,,0.0,,,0.0,Sem internações,Não aplicável
+353320,3533205,Nova Independência,Andradina,Araçatuba,Araçatuba,4847,2025,0,0,0.0,False,0,0.0,0.0,,,,,0.0,,,0.0,Sem internações,Não aplicável
+353325,3533254,Novais,Catanduva,São José do Rio Preto,São José do Rio Preto,4463,2025,0,0,0.0,False,0,0.0,0.0,,,,,0.0,,,0.0,Sem internações,Não aplicável
+353330,3533304,Nova Luzitânia,Araçatuba,Araçatuba,São José do Rio Preto,2817,2025,0,0,0.0,False,0,0.0,0.0,,,,,0.0,,,0.0,Sem internações,Não aplicável
+353340,3533403,Nova Odessa,Campinas,Campinas,Campinas,64596,2025,60,60,9.29,True,1624,866814.35,5.11,421.0,420.0,0.2,"XV. Gravidez, parto e puerpério",25.14,27.1,37.9,533.75,Agudos,Adequado
+353350,3533502,Novo Horizonte,São José do Rio Preto,São José do Rio Preto,São José do Rio Preto,39494,2025,73,41,10.38,True,2347,3368322.4,3.13,626.0,630.0,-0.6,XIV. Doenças do aparelho geniturinário,59.43,57.2,49.1,1435.16,Agudos,Adequado
+353360,3533601,Nuporanga,São Joaquim da Barra ¿ Orlândia,Ribeirão Preto,Ribeirão Preto,7570,2025,0,0,0.0,False,0,0.0,0.0,,,,,0.0,,,0.0,Sem internações,Não aplicável
+353370,3533700,Ocauçu,Marília,Marília,Marília,4418,2025,0,0,0.0,False,0,0.0,0.0,,,,,0.0,,,0.0,Sem internações,Não aplicável
+353380,3533809,Óleo,Avaré,Sorocaba,Assis,2535,2025,0,0,0.0,False,0,0.0,0.0,,,,,0.0,,,0.0,Sem internações,Não aplicável
+353390,3533908,Olímpia,Barretos,Ribeirão Preto,São José do Rio Preto,56874,2025,82,50,8.79,True,3718,3876327.97,4.34,969.0,969.0,0.0,X. Doenças do aparelho respiratório,65.37,74.4,88.4,1042.58,Agudos,Atenção
+353400,3534005,Onda Verde,São José do Rio Preto,São José do Rio Preto,São José do Rio Preto,4942,2025,0,0,0.0,False,0,0.0,0.0,,,,,0.0,,,0.0,Sem internações,Não aplicável
+353410,3534104,Oriente,Marília,Marília,Marília,6180,2025,0,0,0.0,False,0,0.0,0.0,,,,,0.0,,,0.0,Sem internações,Não aplicável
+353420,3534203,Orindiúva,São José do Rio Preto,São José do Rio Preto,São José do Rio Preto,6157,2025,0,0,0.0,False,0,0.0,0.0,,,,,0.0,,,0.0,Sem internações,Não aplicável
+353430,3534302,Orlândia,São Joaquim da Barra ¿ Orlândia,Ribeirão Preto,Ribeirão Preto,39144,2025,98,60,15.33,True,2755,1381339.78,1.57,722.0,607.0,18.9,"XV. Gravidez, parto e puerpério",70.38,45.9,19.8,501.39,Agudos,Adequado
+353440,3534401,Osasco,São Paulo,São Paulo,Metropolitana de São Paulo,759524,2025,1038,644,8.48,True,27200,39321583.26,5.68,7083.0,7048.0,0.5,XIX. Lesões e envenenamentos por causas externas,35.81,42.2,65.7,1445.65,Agudos,Adequado
+353450,3534500,Oscar Bressane,Marília,Marília,Marília,2502,2025,0,0,0.0,False,0,0.0,0.0,,,,,0.0,,,0.0,Sem internações,Não aplicável
+353460,3534609,Osvaldo Cruz,Adamantina - Lucélia,Presidente Prudente,Presidente Prudente,32112,2025,96,58,18.06,True,2619,1533390.33,3.33,676.0,656.0,3.0,XIX. Lesões e envenenamentos por causas externas,81.56,45.2,41.2,585.49,Agudos,Adequado
+353470,3534708,Ourinhos,Ourinhos,Marília,Assis,106911,2025,205,111,10.38,True,10558,20674656.87,4.08,2526.0,2704.0,-6.6,IX. Doenças do aparelho circulatório,98.76,95.1,106.3,1958.2,Agudos,Crítico
+353475,3534757,Ouroeste,Fernandópolis,São José do Rio Preto,São José do Rio Preto,10660,2025,33,28,26.27,True,574,305786.95,3.38,167.0,143.0,16.8,XIV. Doenças do aparelho geniturinário,53.85,20.5,19.0,532.73,Agudos,Adequado
+353480,3534807,Ouro Verde,Dracena,Presidente Prudente,Presidente Prudente,7900,2025,0,0,0.0,False,0,0.0,0.0,,,,,0.0,,,0.0,Sem internações,Não aplicável
+353490,3534906,Pacaembu,Adamantina - Lucélia,Presidente Prudente,Presidente Prudente,15273,2025,0,0,0.0,False,0,0.0,0.0,,,,,0.0,,,0.0,Sem internações,Não aplicável
+353500,3535002,Palestina,São José do Rio Preto,São José do Rio Preto,São José do Rio Preto,11704,2025,0,0,0.0,False,0,0.0,0.0,,,,,0.0,,,0.0,Sem internações,Não aplicável
+353510,3535101,Palmares Paulista,Catanduva,São José do Rio Preto,São José do Rio Preto,9666,2025,0,0,0.0,False,0,0.0,0.0,,,,,0.0,,,0.0,Sem internações,Não aplicável
+353520,3535200,Palmeira d'Oeste,Jales,São José do Rio Preto,São José do Rio Preto,8971,2025,20,12,13.38,True,714,227185.01,2.93,167.0,180.0,-7.2,X. Doenças do aparelho respiratório,79.59,59.5,47.8,318.19,Agudos,Adequado
+353530,3535309,Palmital,Assis,Marília,Assis,19714,2025,43,29,14.71,True,2351,1699397.49,2.01,703.0,539.0,30.4,IX. Doenças do aparelho circulatório,119.26,81.1,44.6,722.84,Agudos,Adequado
+353540,3535408,Panorama,Dracena,Presidente Prudente,Presidente Prudente,15227,2025,0,0,0.0,False,0,0.0,0.0,,,,,0.0,,,0.0,Sem internações,Não aplicável
+353550,3535507,Paraguaçu Paulista,Assis,Marília,Assis,42049,2025,100,73,17.36,True,5326,6967560.74,3.07,1212.0,1307.0,-7.3,VII. Doenças do olho e anexos,126.66,73.0,61.4,1308.22,Agudos,Adequado
+353560,3535606,Paraibuna,São José dos Campos,São José dos Campos,Vale do Paraíba Paulista,17959,2025,0,0,0.0,False,0,0.0,0.0,,,,,0.0,,,0.0,Sem internações,Não aplicável
+353570,3535705,Paraíso,Catanduva,São José do Rio Preto,São José do Rio Preto,6218,2025,0,0,0.0,False,0,0.0,0.0,,,,,0.0,,,0.0,Sem internações,Não aplicável
+353580,3535804,Paranapanema,Avaré,Sorocaba,Bauru,19853,2025,16,16,8.06,True,797,319961.02,2.94,205.0,221.0,-7.2,"XV. Gravidez, parto e puerpério",40.15,49.8,40.1,401.46,Agudos,Adequado
+353590,3535903,Paranapuã,Jales,São José do Rio Preto,São José do Rio Preto,4118,2025,0,0,0.0,False,0,0.0,0.0,,,,,0.0,,,0.0,Sem internações,Não aplicável
+353600,3536000,Parapuã,Tupã,Marília,Presidente Prudente,10720,2025,32,26,24.25,True,184,56755.64,4.44,0.0,0.0,,X. Doenças do aparelho respiratório,17.16,7.1,8.6,308.45,Agudos,Adequado
+353610,3536109,Pardinho,Botucatu,Bauru,Bauru,7435,2025,0,0,0.0,False,0,0.0,0.0,,,,,0.0,,,0.0,Sem internações,Não aplicável
+353620,3536208,Pariquera-Açu,Registro,Sorocaba,Litoral Sul Paulista,19603,2025,139,139,70.91,True,9518,12345500.81,4.23,2385.0,2399.0,-0.6,"XV. Gravidez, parto e puerpério",485.54,68.5,79.4,1297.07,Agudos,Adequado
+353625,3536257,Parisi,Votuporanga,São José do Rio Preto,São José do Rio Preto,3030,2025,0,0,0.0,False,0,0.0,0.0,,,,,0.0,,,0.0,Sem internações,Não aplicável
+353630,3536307,Patrocínio Paulista,Franca,Ribeirão Preto,Ribeirão Preto,14888,2025,35,30,20.15,True,983,528173.94,3.14,289.0,217.0,33.2,"XV. Gravidez, parto e puerpério",66.03,32.8,28.2,537.31,Agudos,Adequado
+353640,3536406,Paulicéia,Dracena,Presidente Prudente,Presidente Prudente,8255,2025,0,0,0.0,False,0,0.0,0.0,,,,,0.0,,,0.0,Sem internações,Não aplicável
+353650,3536505,Paulínia,Campinas,Campinas,Campinas,116674,2025,171,154,13.2,True,5293,4978773.85,3.76,0.0,1280.0,-100.0,X. Doenças do aparelho respiratório,45.37,34.4,35.4,940.63,Agudos,Adequado
+353657,3536570,Paulistânia,Bauru,Bauru,Bauru,2156,2025,0,0,0.0,False,0,0.0,0.0,,,,,0.0,,,0.0,Sem internações,Não aplicável
+353660,3536604,Paulo de Faria,São José do Rio Preto,São José do Rio Preto,São José do Rio Preto,7390,2025,24,18,24.36,True,140,51831.75,4.01,39.0,29.0,34.5,X. Doenças do aparelho respiratório,18.94,7.8,8.5,370.23,Agudos,Adequado
+353670,3536703,Pederneiras,Bauru,Bauru,Bauru,46337,2025,62,54,11.65,True,2044,2182642.51,4.18,551.0,534.0,3.2,XIX. Lesões e envenenamentos por causas externas,44.11,37.9,43.3,1067.83,Agudos,Adequado
+353680,3536802,Pedra Bela,Bragança Paulista,Campinas,Campinas,6745,2025,0,0,0.0,False,0,0.0,0.0,,,,,0.0,,,0.0,Sem internações,Não aplicável
+353690,3536901,Pedranópolis,Fernandópolis,São José do Rio Preto,São José do Rio Preto,2856,2025,0,0,0.0,False,0,0.0,0.0,,,,,0.0,,,0.0,Sem internações,Não aplicável
+353700,3537008,Pedregulho,Franca,Ribeirão Preto,Ribeirão Preto,15737,2025,64,55,34.95,True,1068,470938.63,2.52,231.0,286.0,-19.2,X. Doenças do aparelho respiratório,67.87,19.4,13.4,440.95,Agudos,Adequado
+353710,3537107,Pedreira,Campinas,Campinas,Campinas,44385,2025,28,28,6.31,True,1205,996207.06,3.99,307.0,291.0,5.5,XI. Doenças do aparelho digestivo,27.15,43.0,47.0,826.73,Agudos,Adequado
+353715,3537156,Pedrinhas Paulista,Assis,Marília,Assis,2833,2025,0,0,0.0,False,0,0.0,0.0,,,,,0.0,,,0.0,Sem internações,Não aplicável
+353720,3537206,Pedro de Toledo,Santos,São Paulo,Litoral Sul Paulista,11617,2025,3,3,2.58,True,0,0.0,0.0,,,,,0.0,0.0,0.0,0.0,Sem internações,Não aplicável
+353730,3537305,Penápolis,Birigui - Penápolis,Araçatuba,Araçatuba,63426,2025,157,121,19.08,True,6033,6501597.35,6.03,1527.0,1474.0,3.6,"XV. Gravidez, parto e puerpério",95.12,49.9,82.4,1077.67,Agudos,Adequado
+353740,3537404,Pereira Barreto,Andradina,Araçatuba,Araçatuba,24360,2025,52,48,19.7,True,869,416124.26,2.78,163.0,211.0,-22.7,XIV. Doenças do aparelho geniturinário,35.67,18.1,13.8,478.85,Agudos,Adequado
+353750,3537503,Pereiras,Tatuí,Sorocaba,Itapetininga,9013,2025,0,0,0.0,False,0,0.0,0.0,,,,,0.0,,,0.0,Sem internações,Não aplicável
+353760,3537602,Peruíbe,Santos,São Paulo,Litoral Sul Paulista,70629,2025,75,72,10.19,True,0,0.0,0.0,,,,,0.0,0.0,0.0,0.0,Sem internações,Não aplicável
+353770,3537701,Piacatu,Birigui - Penápolis,Araçatuba,Araçatuba,5631,2025,0,0,0.0,False,0,0.0,0.0,,,,,0.0,,,0.0,Sem internações,Não aplicável
+353780,3537800,Piedade,Sorocaba,Sorocaba,Macro Metropolitana Paulista,54266,2025,80,60,11.06,True,3088,1547877.66,3.19,794.0,746.0,6.4,X. Doenças do aparelho respiratório,56.9,51.5,45.0,501.26,Agudos,Adequado
+353790,3537909,Pilar do Sul,Sorocaba,Sorocaba,Macro Metropolitana Paulista,28459,2025,35,27,9.49,True,1089,475782.85,2.5,323.0,264.0,22.3,"XV. Gravidez, parto e puerpério",38.27,40.3,27.6,436.9,Agudos,Adequado
+353800,3538006,Pindamonhangaba,Taubaté - Pindamonhangaba,São José dos Campos,Vale do Paraíba Paulista,172681,2025,398,127,7.35,True,7887,10699508.12,5.03,1885.0,1510.0,24.8,"XV. Gravidez, parto e puerpério",45.67,62.1,85.6,1356.6,Agudos,Atenção
+353810,3538105,Pindorama,Catanduva,São José do Rio Preto,São José do Rio Preto,14704,2025,0,0,0.0,False,0,0.0,0.0,,,,,0.0,,,0.0,Sem internações,Não aplicável
+353820,3538204,Pinhalzinho,Bragança Paulista,Campinas,Campinas,15676,2025,0,0,0.0,False,0,0.0,0.0,,,,,0.0,,,0.0,Sem internações,Não aplicável
+353830,3538303,Piquerobi,Presidente Epitácio-Presidente Venceslau,Presidente Prudente,Presidente Prudente,3287,2025,0,0,0.0,False,0,0.0,0.0,,,,,0.0,,,0.0,Sem internações,Não aplicável
+353850,3538501,Piquete,Guaratinguetá,São José dos Campos,Vale do Paraíba Paulista,12516,2025,0,0,0.0,False,0,0.0,0.0,,,,,0.0,,,0.0,Sem internações,Não aplicável
+353860,3538600,Piracaia,Bragança Paulista,Campinas,Macro Metropolitana Paulista,26795,2025,64,28,10.45,True,497,177333.47,4.23,130.0,121.0,7.4,X. Doenças do aparelho respiratório,18.55,17.8,20.6,356.81,Agudos,Adequado
+353870,3538709,Piracicaba,Piracicaba,Campinas,Piracicaba,440835,2025,803,421,9.55,True,36333,77830617.41,3.2,9437.0,9222.0,2.3,XI. Doenças do aparelho digestivo,82.42,86.3,75.7,2142.15,Agudos,Adequado
+353880,3538808,Piraju,Piraju,Marília,Assis,30294,2025,68,49,16.17,True,1990,897676.44,2.98,573.0,502.0,14.1,X. Doenças do aparelho respiratório,65.69,40.6,33.2,451.09,Agudos,Adequado
+353890,3538907,Pirajuí,Bauru,Bauru,Bauru,22734,2025,285,83,36.51,True,1348,1875429.09,12.91,329.0,395.0,-16.7,XI. Doenças do aparelho digestivo,59.29,16.2,57.4,1391.27,Permanência elevada,Adequado
+353900,3539004,Pirangi,Catanduva,São José do Rio Preto,Ribeirão Preto,11085,2025,47,22,19.85,True,1586,2089893.47,1.72,357.0,346.0,3.2,X. Doenças do aparelho respiratório,143.08,72.1,34.0,1317.71,Agudos,Adequado
+353910,3539103,Pirapora do Bom Jesus,São Paulo,São Paulo,Metropolitana de São Paulo,18925,2025,0,0,0.0,False,0,0.0,0.0,,,,,0.0,,,0.0,Sem internações,Não aplicável
+353920,3539202,Pirapozinho,Presidente Prudente,Presidente Prudente,Presidente Prudente,26097,2025,0,0,0.0,False,0,0.0,0.0,,,,,0.0,,,0.0,Sem internações,Não aplicável
+353930,3539301,Pirassununga,São Carlos,Araraquara,Campinas,75594,2025,130,68,9.0,True,2675,3459750.91,4.42,673.0,675.0,-0.3,"XV. Gravidez, parto e puerpério",35.39,39.3,47.6,1293.36,Agudos,Adequado
+353940,3539400,Piratininga,Bauru,Bauru,Bauru,15657,2025,25,21,13.41,True,292,93354.7,6.23,70.0,85.0,-17.6,XIV. Doenças do aparelho geniturinário,18.65,13.9,23.7,319.71,Agudos,Adequado
+353950,3539509,Pitangueiras,Ribeirão Preto,Ribeirão Preto,Ribeirão Preto,34361,2025,53,30,8.73,True,1463,805639.16,2.31,393.0,366.0,7.4,"XV. Gravidez, parto e puerpério",42.58,48.8,30.9,550.68,Agudos,Adequado
+353960,3539608,Planalto,São José do Rio Preto,São José do Rio Preto,São José do Rio Preto,4451,2025,0,0,0.0,False,0,0.0,0.0,,,,,0.0,,,0.0,Sem internações,Não aplicável
+353970,3539707,Platina,Assis,Marília,Assis,3055,2025,0,0,0.0,False,0,0.0,0.0,,,,,0.0,,,0.0,Sem internações,Não aplicável
+353980,3539806,Poá,São Paulo,São Paulo,Metropolitana de São Paulo,106355,2025,0,0,0.0,False,0,0.0,0.0,,,,,0.0,,,0.0,Sem internações,Não aplicável
+353990,3539905,Poloni,São José do Rio Preto,São José do Rio Preto,São José do Rio Preto,5702,2025,0,0,0.0,False,0,0.0,0.0,,,,,0.0,,,0.0,Sem internações,Não aplicável
+354000,3540002,Pompéia,Marília,Marília,Marília,20520,2025,21,16,7.8,True,836,368252.52,2.99,212.0,229.0,-7.4,XXI. Contatos com serviços de saúde,40.74,52.2,42.8,440.49,Agudos,Adequado
+354010,3540101,Pongaí,Lins,Bauru,Bauru,3440,2025,0,0,0.0,False,0,0.0,0.0,,,,,0.0,,,0.0,Sem internações,Não aplicável
+354020,3540200,Pontal,Ribeirão Preto,Ribeirão Preto,Ribeirão Preto,38286,2025,45,29,7.57,True,1414,767502.1,1.49,325.0,333.0,-2.4,IX. Doenças do aparelho circulatório,36.93,48.8,19.9,542.79,Agudos,Adequado
+354025,3540259,Pontalinda,Jales,São José do Rio Preto,São José do Rio Preto,4198,2025,0,0,0.0,False,0,0.0,0.0,,,,,0.0,,,0.0,Sem internações,Não aplicável
+354030,3540309,Pontes Gestal,Votuporanga,São José do Rio Preto,São José do Rio Preto,2411,2025,0,0,0.0,False,0,0.0,0.0,,,,,0.0,,,0.0,Sem internações,Não aplicável
+354040,3540408,Populina,Jales,São José do Rio Preto,São José do Rio Preto,4182,2025,18,6,14.35,True,159,54534.73,3.8,32.0,38.0,-15.8,X. Doenças do aparelho respiratório,38.02,26.5,27.6,342.99,Agudos,Adequado
+354050,3540507,Porangaba,Tatuí,Sorocaba,Itapetininga,10850,2025,0,0,0.0,False,0,0.0,0.0,,,,,0.0,,,0.0,Sem internações,Não aplicável
+354060,3540606,Porto Feliz,Sorocaba,Sorocaba,Macro Metropolitana Paulista,58605,2025,82,71,12.12,True,4423,3634412.97,2.56,1021.0,1351.0,-24.4,VII. Doenças do olho e anexos,75.47,62.3,43.7,821.71,Agudos,Adequado
+354070,3540705,Porto Ferreira,São Carlos,Araraquara,Campinas,53966,2025,55,33,6.11,True,2458,2487403.34,3.43,633.0,593.0,6.7,"XV. Gravidez, parto e puerpério",45.55,74.5,70.0,1011.96,Agudos,Adequado
+354075,3540754,Potim,Guaratinguetá,São José dos Campos,Vale do Paraíba Paulista,20801,2025,0,0,0.0,False,0,0.0,0.0,,,,,0.0,,,0.0,Sem internações,Não aplicável
+354080,3540804,Potirendaba,São José do Rio Preto,São José do Rio Preto,São José do Rio Preto,19097,2025,32,21,11.0,True,876,329778.84,2.46,280.0,242.0,15.7,XIV. Doenças do aparelho geniturinário,45.87,41.7,28.1,376.46,Agudos,Adequado
+354085,3540853,Pracinha,Adamantina - Lucélia,Presidente Prudente,Presidente Prudente,2589,2025,0,0,0.0,False,0,0.0,0.0,,,,,0.0,,,0.0,Sem internações,Não aplicável
+354090,3540903,Pradópolis,Ribeirão Preto,Ribeirão Preto,Ribeirão Preto,17299,2025,0,0,0.0,False,0,0.0,0.0,,,,,0.0,,,0.0,Sem internações,Não aplicável
+354100,3541000,Praia Grande,Santos,São Paulo,Metropolitana de São Paulo,368539,2025,380,218,5.92,True,11180,15816098.67,5.7,3022.0,2502.0,20.8,"XV. Gravidez, parto e puerpério",30.34,51.3,80.1,1414.68,Agudos,Adequado
+354105,3541059,Pratânia,Botucatu,Bauru,Bauru,5264,2025,0,0,0.0,False,0,0.0,0.0,,,,,0.0,,,0.0,Sem internações,Não aplicável
+354110,3541109,Presidente Alves,Bauru,Bauru,Bauru,3830,2025,0,0,0.0,False,0,0.0,0.0,,,,,0.0,,,0.0,Sem internações,Não aplicável
+354120,3541208,Presidente Bernardes,Presidente Prudente,Presidente Prudente,Presidente Prudente,14803,2025,35,28,18.92,True,1245,463807.46,2.96,337.0,317.0,6.3,I. Doenças infecciosas e parasitárias,84.1,44.5,36.1,372.54,Agudos,Adequado
+354130,3541307,Presidente Epitácio,Presidente Epitácio-Presidente Venceslau,Presidente Prudente,Presidente Prudente,40322,2025,78,68,16.86,True,2968,1595816.95,3.36,733.0,798.0,-8.1,IX. Doenças do aparelho circulatório,73.61,43.6,40.2,537.67,Agudos,Adequado
+354140,3541406,Presidente Prudente,Presidente Prudente,Presidente Prudente,Presidente Prudente,234706,2025,1164,752,32.04,True,44132,90521259.77,5.68,11168.0,11294.0,-1.1,II. Neoplasias (tumores),188.03,58.7,91.3,2051.15,Agudos,Atenção
+354150,3541505,Presidente Venceslau,Presidente Epitácio-Presidente Venceslau,Presidente Prudente,Presidente Prudente,35810,2025,102,62,17.31,True,2178,2669601.21,4.12,481.0,547.0,-12.1,X. Doenças do aparelho respiratório,60.82,35.1,39.7,1225.71,Agudos,Adequado
+354160,3541604,Promissão,Lins,Bauru,Bauru,35973,2025,64,64,17.79,True,4234,4582525.69,3.5,1110.0,1001.0,10.9,XI. Doenças do aparelho digestivo,117.7,66.2,63.4,1082.32,Agudos,Adequado
+354165,3541653,Quadra,Tatuí,Sorocaba,Itapetininga,3477,2025,0,0,0.0,False,0,0.0,0.0,,,,,0.0,,,0.0,Sem internações,Não aplicável
+354170,3541703,Quatá,Presidente Prudente,Presidente Prudente,Assis,13412,2025,0,0,0.0,False,0,0.0,0.0,,,,,0.0,,,0.0,Sem internações,Não aplicável
+354180,3541802,Queiroz,Tupã,Marília,Marília,3366,2025,0,0,0.0,False,0,0.0,0.0,,,,,0.0,,,0.0,Sem internações,Não aplicável
+354190,3541901,Queluz,Cruzeiro,São José dos Campos,Vale do Paraíba Paulista,9074,2025,19,19,20.94,True,162,74773.9,5.72,17.0,53.0,-67.9,XIV. Doenças do aparelho geniturinário,17.85,8.5,13.4,461.57,Agudos,Adequado
+354200,3542008,Quintana,Marília,Marília,Marília,7260,2025,0,0,0.0,False,0,0.0,0.0,,,,,0.0,,,0.0,Sem internações,Não aplicável
+354210,3542107,Rafard,Piracicaba,Campinas,Piracicaba,9145,2025,0,0,0.0,False,0,0.0,0.0,,,,,0.0,,,0.0,Sem internações,Não aplicável
+354220,3542206,Rancharia,Presidente Prudente,Presidente Prudente,Presidente Prudente,29387,2025,103,71,24.16,True,4471,5032801.17,2.5,1191.0,1123.0,6.1,X. Doenças do aparelho respiratório,152.14,63.0,43.1,1125.65,Agudos,Adequado
+354230,3542305,Redenção da Serra,Taubaté - Pindamonhangaba,São José dos Campos,Vale do Paraíba Paulista,4637,2025,0,0,0.0,False,0,0.0,0.0,,,,,0.0,,,0.0,Sem internações,Não aplicável
+354240,3542404,Regente Feijó,Presidente Prudente,Presidente Prudente,Presidente Prudente,20620,2025,43,34,16.49,True,1000,333134.39,3.18,248.0,234.0,6.0,IX. Doenças do aparelho circulatório,48.5,29.4,25.6,333.13,Agudos,Adequado
+354250,3542503,Reginópolis,Bauru,Bauru,Bauru,7820,2025,0,0,0.0,False,0,0.0,0.0,,,,,0.0,,,0.0,Sem internações,Não aplicável
+354260,3542602,Registro,Registro,Sorocaba,Litoral Sul Paulista,61927,2025,229,194,31.33,True,9062,10305940.1,3.75,2672.0,2509.0,6.5,XI. Doenças do aparelho digestivo,146.33,46.7,48.0,1137.27,Agudos,Adequado
+354270,3542701,Restinga,Franca,Ribeirão Preto,Ribeirão Preto,6486,2025,0,0,0.0,False,0,0.0,0.0,,,,,0.0,,,0.0,Sem internações,Não aplicável
+354280,3542800,Ribeira,Itapeva,Sorocaba,Itapetininga,3158,2025,0,0,0.0,False,0,0.0,0.0,,,,,0.0,,,0.0,Sem internações,Não aplicável
+354290,3542909,Ribeirão Bonito,São Carlos,Araraquara,Araraquara,11040,2025,21,17,15.4,True,449,423185.95,1.82,118.0,88.0,34.1,XIII. Doenças osteomusculares e do tecido conjuntivo,40.67,26.4,13.2,942.51,Agudos,Adequado
+354300,3543006,Ribeirão Branco,Itapeva,Sorocaba,Itapetininga,18942,2025,16,16,8.45,True,412,163658.8,3.85,96.0,161.0,-40.4,X. Doenças do aparelho respiratório,21.75,25.8,27.2,397.23,Agudos,Adequado
+354310,3543105,Ribeirão Corrente,Franca,Ribeirão Preto,Ribeirão Preto,4717,2025,0,0,0.0,False,0,0.0,0.0,,,,,0.0,,,0.0,Sem internações,Não aplicável
+354320,3543204,Ribeirão do Sul,Ourinhos,Marília,Assis,4776,2025,0,0,0.0,False,0,0.0,0.0,,,,,0.0,,,0.0,Sem internações,Não aplicável
+354323,3543238,Ribeirão dos Índios,Presidente Prudente,Presidente Prudente,Presidente Prudente,2040,2025,0,0,0.0,False,0,0.0,0.0,,,,,0.0,,,0.0,Sem internações,Não aplicável
+354325,3543253,Ribeirão Grande,Itapeva,Sorocaba,Itapetininga,7571,2025,0,0,0.0,False,0,0.0,0.0,,,,,0.0,,,0.0,Sem internações,Não aplicável
+354330,3543303,Ribeirão Pires,São Paulo,São Paulo,Metropolitana de São Paulo,118954,2025,143,42,3.53,True,1879,1253302.87,5.73,478.0,452.0,5.8,"XV. Gravidez, parto e puerpério",15.8,44.7,70.2,667.01,Agudos,Adequado
+354340,3543402,Ribeirão Preto,Ribeirão Preto,Ribeirão Preto,Ribeirão Preto,731639,2025,2128,1400,19.14,True,94261,223435353.46,4.49,23142.0,24347.0,-4.9,II. Neoplasias (tumores),128.84,67.3,82.8,2370.39,Agudos,Adequado
+354350,3543501,Riversul,Itapeva,Sorocaba,Itapetininga,5628,2025,0,0,0.0,False,0,0.0,0.0,,,,,0.0,,,0.0,Sem internações,Não aplicável
+354360,3543600,Rifaina,Franca,Ribeirão Preto,Ribeirão Preto,4179,2025,0,0,0.0,False,0,0.0,0.0,,,,,0.0,,,0.0,Sem internações,Não aplicável
+354370,3543709,Rincão,Araraquara,Araraquara,Araraquara,9101,2025,0,0,0.0,False,0,0.0,0.0,,,,,0.0,,,0.0,Sem internações,Não aplicável
+354380,3543808,Rinópolis,Tupã,Marília,Presidente Prudente,9334,2025,24,23,24.64,True,282,114825.99,5.33,66.0,81.0,-18.5,X. Doenças do aparelho respiratório,30.21,12.3,17.9,407.18,Agudos,Adequado
+354390,3543907,Rio Claro,Rio Claro,Campinas,Piracicaba,210323,2025,445,246,11.7,True,12155,20200358.17,6.31,3258.0,2917.0,11.7,"XV. Gravidez, parto e puerpério",57.79,49.4,85.4,1661.9,Agudos,Atenção
+354400,3544004,Rio das Pedras,Piracicaba,Campinas,Piracicaba,32329,2025,72,64,19.8,True,930,215461.31,1.57,240.0,243.0,-1.2,XIV. Doenças do aparelho geniturinário,28.77,14.5,6.3,231.68,Agudos,Adequado
+354410,3544103,Rio Grande da Serra,São Paulo,São Paulo,Metropolitana de São Paulo,45324,2025,0,0,0.0,False,0,0.0,0.0,,,,,0.0,,,0.0,Sem internações,Não aplicável
+354420,3544202,Riolândia,Votuporanga,São José do Rio Preto,São José do Rio Preto,10444,2025,36,25,23.94,True,207,72809.5,3.62,66.0,67.0,-1.5,X. Doenças do aparelho respiratório,19.82,8.3,8.2,351.74,Agudos,Adequado
+354425,3544251,Rosana,Presidente Prudente,Presidente Prudente,Presidente Prudente,17434,2025,70,70,40.15,True,3129,1707084.26,5.92,779.0,831.0,-6.3,XI. Doenças do aparelho digestivo,179.48,44.7,72.5,545.57,Agudos,Adequado
+354430,3544301,Roseira,Guaratinguetá,São José dos Campos,Vale do Paraíba Paulista,11137,2025,14,14,12.57,True,0,0.0,0.0,,,,,0.0,0.0,0.0,0.0,Sem internações,Não aplicável
+354440,3544400,Rubiácea,Araçatuba,Araçatuba,Araçatuba,2740,2025,0,0,0.0,False,0,0.0,0.0,,,,,0.0,,,0.0,Sem internações,Não aplicável
+354450,3544509,Rubinéia,Santa Fé do Sul,São José do Rio Preto,São José do Rio Preto,3998,2025,0,0,0.0,False,0,0.0,0.0,,,,,0.0,,,0.0,Sem internações,Não aplicável
+354460,3544608,Sabino,Lins,Bauru,Bauru,5182,2025,0,0,0.0,False,0,0.0,0.0,,,,,0.0,,,0.0,Sem internações,Não aplicável
+354470,3544707,Sagres,Adamantina - Lucélia,Presidente Prudente,Presidente Prudente,2522,2025,0,0,0.0,False,0,0.0,0.0,,,,,0.0,,,0.0,Sem internações,Não aplicável
+354480,3544806,Sales,São José do Rio Preto,São José do Rio Preto,São José do Rio Preto,6645,2025,0,0,0.0,False,0,0.0,0.0,,,,,0.0,,,0.0,Sem internações,Não aplicável
+354490,3544905,Sales Oliveira,São Joaquim da Barra ¿ Orlândia,Ribeirão Preto,Ribeirão Preto,11683,2025,21,17,14.55,True,232,99239.03,1.89,42.0,82.0,-48.8,"XV. Gravidez, parto e puerpério",19.86,13.6,7.1,427.75,Agudos,Adequado
+354500,3545001,Salesópolis,São Paulo,São Paulo,Metropolitana de São Paulo,15381,2025,9,9,5.85,True,438,141776.18,2.61,105.0,88.0,19.3,X. Doenças do aparelho respiratório,28.48,48.7,34.8,323.69,Agudos,Adequado
+354510,3545100,Salmourão,Adamantina - Lucélia,Presidente Prudente,Presidente Prudente,4883,2025,0,0,0.0,False,0,0.0,0.0,,,,,0.0,,,0.0,Sem internações,Não aplicável
+354515,3545159,Saltinho,Piracicaba,Campinas,Piracicaba,8407,2025,0,0,0.0,False,0,0.0,0.0,,,,,0.0,,,0.0,Sem internações,Não aplicável
+354520,3545209,Salto,Sorocaba,Sorocaba,Macro Metropolitana Paulista,141111,2025,116,116,8.22,True,7056,5794846.02,2.67,1813.0,1769.0,2.5,XI. Doenças do aparelho digestivo,50.0,60.8,44.5,821.27,Agudos,Adequado
+354530,3545308,Salto de Pirapora,Sorocaba,Sorocaba,Macro Metropolitana Paulista,45262,2025,72,47,10.38,True,2763,2040745.68,1.86,677.0,763.0,-11.3,XXI. Contatos com serviços de saúde,61.04,58.8,30.0,738.6,Agudos,Adequado
+354540,3545407,Salto Grande,Ourinhos,Marília,Assis,9221,2025,34,22,23.86,True,762,271663.19,2.48,243.0,185.0,31.4,X. Doenças do aparelho respiratório,82.64,34.6,23.5,356.51,Agudos,Adequado
+354550,3545506,Sandovalina,Presidente Prudente,Presidente Prudente,Presidente Prudente,3697,2025,0,0,0.0,False,0,0.0,0.0,,,,,0.0,,,0.0,Sem internações,Não aplicável
+354560,3545605,Santa Adélia,Catanduva,São José do Rio Preto,São José do Rio Preto,14193,2025,23,19,13.39,True,1096,1149775.27,3.07,306.0,272.0,12.5,IX. Doenças do aparelho circulatório,77.22,57.7,48.5,1049.07,Agudos,Adequado
+354570,3545704,Santa Albertina,Jales,São José do Rio Preto,São José do Rio Preto,6566,2025,0,0,0.0,False,0,0.0,0.0,,,,,0.0,,,0.0,Sem internações,Não aplicável
+354580,3545803,Santa Bárbara d'Oeste,Campinas,Campinas,Campinas,189456,2025,208,123,6.49,True,9034,11098084.57,2.43,2363.0,2382.0,-0.8,XI. Doenças do aparelho digestivo,47.68,73.4,48.9,1228.48,Agudos,Adequado
+354600,3546009,Santa Branca,São José dos Campos,São José dos Campos,Vale do Paraíba Paulista,14219,2025,0,0,0.0,False,0,0.0,0.0,,,,,0.0,,,0.0,Sem internações,Não aplicável
+354610,3546108,Santa Clara d'Oeste,Santa Fé do Sul,São José do Rio Preto,São José do Rio Preto,2694,2025,0,0,0.0,False,0,0.0,0.0,,,,,0.0,,,0.0,Sem internações,Não aplicável
+354620,3546207,Santa Cruz da Conceição,Araras,Campinas,Piracicaba,4375,2025,0,0,0.0,False,0,0.0,0.0,,,,,0.0,,,0.0,Sem internações,Não aplicável
+354625,3546256,Santa Cruz da Esperança,Ribeirão Preto,Ribeirão Preto,Ribeirão Preto,2168,2025,0,0,0.0,False,0,0.0,0.0,,,,,0.0,,,0.0,Sem internações,Não aplicável
+354630,3546306,Santa Cruz das Palmeiras,São João da Boa Vista,Campinas,Campinas,29489,2025,34,25,8.48,True,1239,650842.9,2.31,327.0,305.0,7.2,X. Doenças do aparelho respiratório,42.02,49.6,31.4,525.3,Agudos,Adequado
+354640,3546405,Santa Cruz do Rio Pardo,Ourinhos,Marília,Assis,47759,2025,96,55,11.52,True,4147,5977355.92,3.76,1049.0,1148.0,-8.6,"XV. Gravidez, parto e puerpério",86.83,75.4,77.7,1441.37,Agudos,Adequado
+354650,3546504,Santa Ernestina,Ribeirão Preto,Ribeirão Preto,Ribeirão Preto,6274,2025,0,0,0.0,False,0,0.0,0.0,,,,,0.0,,,0.0,Sem internações,Não aplicável
+354660,3546603,Santa Fé do Sul,Santa Fé do Sul,São José do Rio Preto,São José do Rio Preto,36288,2025,81,58,15.98,True,3552,3981955.03,4.23,905.0,923.0,-2.0,XI. Doenças do aparelho digestivo,97.88,61.2,71.0,1121.05,Agudos,Adequado
+354670,3546702,Santa Gertrudes,Rio Claro,Campinas,Piracicaba,23192,2025,0,0,0.0,False,0,0.0,0.0,,,,,0.0,,,0.0,Sem internações,Não aplicável
+354680,3546801,Santa Isabel,São Paulo,São Paulo,Metropolitana de São Paulo,54691,2025,50,36,6.58,True,2059,2713007.81,5.56,493.0,532.0,-7.3,"XV. Gravidez, parto e puerpério",37.65,57.2,87.1,1317.63,Agudos,Atenção
+354690,3546900,Santa Lúcia,Araraquara,Araraquara,Araraquara,7144,2025,8,0,0.0,True,0,0.0,0.0,,,,,0.0,,,0.0,Sem internações,Não aplicável
+354700,3547007,Santa Maria da Serra,Piracicaba,Campinas,Piracicaba,5308,2025,6,6,11.3,True,0,0.0,0.0,,,,,0.0,0.0,0.0,0.0,Sem internações,Não aplicável
+354710,3547106,Santa Mercedes,Dracena,Presidente Prudente,Presidente Prudente,3017,2025,0,0,0.0,False,0,0.0,0.0,,,,,0.0,,,0.0,Sem internações,Não aplicável
+354720,3547205,Santana da Ponte Pensa,Santa Fé do Sul,São José do Rio Preto,São José do Rio Preto,1699,2025,0,0,0.0,False,0,0.0,0.0,,,,,0.0,,,0.0,Sem internações,Não aplicável
+354730,3547304,Santana de Parnaíba,São Paulo,São Paulo,Metropolitana de São Paulo,163787,2025,70,70,4.27,True,3981,1598188.76,4.58,1230.0,1118.0,10.0,"XV. Gravidez, parto e puerpério",24.31,56.9,71.4,401.45,Agudos,Adequado
+354740,3547403,Santa Rita d'Oeste,Santa Fé do Sul,São José do Rio Preto,São José do Rio Preto,2796,2025,0,0,0.0,False,0,0.0,0.0,,,,,0.0,,,0.0,Sem internações,Não aplicável
+354750,3547502,Santa Rita do Passa Quatro,São Carlos,Araraquara,Ribeirão Preto,24996,2025,263,250,100.02,True,1727,2191054.3,18.65,479.0,420.0,14.0,V. Transtornos mentais e comportamentais,69.09,6.9,35.3,1268.71,Permanência elevada,Adequado
+354760,3547601,Santa Rosa de Viterbo,Ribeirão Preto,Ribeirão Preto,Ribeirão Preto,23710,2025,32,19,8.01,True,1114,313173.04,4.13,323.0,241.0,34.0,X. Doenças do aparelho respiratório,46.98,58.6,66.3,281.12,Agudos,Adequado
+354765,3547650,Santa Salete,Jales,São José do Rio Preto,São José do Rio Preto,1692,2025,0,0,0.0,False,0,0.0,0.0,,,,,0.0,,,0.0,Sem internações,Não aplicável
+354770,3547700,Santo Anastácio,Presidente Prudente,Presidente Prudente,Presidente Prudente,17960,2025,50,36,20.04,True,2139,762025.62,3.37,564.0,507.0,11.2,XIV. Doenças do aparelho geniturinário,119.1,59.4,54.9,356.25,Agudos,Adequado
+354780,3547809,Santo André,São Paulo,São Paulo,Metropolitana de São Paulo,782048,2025,1458,687,8.78,True,43679,83419393.36,4.78,11716.0,11892.0,-1.5,XIX. Lesões e envenenamentos por causas externas,55.85,63.6,83.3,1909.83,Agudos,Adequado
+354790,3547908,Santo Antônio da Alegria,Ribeirão Preto,Ribeirão Preto,Ribeirão Preto,6933,2025,9,9,12.98,True,161,57660.27,3.18,44.0,38.0,15.8,X. Doenças do aparelho respiratório,23.22,17.9,15.6,358.14,Agudos,Adequado
+354800,3548005,Santo Antônio de Posse,Campinas,Campinas,Campinas,23867,2025,0,0,0.0,False,0,0.0,0.0,,,,,0.0,,,0.0,Sem internações,Não aplicável
+354805,3548054,Santo Antônio do Aracanguá,Araçatuba,Araçatuba,Araçatuba,8593,2025,0,0,0.0,False,0,0.0,0.0,,,,,0.0,,,0.0,Sem internações,Não aplicável
+354810,3548104,Santo Antônio do Jardim,São João da Boa Vista,Campinas,Campinas,6243,2025,0,0,0.0,False,0,0.0,0.0,,,,,0.0,,,0.0,Sem internações,Não aplicável
+354820,3548203,Santo Antônio do Pinhal,Taubaté - Pindamonhangaba,São José dos Campos,Vale do Paraíba Paulista,7314,2025,0,0,0.0,False,0,0.0,0.0,,,,,0.0,,,0.0,Sem internações,Não aplicável
+354830,3548302,Santo Expedito,Presidente Prudente,Presidente Prudente,Presidente Prudente,3069,2025,0,0,0.0,False,0,0.0,0.0,,,,,0.0,,,0.0,Sem internações,Não aplicável
+354840,3548401,Santópolis do Aguapeí,Birigui - Penápolis,Araçatuba,Araçatuba,3921,2025,0,0,0.0,False,0,0.0,0.0,,,,,0.0,,,0.0,Sem internações,Não aplicável
+354850,3548500,Santos,Santos,São Paulo,Metropolitana de São Paulo,429547,2025,1780,712,16.58,True,34090,71999145.89,5.68,9026.0,8787.0,2.7,"XV. Gravidez, parto e puerpério",79.36,47.9,74.5,2112.03,Agudos,Adequado
+354860,3548609,São Bento do Sapucaí,Taubaté - Pindamonhangaba,São José dos Campos,Vale do Paraíba Paulista,11989,2025,40,26,21.69,True,494,206585.86,3.77,114.0,159.0,-28.3,X. Doenças do aparelho respiratório,41.2,19.0,19.6,418.19,Agudos,Adequado
+354870,3548708,São Bernardo do Campo,São Paulo,São Paulo,Metropolitana de São Paulo,841154,2025,1794,704,8.37,True,41162,109247692.36,6.22,10529.0,10480.0,0.5,"XV. Gravidez, parto e puerpério",48.94,58.5,99.6,2654.09,Agudos,Atenção
+354880,3548807,São Caetano do Sul,São Paulo,São Paulo,Metropolitana de São Paulo,172693,2025,873,264,15.29,True,13807,20494187.32,4.11,2859.0,3841.0,-25.6,XI. Doenças do aparelho digestivo,79.95,52.3,58.9,1484.33,Agudos,Adequado
+354890,3548906,São Carlos,São Carlos,Araraquara,Araraquara,266427,2025,399,218,8.18,True,21628,40176043.54,3.72,5434.0,5216.0,4.2,IX. Doenças do aparelho circulatório,81.18,99.2,101.1,1857.59,Agudos,Crítico
+354900,3549003,São Francisco,Jales,São José do Rio Preto,São José do Rio Preto,2623,2025,0,0,0.0,False,0,0.0,0.0,,,,,0.0,,,0.0,Sem internações,Não aplicável
+354910,3549102,São João da Boa Vista,São João da Boa Vista,Campinas,Campinas,96080,2025,201,92,9.58,True,6809,13391616.18,4.12,1709.0,1727.0,-1.0,"XV. Gravidez, parto e puerpério",70.87,74.0,83.5,1966.75,Agudos,Adequado
+354920,3549201,São João das Duas Pontes,Fernandópolis,São José do Rio Preto,São José do Rio Preto,2623,2025,0,0,0.0,False,0,0.0,0.0,,,,,0.0,,,0.0,Sem internações,Não aplicável
+354925,3549250,São João de Iracema,Fernandópolis,São José do Rio Preto,São José do Rio Preto,1882,2025,0,0,0.0,False,0,0.0,0.0,,,,,0.0,,,0.0,Sem internações,Não aplicável
+354930,3549300,São João do Pau d'Alho,Dracena,Presidente Prudente,Presidente Prudente,2293,2025,0,0,0.0,False,0,0.0,0.0,,,,,0.0,,,0.0,Sem internações,Não aplicável
+354940,3549409,São Joaquim da Barra,São Joaquim da Barra ¿ Orlândia,Ribeirão Preto,Ribeirão Preto,49885,2025,103,73,14.63,True,4022,5797061.81,3.41,1121.0,1083.0,3.5,XIV. Doenças do aparelho geniturinário,80.63,55.1,51.5,1441.34,Agudos,Adequado
+354950,3549508,São José da Bela Vista,Franca,Ribeirão Preto,Ribeirão Preto,7664,2025,0,0,0.0,False,0,0.0,0.0,,,,,0.0,,,0.0,Sem internações,Não aplicável
+354960,3549607,São José do Barreiro,Cruzeiro,São José dos Campos,Vale do Paraíba Paulista,3888,2025,0,0,0.0,False,0,0.0,0.0,,,,,0.0,,,0.0,Sem internações,Não aplicável
+354970,3549706,São José do Rio Pardo,São José do Rio Pardo - Mococa,Campinas,Campinas,53427,2025,141,79,14.79,True,4334,5661950.34,3.22,1138.0,1085.0,4.9,"XV. Gravidez, parto e puerpério",81.12,54.9,48.4,1306.4,Agudos,Adequado
+354980,3549805,São José do Rio Preto,São José do Rio Preto,São José do Rio Preto,São José do Rio Preto,504166,2025,2420,1161,23.03,True,95968,308181704.13,4.51,24517.0,24296.0,0.9,IX. Doenças do aparelho circulatório,190.35,82.7,102.1,3211.3,Agudos,Crítico
+354990,3549904,São José dos Campos,São José dos Campos,São José dos Campos,Vale do Paraíba Paulista,727078,2025,1600,789,10.85,True,59794,131869544.14,4.53,15510.0,15494.0,0.1,IX. Doenças do aparelho circulatório,82.24,75.8,94.1,2205.4,Agudos,Atenção
+354995,3549953,São Lourenço da Serra,São Paulo,São Paulo,Metropolitana de São Paulo,16479,2025,60,0,0.0,True,0,0.0,0.0,,,,,0.0,,,0.0,Sem internações,Não aplicável
+355000,3550001,São Luiz do Paraitinga,Taubaté - Pindamonhangaba,São José dos Campos,Vale do Paraíba Paulista,10487,2025,25,16,15.26,True,140,46265.46,6.71,0.0,51.0,-100.0,X. Doenças do aparelho respiratório,13.35,8.8,16.1,330.47,Agudos,Adequado
+355010,3550100,São Manuel,Botucatu,Bauru,Bauru,38131,2025,58,42,11.01,True,1645,1892410.68,3.44,433.0,477.0,-9.2,X. Doenças do aparelho respiratório,43.14,39.2,36.9,1150.4,Agudos,Adequado
+355020,3550209,São Miguel Arcanjo,Itapetininga,Sorocaba,Macro Metropolitana Paulista,32924,2025,79,79,23.99,True,1380,1442182.75,11.0,396.0,342.0,15.8,XI. Doenças do aparelho digestivo,41.91,17.5,52.6,1045.06,Permanência elevada,Adequado
+355030,3550308,São Paulo,São Paulo,São Paulo,Metropolitana de São Paulo,11904961,2025,30990,15485,13.01,True,751452,1822917005.0,5.47,191511.0,194114.0,-1.3,"XV. Gravidez, parto e puerpério",63.12,48.5,72.7,2425.86,Agudos,Adequado
+355040,3550407,São Pedro,Piracicaba,Campinas,Piracicaba,39855,2025,64,54,13.55,True,4450,6009708.47,1.7,1111.0,1204.0,-7.7,XIV. Doenças do aparelho geniturinário,111.65,82.4,38.4,1350.5,Agudos,Adequado
+355050,3550506,São Pedro do Turvo,Ourinhos,Marília,Assis,7333,2025,0,0,0.0,False,0,0.0,0.0,,,,,0.0,,,0.0,Sem internações,Não aplicável
+355060,3550605,São Roque,Sorocaba,Sorocaba,Macro Metropolitana Paulista,81366,2025,222,62,7.62,True,5288,5312120.89,3.68,1503.0,1279.0,17.5,"XV. Gravidez, parto e puerpério",64.99,85.3,86.0,1004.56,Agudos,Atenção
+355070,3550704,São Sebastião,Caraguatatuba - Ubatuba - São Sebastião,São José dos Campos,Vale do Paraíba Paulista,84280,2025,102,102,12.1,True,6379,5601832.84,3.6,1627.0,1588.0,2.5,"XV. Gravidez, parto e puerpério",75.69,62.5,61.7,878.17,Agudos,Adequado
+355080,3550803,São Sebastião da Grama,São José do Rio Pardo - Mococa,Campinas,Campinas,10428,2025,30,26,24.93,True,579,281659.46,3.04,146.0,157.0,-7.0,X. Doenças do aparelho respiratório,55.52,22.3,18.5,486.46,Agudos,Adequado
+355090,3550902,São Simão,Ribeirão Preto,Ribeirão Preto,Ribeirão Preto,13560,2025,34,33,24.34,True,310,174412.42,6.5,78.0,86.0,-9.3,"IV. Doenças endócrinas, nutricionais e metabólicas",22.86,9.4,16.7,562.62,Agudos,Adequado
+355100,3551009,São Vicente,Santos,São Paulo,Metropolitana de São Paulo,338326,2025,257,191,5.65,True,9568,12308245.03,4.38,2331.0,2928.0,-20.4,"XV. Gravidez, parto e puerpério",28.28,50.1,60.1,1286.4,Agudos,Adequado
+355110,3551108,Sarapuí,Sorocaba,Sorocaba,Macro Metropolitana Paulista,10677,2025,0,0,0.0,False,0,0.0,0.0,,,,,0.0,,,0.0,Sem internações,Não aplicável
+355120,3551207,Sarutaiá,Piraju,Marília,Assis,3772,2025,0,0,0.0,False,0,0.0,0.0,,,,,0.0,,,0.0,Sem internações,Não aplicável
+355130,3551306,Sebastianópolis do Sul,Votuporanga,São José do Rio Preto,São José do Rio Preto,3191,2025,0,0,0.0,False,0,0.0,0.0,,,,,0.0,,,0.0,Sem internações,Não aplicável
+355140,3551405,Serra Azul,Ribeirão Preto,Ribeirão Preto,Ribeirão Preto,13108,2025,0,0,0.0,False,0,0.0,0.0,,,,,0.0,,,0.0,Sem internações,Não aplicável
+355150,3551504,Serrana,Ribeirão Preto,Ribeirão Preto,Ribeirão Preto,45580,2025,84,82,17.99,True,3493,4605050.75,5.21,855.0,961.0,-11.0,XI. Doenças do aparelho digestivo,76.63,42.6,60.8,1318.37,Agudos,Adequado
+355160,3551603,Serra Negra,Amparo,Campinas,Campinas,31047,2025,49,33,10.63,True,2635,2617777.91,2.72,740.0,626.0,18.2,IX. Doenças do aparelho circulatório,84.87,79.8,59.5,993.46,Agudos,Adequado
+355170,3551702,Sertãozinho,Ribeirão Preto,Ribeirão Preto,Ribeirão Preto,132176,2025,130,59,4.46,True,6911,12255098.66,3.48,1840.0,1710.0,7.6,XIX. Lesões e envenenamentos por causas externas,52.29,117.1,111.7,1773.27,Agudos,Crítico
+355180,3551801,Sete Barras,Registro,Sorocaba,Litoral Sul Paulista,12903,2025,0,0,0.0,False,0,0.0,0.0,,,,,0.0,,,0.0,Sem internações,Não aplicável
+355190,3551900,Severínia,Barretos,Ribeirão Preto,São José do Rio Preto,14693,2025,0,0,0.0,False,0,0.0,0.0,,,,,0.0,,,0.0,Sem internações,Não aplicável
+355200,3552007,Silveiras,Cruzeiro,São José dos Campos,Vale do Paraíba Paulista,6329,2025,2,2,3.16,True,26,8377.1,5.89,11.0,4.0,175.0,X. Doenças do aparelho respiratório,4.11,13.0,21.0,322.2,Agudos,Adequado
+355210,3552106,Socorro,Bragança Paulista,Campinas,Campinas,41527,2025,106,49,11.8,True,3597,3266691.01,2.46,936.0,993.0,-5.7,II. Neoplasias (tumores),86.62,73.4,49.5,908.17,Agudos,Adequado
+355220,3552205,Sorocaba,Sorocaba,Sorocaba,Macro Metropolitana Paulista,762172,2025,1757,980,12.86,True,62257,128462161.14,5.05,15904.0,16066.0,-1.0,IX. Doenças do aparelho circulatório,81.68,63.5,87.9,2063.42,Agudos,Atenção
+355230,3552304,Sud Mennucci,Andradina,Araçatuba,Araçatuba,7464,2025,22,20,26.8,True,194,87821.17,3.82,34.0,68.0,-50.0,X. Doenças do aparelho respiratório,25.99,9.7,10.2,452.69,Agudos,Adequado
+355240,3552403,Sumaré,Campinas,Campinas,Campinas,291116,2025,235,182,6.25,True,12804,26785541.93,4.6,3234.0,3401.0,-4.9,"XV. Gravidez, parto e puerpério",43.98,70.4,88.7,2091.97,Agudos,Atenção
+355250,3552502,Suzano,São Paulo,São Paulo,Metropolitana de São Paulo,320261,2025,334,181,5.65,True,8426,11002004.12,7.09,1655.0,2305.0,-28.2,"XV. Gravidez, parto e puerpério",26.31,46.6,90.4,1305.72,Agudos,Atenção
+355255,3552551,Suzanápolis,Jales,São José do Rio Preto,Araçatuba,3465,2025,0,0,0.0,False,0,0.0,0.0,,,,,0.0,,,0.0,Sem internações,Não aplicável
+355260,3552601,Tabapuã,Catanduva,São José do Rio Preto,São José do Rio Preto,11498,2025,30,11,9.57,True,1019,897771.13,3.49,317.0,221.0,43.4,XI. Doenças do aparelho digestivo,88.62,92.6,88.6,881.03,Agudos,Atenção
+355270,3552700,Tabatinga,Araraquara,Araraquara,Araraquara,14997,2025,35,22,14.67,True,905,586108.74,3.45,235.0,251.0,-6.4,X. Doenças do aparelho respiratório,60.35,41.1,38.9,647.63,Agudos,Adequado
+355280,3552809,Taboão da Serra,São Paulo,São Paulo,Metropolitana de São Paulo,285307,2025,532,328,11.5,True,20285,33516959.88,4.53,5358.0,5531.0,-3.1,"XV. Gravidez, parto e puerpério",71.1,61.8,76.8,1652.3,Agudos,Adequado
+355290,3552908,Taciba,Presidente Prudente,Presidente Prudente,Presidente Prudente,6418,2025,0,0,0.0,False,0,0.0,0.0,,,,,0.0,,,0.0,Sem internações,Não aplicável
+355300,3553005,Taguaí,Avaré,Sorocaba,Assis,13068,2025,29,24,18.37,True,671,304960.17,2.78,205.0,170.0,20.6,"XV. Gravidez, parto e puerpério",51.35,28.0,21.3,454.49,Agudos,Adequado
+355310,3553104,Taiaçu,Barretos,Ribeirão Preto,Ribeirão Preto,5744,2025,0,0,0.0,False,0,0.0,0.0,,,,,0.0,,,0.0,Sem internações,Não aplicável
+355320,3553203,Taiúva,Barretos,Ribeirão Preto,Ribeirão Preto,6770,2025,0,0,0.0,False,0,0.0,0.0,,,,,0.0,,,0.0,Sem internações,Não aplicável
+355330,3553302,Tambaú,São João da Boa Vista,Campinas,Campinas,21650,2025,36,27,12.47,True,1276,583847.71,2.92,389.0,327.0,19.0,XIV. Doenças do aparelho geniturinário,58.94,47.3,37.8,457.56,Agudos,Adequado
+355340,3553401,Tanabi,São José do Rio Preto,São José do Rio Preto,São José do Rio Preto,26071,2025,72,30,11.51,True,1489,914658.87,6.7,412.0,335.0,23.0,I. Doenças infecciosas e parasitárias,57.11,49.6,91.1,614.28,Agudos,Atenção
+355350,3553500,Tapiraí,Sorocaba,Sorocaba,Macro Metropolitana Paulista,8122,2025,0,0,0.0,False,0,0.0,0.0,,,,,0.0,,,0.0,Sem internações,Não aplicável
+355360,3553609,Tapiratiba,São José do Rio Pardo - Mococa,Campinas,Campinas,11903,2025,15,15,12.6,True,395,206288.25,3.16,113.0,96.0,17.7,XI. Doenças do aparelho digestivo,33.18,26.3,22.8,522.25,Agudos,Adequado
+355365,3553658,Taquaral,Barretos,Ribeirão Preto,Ribeirão Preto,2649,2025,0,0,0.0,False,0,0.0,0.0,,,,,0.0,,,0.0,Sem internações,Não aplicável
+355370,3553708,Taquaritinga,Araraquara,Araraquara,Ribeirão Preto,53264,2025,115,69,12.95,True,4431,3418403.77,3.19,1310.0,1135.0,15.4,"XV. Gravidez, parto e puerpério",83.19,64.2,56.1,771.47,Agudos,Adequado
+355380,3553807,Taquarituba,Avaré,Sorocaba,Itapetininga,24932,2025,47,32,12.83,True,2176,819874.36,2.34,733.0,509.0,44.0,XI. Doenças do aparelho digestivo,87.28,68.0,43.6,376.78,Agudos,Adequado
+355385,3553856,Taquarivaí,Itapeva,Sorocaba,Itapetininga,7170,2025,60,0,0.0,True,0,0.0,0.0,,,,,0.0,,,0.0,Sem internações,Não aplicável
+355390,3553906,Tarabai,Presidente Prudente,Presidente Prudente,Presidente Prudente,6633,2025,0,0,0.0,False,0,0.0,0.0,,,,,0.0,,,0.0,Sem internações,Não aplicável
+355395,3553955,Tarumã,Assis,Marília,Assis,15315,2025,0,0,0.0,False,0,0.0,0.0,,,,,0.0,,,0.0,Sem internações,Não aplicável
+355400,3554003,Tatuí,Tatuí,Sorocaba,Itapetininga,129130,2025,204,86,6.66,True,4973,4752797.72,3.85,1290.0,1243.0,3.8,"XV. Gravidez, parto e puerpério",38.51,57.8,61.0,955.72,Agudos,Adequado
+355410,3554102,Taubaté,Taubaté - Pindamonhangaba,São José dos Campos,Vale do Paraíba Paulista,322397,2025,532,367,11.38,True,24617,57648305.3,4.18,6619.0,5930.0,11.6,"XV. Gravidez, parto e puerpério",76.36,67.1,76.8,2341.81,Agudos,Adequado
+355420,3554201,Tejupá,Piraju,Marília,Assis,4119,2025,0,0,0.0,False,0,0.0,0.0,,,,,0.0,,,0.0,Sem internações,Não aplicável
+355430,3554300,Teodoro Sampaio,Presidente Prudente,Presidente Prudente,Presidente Prudente,22598,2025,50,43,19.03,True,1145,406776.49,3.54,276.0,322.0,-14.3,X. Doenças do aparelho respiratório,50.67,26.6,25.8,355.26,Agudos,Adequado
+355440,3554409,Terra Roxa,Barretos,Ribeirão Preto,Ribeirão Preto,7965,2025,34,30,37.66,True,36,14732.1,5.16,9.0,7.0,28.6,X. Doenças do aparelho respiratório,4.52,1.2,1.7,409.22,Agudos,Adequado
+355450,3554508,Tietê,Sorocaba,Sorocaba,Piracicaba,38723,2025,55,33,8.52,True,2069,935248.55,2.91,420.0,560.0,-25.0,"XV. Gravidez, parto e puerpério",53.43,62.7,50.0,452.03,Agudos,Adequado
+355460,3554607,Timburi,Piraju,Marília,Assis,2484,2025,0,0,0.0,False,0,0.0,0.0,,,,,0.0,,,0.0,Sem internações,Não aplicável
+355465,3554656,Torre de Pedra,Tatuí,Sorocaba,Itapetininga,2056,2025,0,0,0.0,False,0,0.0,0.0,,,,,0.0,,,0.0,Sem internações,Não aplicável
+355470,3554706,Torrinha,Jaú,Bauru,Piracicaba,9484,2025,20,13,13.71,True,85,32582.68,4.13,25.0,15.0,66.7,X. Doenças do aparelho respiratório,8.96,6.5,7.4,383.33,Agudos,Adequado
+355475,3554755,Trabiju,Araraquara,Araraquara,Araraquara,1724,2025,0,0,0.0,False,0,0.0,0.0,,,,,0.0,,,0.0,Sem internações,Não aplicável
+355480,3554805,Tremembé,Taubaté - Pindamonhangaba,São José dos Campos,Vale do Paraíba Paulista,53426,2025,12,0,0.0,True,0,0.0,0.0,,,,,0.0,,,0.0,Sem internações,Não aplicável
+355490,3554904,Três Fronteiras,Santa Fé do Sul,São José do Rio Preto,São José do Rio Preto,7060,2025,0,0,0.0,False,0,0.0,0.0,,,,,0.0,,,0.0,Sem internações,Não aplicável
+355495,3554953,Tuiuti,Bragança Paulista,Campinas,Macro Metropolitana Paulista,6976,2025,0,0,0.0,False,0,0.0,0.0,,,,,0.0,,,0.0,Sem internações,Não aplicável
+355500,3555000,Tupã,Tupã,Marília,Marília,65433,2025,344,328,50.13,True,7900,16771924.27,11.7,2031.0,2008.0,1.1,XI. Doenças do aparelho digestivo,120.73,24.1,77.2,2123.03,Permanência elevada,Adequado
+355510,3555109,Tupi Paulista,Dracena,Presidente Prudente,Presidente Prudente,16259,2025,48,30,18.45,True,1358,819963.25,4.37,353.0,345.0,2.3,X. Doenças do aparelho respiratório,83.52,45.3,54.2,603.8,Agudos,Adequado
+355520,3555208,Turiúba,Birigui - Penápolis,Araçatuba,Araçatuba,1835,2025,0,0,0.0,False,0,0.0,0.0,,,,,0.0,,,0.0,Sem internações,Não aplicável
+355530,3555307,Turmalina,Jales,São José do Rio Preto,São José do Rio Preto,1662,2025,0,0,0.0,False,0,0.0,0.0,,,,,0.0,,,0.0,Sem internações,Não aplicável
+355535,3555356,Ubarana,São José do Rio Preto,São José do Rio Preto,São José do Rio Preto,5458,2025,0,0,0.0,False,0,0.0,0.0,,,,,0.0,,,0.0,Sem internações,Não aplicável
+355540,3555406,Ubatuba,Caraguatatuba - Ubatuba - São Sebastião,São José dos Campos,Vale do Paraíba Paulista,97096,2025,86,81,8.34,True,4811,2718769.11,2.87,1122.0,1175.0,-4.5,"XV. Gravidez, parto e puerpério",49.55,59.4,46.7,565.12,Agudos,Adequado
+355550,3555505,Ubirajara,Bauru,Bauru,Bauru,5289,2025,0,0,0.0,False,0,0.0,0.0,,,,,0.0,,,0.0,Sem internações,Não aplicável
+355560,3555604,Uchoa,São José do Rio Preto,São José do Rio Preto,São José do Rio Preto,10670,2025,4,4,3.75,True,0,0.0,0.0,,,,,0.0,0.0,0.0,0.0,Sem internações,Não aplicável
+355570,3555703,União Paulista,São José do Rio Preto,São José do Rio Preto,São José do Rio Preto,1628,2025,0,0,0.0,False,0,0.0,0.0,,,,,0.0,,,0.0,Sem internações,Não aplicável
+355580,3555802,Urânia,Jales,São José do Rio Preto,São José do Rio Preto,8973,2025,26,24,26.75,True,436,148847.47,3.98,128.0,86.0,48.8,X. Doenças do aparelho respiratório,48.59,18.2,19.8,341.39,Agudos,Adequado
+355590,3555901,Uru,Lins,Bauru,Bauru,1424,2025,0,0,0.0,False,0,0.0,0.0,,,,,0.0,,,0.0,Sem internações,Não aplicável
+355600,3556008,Urupês,São José do Rio Preto,São José do Rio Preto,São José do Rio Preto,14073,2025,29,14,9.95,True,1263,1012609.06,2.72,344.0,256.0,34.4,X. Doenças do aparelho respiratório,89.75,90.2,67.2,801.75,Agudos,Adequado
+355610,3556107,Valentim Gentil,Votuporanga,São José do Rio Preto,São José do Rio Preto,14634,2025,0,0,0.0,False,0,0.0,0.0,,,,,0.0,,,0.0,Sem internações,Não aplicável
+355620,3556206,Valinhos,Campinas,Campinas,Campinas,132258,2025,148,59,4.46,True,4862,7239237.86,4.88,1272.0,1170.0,8.7,XIX. Lesões e envenenamentos por causas externas,36.76,82.4,110.2,1488.94,Agudos,Crítico
+355630,3556305,Valparaíso,Araçatuba,Araçatuba,Araçatuba,24779,2025,50,32,12.91,True,1093,738482.53,2.65,402.0,220.0,82.7,X. Doenças do aparelho respiratório,44.11,34.2,24.8,675.65,Agudos,Adequado
+355635,3556354,Vargem,Bragança Paulista,Campinas,Macro Metropolitana Paulista,10863,2025,0,0,0.0,False,0,0.0,0.0,,,,,0.0,,,0.0,Sem internações,Não aplicável
+355640,3556404,Vargem Grande do Sul,São João da Boa Vista,Campinas,Campinas,41256,2025,54,35,8.48,True,2177,1175308.58,3.61,573.0,575.0,-0.3,"XV. Gravidez, parto e puerpério",52.77,62.2,61.5,539.88,Agudos,Adequado
+355645,3556453,Vargem Grande Paulista,São Paulo,São Paulo,Metropolitana de São Paulo,52352,2025,113,2,0.38,True,0,0.0,0.0,,,,,0.0,0.0,0.0,0.0,Sem internações,Não aplicável
+355650,3556503,Várzea Paulista,Jundiaí,Campinas,Macro Metropolitana Paulista,119655,2025,80,72,6.02,True,717,217040.23,3.32,172.0,185.0,-7.0,V. Transtornos mentais e comportamentais,5.99,10.0,9.1,302.71,Agudos,Adequado
+355660,3556602,Vera Cruz,Marília,Marília,Marília,10274,2025,0,0,0.0,False,0,0.0,0.0,,,,,0.0,,,0.0,Sem internações,Não aplicável
+355670,3556701,Vinhedo,Campinas,Campinas,Campinas,79089,2025,82,63,7.97,True,5591,6035793.09,3.32,1409.0,1459.0,-3.4,XI. Doenças do aparelho digestivo,70.69,88.7,80.7,1079.56,Agudos,Adequado
+355680,3556800,Viradouro,Barretos,Ribeirão Preto,Ribeirão Preto,17685,2025,23,20,11.31,True,422,154178.13,2.8,114.0,104.0,9.6,XIV. Doenças do aparelho geniturinário,23.86,21.1,16.2,365.35,Agudos,Adequado
+355690,3556909,Vista Alegre do Alto,Catanduva,São José do Rio Preto,Ribeirão Preto,8368,2025,0,0,0.0,False,0,0.0,0.0,,,,,0.0,,,0.0,Sem internações,Não aplicável
+355695,3556958,Vitória Brasil,Jales,São José do Rio Preto,São José do Rio Preto,1828,2025,0,0,0.0,False,0,0.0,0.0,,,,,0.0,,,0.0,Sem internações,Não aplicável
+355700,3557006,Votorantim,Sorocaba,Sorocaba,Macro Metropolitana Paulista,133510,2025,162,64,4.79,True,3887,3694830.99,3.9,872.0,946.0,-7.8,"XV. Gravidez, parto e puerpério",29.11,60.7,64.9,950.56,Agudos,Adequado
+355710,3557105,Votuporanga,Votuporanga,São José do Rio Preto,São José do Rio Preto,100568,2025,209,120,11.93,True,11662,23259484.5,3.52,2784.0,2996.0,-7.1,XIX. Lesões e envenenamentos por causas externas,115.96,97.2,93.7,1994.47,Agudos,Atenção
+355715,3557154,Zacarias,Birigui - Penápolis,Araçatuba,São José do Rio Preto,2773,2025,0,0,0.0,False,0,0.0,0.0,,,,,0.0,,,0.0,Sem internações,Não aplicável
+355720,3557204,Chavantes,Ourinhos,Marília,Assis,12415,2025,51,30,24.16,True,1235,719062.4,2.97,344.0,295.0,16.6,XI. Doenças do aparelho digestivo,99.48,41.2,33.5,582.24,Agudos,Adequado
+355730,3557303,Estiva Gerbi,Mogi Guaçu,Campinas,Campinas,11609,2025,0,0,0.0,False,0,0.0,0.0,,,,,0.0,,,0.0,Sem internações,Não aplicável

@@ -1,0 +1,323 @@
+codigo,uf,periodo,internacoes
+11,Rondônia,2025/Jul,12610.0
+11,Rondônia,2025/Ago,12371.0
+11,Rondônia,2025/Set,12259.0
+11,Rondônia,2025/Out,12766.0
+11,Rondônia,2025/Nov,12159.0
+11,Rondônia,2025/Dez,11455.0
+11,Rondônia,2026/Jan,11443.0
+11,Rondônia,2026/Fev,11312.0
+11,Rondônia,2026/Mar,13252.0
+11,Rondônia,2026/Abr,12322.0
+11,Rondônia,2026/Mai,10613.0
+11,Rondônia,2026/Jun,8456.0
+12,Acre,2025/Jul,5104.0
+12,Acre,2025/Ago,5091.0
+12,Acre,2025/Set,5047.0
+12,Acre,2025/Out,5560.0
+12,Acre,2025/Nov,4604.0
+12,Acre,2025/Dez,4527.0
+12,Acre,2026/Jan,4774.0
+12,Acre,2026/Fev,4479.0
+12,Acre,2026/Mar,5087.0
+12,Acre,2026/Abr,4951.0
+12,Acre,2026/Mai,5328.0
+13,Amazonas,2025/Jul,24613.0
+13,Amazonas,2025/Ago,24408.0
+13,Amazonas,2025/Set,23100.0
+13,Amazonas,2025/Out,25112.0
+13,Amazonas,2025/Nov,21821.0
+13,Amazonas,2025/Dez,21542.0
+13,Amazonas,2026/Jan,21748.0
+13,Amazonas,2026/Fev,20400.0
+13,Amazonas,2026/Mar,23276.0
+13,Amazonas,2026/Abr,23388.0
+13,Amazonas,2026/Mai,22716.0
+13,Amazonas,2026/Jun,19563.0
+14,Roraima,2025/Jul,3002.0
+14,Roraima,2025/Ago,3193.0
+14,Roraima,2025/Set,2738.0
+14,Roraima,2025/Out,2346.0
+14,Roraima,2025/Nov,2740.0
+14,Roraima,2025/Dez,2128.0
+14,Roraima,2026/Jan,2597.0
+14,Roraima,2026/Fev,2961.0
+14,Roraima,2026/Mar,3082.0
+14,Roraima,2026/Abr,3013.0
+14,Roraima,2026/Mai,352.0
+15,Pará,2025/Jul,49639.0
+15,Pará,2025/Ago,50659.0
+15,Pará,2025/Set,49447.0
+15,Pará,2025/Out,50058.0
+15,Pará,2025/Nov,48679.0
+15,Pará,2025/Dez,48817.0
+15,Pará,2026/Jan,47344.0
+15,Pará,2026/Fev,45674.0
+15,Pará,2026/Mar,50991.0
+15,Pará,2026/Abr,49732.0
+15,Pará,2026/Mai,47073.0
+15,Pará,2026/Jun,40277.0
+16,Amapá,2025/Jul,5059.0
+16,Amapá,2025/Ago,4957.0
+16,Amapá,2025/Set,4792.0
+16,Amapá,2025/Out,4903.0
+16,Amapá,2025/Nov,4195.0
+16,Amapá,2025/Dez,4900.0
+16,Amapá,2026/Jan,4938.0
+16,Amapá,2026/Fev,4640.0
+16,Amapá,2026/Mar,5420.0
+16,Amapá,2026/Abr,5563.0
+16,Amapá,2026/Mai,5849.0
+16,Amapá,2026/Jun,5777.0
+17,Tocantins,2025/Jul,9478.0
+17,Tocantins,2025/Ago,9466.0
+17,Tocantins,2025/Set,9104.0
+17,Tocantins,2025/Out,9302.0
+17,Tocantins,2025/Nov,8338.0
+17,Tocantins,2025/Dez,7768.0
+17,Tocantins,2026/Jan,8884.0
+17,Tocantins,2026/Fev,9024.0
+17,Tocantins,2026/Mar,9574.0
+17,Tocantins,2026/Abr,9167.0
+17,Tocantins,2026/Mai,10204.0
+17,Tocantins,2026/Jun,845.0
+21,Maranhão,2025/Jul,43817.0
+21,Maranhão,2025/Ago,42433.0
+21,Maranhão,2025/Set,43286.0
+21,Maranhão,2025/Out,42713.0
+21,Maranhão,2025/Nov,41621.0
+21,Maranhão,2025/Dez,39755.0
+21,Maranhão,2026/Jan,40638.0
+21,Maranhão,2026/Fev,38144.0
+21,Maranhão,2026/Mar,42301.0
+21,Maranhão,2026/Abr,39802.0
+21,Maranhão,2026/Mai,38007.0
+21,Maranhão,2026/Jun,32513.0
+22,Piauí,2025/Jul,19376.0
+22,Piauí,2025/Ago,18838.0
+22,Piauí,2025/Set,17236.0
+22,Piauí,2025/Out,19901.0
+22,Piauí,2025/Nov,18019.0
+22,Piauí,2025/Dez,18898.0
+22,Piauí,2026/Jan,19531.0
+22,Piauí,2026/Fev,17915.0
+22,Piauí,2026/Mar,18124.0
+22,Piauí,2026/Abr,17554.0
+22,Piauí,2026/Mai,18752.0
+22,Piauí,2026/Jun,16825.0
+23,Ceará,2025/Jul,50415.0
+23,Ceará,2025/Ago,49700.0
+23,Ceará,2025/Set,52713.0
+23,Ceará,2025/Out,51834.0
+23,Ceará,2025/Nov,49378.0
+23,Ceará,2025/Dez,48118.0
+23,Ceará,2026/Jan,48637.0
+23,Ceará,2026/Fev,46201.0
+23,Ceará,2026/Mar,52606.0
+23,Ceará,2026/Abr,49255.0
+23,Ceará,2026/Mai,53275.0
+23,Ceará,2026/Jun,52819.0
+24,Rio Grande do Norte,2025/Jul,20144.0
+24,Rio Grande do Norte,2025/Ago,19299.0
+24,Rio Grande do Norte,2025/Set,18852.0
+24,Rio Grande do Norte,2025/Out,18285.0
+24,Rio Grande do Norte,2025/Nov,18060.0
+24,Rio Grande do Norte,2025/Dez,17607.0
+24,Rio Grande do Norte,2026/Jan,17739.0
+24,Rio Grande do Norte,2026/Fev,16589.0
+24,Rio Grande do Norte,2026/Mar,18608.0
+24,Rio Grande do Norte,2026/Abr,18209.0
+24,Rio Grande do Norte,2026/Mai,18415.0
+24,Rio Grande do Norte,2026/Jun,18242.0
+25,Paraíba,2025/Jul,22606.0
+25,Paraíba,2025/Ago,23003.0
+25,Paraíba,2025/Set,22229.0
+25,Paraíba,2025/Out,22942.0
+25,Paraíba,2025/Nov,20384.0
+25,Paraíba,2025/Dez,19040.0
+25,Paraíba,2026/Jan,20646.0
+25,Paraíba,2026/Fev,19393.0
+25,Paraíba,2026/Mar,22978.0
+25,Paraíba,2026/Abr,21924.0
+25,Paraíba,2026/Mai,20927.0
+25,Paraíba,2026/Jun,21148.0
+26,Pernambuco,2025/Jul,57532.0
+26,Pernambuco,2025/Ago,58554.0
+26,Pernambuco,2025/Set,58199.0
+26,Pernambuco,2025/Out,58050.0
+26,Pernambuco,2025/Nov,55041.0
+26,Pernambuco,2025/Dez,55619.0
+26,Pernambuco,2026/Jan,51853.0
+26,Pernambuco,2026/Fev,51040.0
+26,Pernambuco,2026/Mar,58126.0
+26,Pernambuco,2026/Abr,56845.0
+26,Pernambuco,2026/Mai,58242.0
+26,Pernambuco,2026/Jun,53956.0
+27,Alagoas,2025/Jul,16985.0
+27,Alagoas,2025/Ago,14853.0
+27,Alagoas,2025/Set,14854.0
+27,Alagoas,2025/Out,15413.0
+27,Alagoas,2025/Nov,14415.0
+27,Alagoas,2025/Dez,13881.0
+27,Alagoas,2026/Jan,14177.0
+27,Alagoas,2026/Fev,13588.0
+27,Alagoas,2026/Mar,15220.0
+27,Alagoas,2026/Abr,15481.0
+27,Alagoas,2026/Mai,15848.0
+27,Alagoas,2026/Jun,15162.0
+28,Sergipe,2025/Jul,10547.0
+28,Sergipe,2025/Ago,10601.0
+28,Sergipe,2025/Set,11189.0
+28,Sergipe,2025/Out,10986.0
+28,Sergipe,2025/Nov,10306.0
+28,Sergipe,2025/Dez,10340.0
+28,Sergipe,2026/Jan,10224.0
+28,Sergipe,2026/Fev,10654.0
+28,Sergipe,2026/Mar,11258.0
+28,Sergipe,2026/Abr,10880.0
+28,Sergipe,2026/Mai,10398.0
+28,Sergipe,2026/Jun,10082.0
+29,Bahia,2025/Jul,84590.0
+29,Bahia,2025/Ago,84784.0
+29,Bahia,2025/Set,85884.0
+29,Bahia,2025/Out,82212.0
+29,Bahia,2025/Nov,79921.0
+29,Bahia,2025/Dez,76873.0
+29,Bahia,2026/Jan,77927.0
+29,Bahia,2026/Fev,78346.0
+29,Bahia,2026/Mar,83861.0
+29,Bahia,2026/Abr,81916.0
+29,Bahia,2026/Mai,80919.0
+29,Bahia,2026/Jun,75897.0
+31,Minas Gerais,2025/Jul,140301.0
+31,Minas Gerais,2025/Ago,138505.0
+31,Minas Gerais,2025/Set,137893.0
+31,Minas Gerais,2025/Out,138709.0
+31,Minas Gerais,2025/Nov,129094.0
+31,Minas Gerais,2025/Dez,127389.0
+31,Minas Gerais,2026/Jan,131186.0
+31,Minas Gerais,2026/Fev,127795.0
+31,Minas Gerais,2026/Mar,139157.0
+31,Minas Gerais,2026/Abr,134164.0
+31,Minas Gerais,2026/Mai,132588.0
+31,Minas Gerais,2026/Jun,102236.0
+32,Espírito Santo,2025/Jul,27492.0
+32,Espírito Santo,2025/Ago,27594.0
+32,Espírito Santo,2025/Set,26733.0
+32,Espírito Santo,2025/Out,28059.0
+32,Espírito Santo,2025/Nov,25978.0
+32,Espírito Santo,2025/Dez,25554.0
+32,Espírito Santo,2026/Jan,24807.0
+32,Espírito Santo,2026/Fev,25223.0
+32,Espírito Santo,2026/Mar,26226.0
+32,Espírito Santo,2026/Abr,25670.0
+32,Espírito Santo,2026/Mai,26307.0
+32,Espírito Santo,2026/Jun,26442.0
+33,Rio de Janeiro,2025/Jul,80089.0
+33,Rio de Janeiro,2025/Ago,78567.0
+33,Rio de Janeiro,2025/Set,79779.0
+33,Rio de Janeiro,2025/Out,80446.0
+33,Rio de Janeiro,2025/Nov,76618.0
+33,Rio de Janeiro,2025/Dez,75582.0
+33,Rio de Janeiro,2026/Jan,72939.0
+33,Rio de Janeiro,2026/Fev,72018.0
+33,Rio de Janeiro,2026/Mar,81028.0
+33,Rio de Janeiro,2026/Abr,77640.0
+33,Rio de Janeiro,2026/Mai,79428.0
+33,Rio de Janeiro,2026/Jun,79044.0
+35,São Paulo,2025/Jul,250183.0
+35,São Paulo,2025/Ago,248520.0
+35,São Paulo,2025/Set,246441.0
+35,São Paulo,2025/Out,252173.0
+35,São Paulo,2025/Nov,235133.0
+35,São Paulo,2025/Dez,226234.0
+35,São Paulo,2026/Jan,233322.0
+35,São Paulo,2026/Fev,226428.0
+35,São Paulo,2026/Mar,251044.0
+35,São Paulo,2026/Abr,246274.0
+35,São Paulo,2026/Mai,252963.0
+35,São Paulo,2026/Jun,245238.0
+41,Paraná,2025/Jul,94367.0
+41,Paraná,2025/Ago,92542.0
+41,Paraná,2025/Set,93026.0
+41,Paraná,2025/Out,94622.0
+41,Paraná,2025/Nov,90412.0
+41,Paraná,2025/Dez,88167.0
+41,Paraná,2026/Jan,92271.0
+41,Paraná,2026/Fev,88527.0
+41,Paraná,2026/Mar,93379.0
+41,Paraná,2026/Abr,84114.0
+41,Paraná,2026/Mai,98139.0
+41,Paraná,2026/Jun,92649.0
+42,Santa Catarina,2025/Jul,60154.0
+42,Santa Catarina,2025/Ago,60088.0
+42,Santa Catarina,2025/Set,59165.0
+42,Santa Catarina,2025/Out,61283.0
+42,Santa Catarina,2025/Nov,58436.0
+42,Santa Catarina,2025/Dez,55009.0
+42,Santa Catarina,2026/Jan,56756.0
+42,Santa Catarina,2026/Fev,53796.0
+42,Santa Catarina,2026/Mar,58579.0
+42,Santa Catarina,2026/Abr,58378.0
+42,Santa Catarina,2026/Mai,58680.0
+42,Santa Catarina,2026/Jun,59061.0
+43,Rio Grande do Sul,2025/Jul,74650.0
+43,Rio Grande do Sul,2025/Ago,73904.0
+43,Rio Grande do Sul,2025/Set,75163.0
+43,Rio Grande do Sul,2025/Out,75458.0
+43,Rio Grande do Sul,2025/Nov,73453.0
+43,Rio Grande do Sul,2025/Dez,70503.0
+43,Rio Grande do Sul,2026/Jan,69652.0
+43,Rio Grande do Sul,2026/Fev,67798.0
+43,Rio Grande do Sul,2026/Mar,73467.0
+43,Rio Grande do Sul,2026/Abr,74654.0
+43,Rio Grande do Sul,2026/Mai,74216.0
+43,Rio Grande do Sul,2026/Jun,75588.0
+50,Mato Grosso do Sul,2025/Jul,18135.0
+50,Mato Grosso do Sul,2025/Ago,17969.0
+50,Mato Grosso do Sul,2025/Set,18261.0
+50,Mato Grosso do Sul,2025/Out,17287.0
+50,Mato Grosso do Sul,2025/Nov,16509.0
+50,Mato Grosso do Sul,2025/Dez,16041.0
+50,Mato Grosso do Sul,2026/Jan,17443.0
+50,Mato Grosso do Sul,2026/Fev,16691.0
+50,Mato Grosso do Sul,2026/Mar,16986.0
+50,Mato Grosso do Sul,2026/Abr,17492.0
+50,Mato Grosso do Sul,2026/Mai,17312.0
+50,Mato Grosso do Sul,2026/Jun,16618.0
+51,Mato Grosso,2025/Jul,21734.0
+51,Mato Grosso,2025/Ago,23204.0
+51,Mato Grosso,2025/Set,22801.0
+51,Mato Grosso,2025/Out,22241.0
+51,Mato Grosso,2025/Nov,21127.0
+51,Mato Grosso,2025/Dez,20484.0
+51,Mato Grosso,2026/Jan,21238.0
+51,Mato Grosso,2026/Fev,20512.0
+51,Mato Grosso,2026/Mar,22955.0
+51,Mato Grosso,2026/Abr,22749.0
+51,Mato Grosso,2026/Mai,22742.0
+51,Mato Grosso,2026/Jun,20371.0
+52,Goiás,2025/Jul,39027.0
+52,Goiás,2025/Ago,38429.0
+52,Goiás,2025/Set,37521.0
+52,Goiás,2025/Out,38084.0
+52,Goiás,2025/Nov,37361.0
+52,Goiás,2025/Dez,36327.0
+52,Goiás,2026/Jan,36102.0
+52,Goiás,2026/Fev,36121.0
+52,Goiás,2026/Mar,39076.0
+52,Goiás,2026/Abr,38077.0
+52,Goiás,2026/Mai,38634.0
+52,Goiás,2026/Jun,35855.0
+53,Distrito Federal,2025/Jul,21517.0
+53,Distrito Federal,2025/Ago,20461.0
+53,Distrito Federal,2025/Set,20803.0
+53,Distrito Federal,2025/Out,20766.0
+53,Distrito Federal,2025/Nov,19737.0
+53,Distrito Federal,2025/Dez,20313.0
+53,Distrito Federal,2026/Jan,19492.0
+53,Distrito Federal,2026/Fev,18277.0
+53,Distrito Federal,2026/Mar,20349.0
+53,Distrito Federal,2026/Abr,19689.0
+53,Distrito Federal,2026/Mai,21460.0
+53,Distrito Federal,2026/Jun,21121.0
