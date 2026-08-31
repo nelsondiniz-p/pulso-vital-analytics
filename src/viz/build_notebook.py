@@ -36,7 +36,7 @@ CELULAS = [
     md("""
 # PULSO — Análise exploratória dos dados
 
-**Equipe Vital Analytics · Turma 1TSCOA · Challenge Oracle + FIAP 2026**
+**Equipe Vital Analytics · Turma 1TSCOB · Challenge Oracle + FIAP 2026**
 
 Este notebook documenta a exploração que precedeu as decisões de modelagem.
 Ele não faz parte do pipeline de produção (`src/run_pipeline.py`) — serve para

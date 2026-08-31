@@ -1,5 +1,5 @@
 --------------------------------------------------------------------------------
--- PULSO · Equipe Vital Analytics · 1TSCOA · Challenge Oracle + FIAP 2026
+-- PULSO · Equipe Vital Analytics · 1TSCOB · Challenge Oracle + FIAP 2026
 --
 -- 03_views_analiticas.sql
 -- Camada de CONSUMO ANALÍTICO: as views que o dashboard e o Select AI leem.

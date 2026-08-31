@@ -1,6 +1,6 @@
 # PULSO — Dicionário de dados
 
-**Equipe Vital Analytics · 1TSCOA · Challenge Oracle + FIAP 2026**
+**Equipe Vital Analytics · 1TSCOB · Challenge Oracle + FIAP 2026**
 
 Referência das tabelas produzidas pelo pipeline. Os arquivos ficam em
 `data/processed/` e são carregados no Autonomous Database pelos scripts de

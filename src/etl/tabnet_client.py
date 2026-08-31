@@ -2,7 +2,7 @@
 PULSO - Cliente de extracao TabNet/DATASUS
 ==========================================
 Projeto PULSO (Painel Unico de Leitos, Saude e Ocupacao)
-Equipe Vital Analytics - Turma 1TSCOA - Challenge Oracle + FIAP 2026
+Equipe Vital Analytics - Turma 1TSCOB - Challenge Oracle + FIAP 2026
 
 O TabNet e a interface publica de tabulacao do DATASUS. Ele nao expoe uma API
 REST: expoe um CGI (tabcgi.exe) que recebe um POST com os parametros de

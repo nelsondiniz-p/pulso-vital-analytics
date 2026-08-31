@@ -1,0 +1,61 @@
+codigo,codigo_ibge,municipio,regiao_imediata,regiao_intermediaria,mesorregiao,populacao,ano,leitos_existentes,leitos_sus,leitos_sus_10k_hab,tem_rede_hospitalar
+350010,3500105,Adamantina,Adamantina - Lucélia,Presidente Prudente,Presidente Prudente,35673,2025,194,133,37.28,True
+350020,3500204,Adolfo,São José do Rio Preto,São José do Rio Preto,São José do Rio Preto,4505,2025,0,0,0.0,False
+350030,3500303,Aguaí,São João da Boa Vista,Campinas,Campinas,32886,2025,24,24,7.3,True
+350040,3500402,Águas da Prata,São João da Boa Vista,Campinas,Campinas,7463,2025,0,0,0.0,False
+350050,3500501,Águas de Lindóia,Amparo,Campinas,Campinas,18257,2025,42,30,16.43,True
+350055,3500550,Águas de Santa Bárbara,Avaré,Sorocaba,Bauru,7460,2025,0,0,0.0,False
+350060,3500600,Águas de São Pedro,Piracicaba,Campinas,Piracicaba,2928,2025,0,0,0.0,False
+350070,3500709,Agudos,Bauru,Bauru,Bauru,38988,2025,36,28,7.18,True
+350075,3500758,Alambari,Itapetininga,Sorocaba,Itapetininga,6373,2025,0,0,0.0,False
+350080,3500808,Alfredo Marcondes,Presidente Prudente,Presidente Prudente,Presidente Prudente,4574,2025,0,0,0.0,False
+350090,3500907,Altair,São José do Rio Preto,São José do Rio Preto,São José do Rio Preto,3467,2025,0,0,0.0,False
+350100,3501004,Altinópolis,Ribeirão Preto,Ribeirão Preto,Ribeirão Preto,17197,2025,21,19,11.05,True
+350110,3501103,Alto Alegre,Birigui - Penápolis,Araçatuba,Araçatuba,3874,2025,16,16,41.3,True
+350115,3501152,Alumínio,Sorocaba,Sorocaba,Macro Metropolitana Paulista,17607,2025,120,0,0.0,True
+350120,3501202,Álvares Florence,Votuporanga,São José do Rio Preto,São José do Rio Preto,3979,2025,0,0,0.0,False
+350130,3501301,Álvares Machado,Presidente Prudente,Presidente Prudente,Presidente Prudente,28386,2025,28,17,5.99,True
+350140,3501400,Álvaro de Carvalho,Marília,Marília,Marília,4901,2025,0,0,0.0,False
+350150,3501509,Alvinlândia,Marília,Marília,Marília,2919,2025,0,0,0.0,False
+350160,3501608,Americana,Campinas,Campinas,Campinas,247571,2025,416,149,6.02,True
+350170,3501707,Américo Brasiliense,Araraquara,Araraquara,Araraquara,33708,2025,148,148,43.91,True
+350180,3501806,Américo de Campos,Votuporanga,São José do Rio Preto,São José do Rio Preto,5981,2025,0,0,0.0,False
+350190,3501905,Amparo,Amparo,Campinas,Campinas,69792,2025,382,217,31.09,True
+350200,3502002,Analândia,Rio Claro,Campinas,Araraquara,4694,2025,0,0,0.0,False
+350210,3502101,Andradina,Andradina,Araçatuba,Araçatuba,61625,2025,99,59,9.57,True
+350220,3502200,Angatuba,Itapetininga,Sorocaba,Itapetininga,24573,2025,57,54,21.98,True
+350230,3502309,Anhembi,Botucatu,Bauru,Bauru,5766,2025,0,0,0.0,False
+350240,3502408,Anhumas,Presidente Prudente,Presidente Prudente,Presidente Prudente,4118,2025,0,0,0.0,False
+350250,3502507,Aparecida,Guaratinguetá,São José dos Campos,Vale do Paraíba Paulista,33141,2025,92,49,14.79,True
+350260,3502606,Aparecida d'Oeste,Jales,São José do Rio Preto,São José do Rio Preto,4112,2025,13,12,29.18,True
+350270,3502705,Apiaí,Itapeva,Sorocaba,Itapetininga,24857,2025,51,45,18.1,True
+350275,3502754,Araçariguama,Sorocaba,Sorocaba,Macro Metropolitana Paulista,22314,2025,0,0,0.0,False
+350280,3502804,Araçatuba,Araçatuba,Araçatuba,Araçatuba,208415,2025,413,264,12.67,True
+350290,3502903,Araçoiaba da Serra,Sorocaba,Sorocaba,Macro Metropolitana Paulista,33832,2025,103,0,0.0,True
+350300,3503000,Aramina,Ituverava,Ribeirão Preto,Ribeirão Preto,5535,2025,0,0,0.0,False
+350310,3503109,Arandu,Avaré,Sorocaba,Bauru,7076,2025,6,6,8.48,True
+350315,3503158,Arapeí,Cruzeiro,São José dos Campos,Vale do Paraíba Paulista,2355,2025,0,0,0.0,False
+350320,3503208,Araraquara,Araraquara,Araraquara,Araraquara,253474,2025,463,258,10.18,True
+350330,3503307,Araras,Araras,Campinas,Piracicaba,135744,2025,392,180,13.26,True
+350335,3503356,Arco-Íris,Tupã,Marília,Marília,2089,2025,0,0,0.0,False
+350340,3503406,Arealva,Bauru,Bauru,Bauru,8290,2025,26,15,18.09,True
+350350,3503505,Areias,Cruzeiro,São José dos Campos,Vale do Paraíba Paulista,3617,2025,0,0,0.0,False
+350360,3503604,Areiópolis,Botucatu,Bauru,Bauru,10242,2025,0,0,0.0,False
+350370,3503703,Ariranha,Catanduva,São José do Rio Preto,São José do Rio Preto,7621,2025,0,0,0.0,False
+350380,3503802,Artur Nogueira,Campinas,Campinas,Campinas,53467,2025,8,8,1.5,True
+350390,3503901,Arujá,São Paulo,São Paulo,Metropolitana de São Paulo,90273,2025,69,29,3.21,True
+350395,3503950,Aspásia,Jales,São José do Rio Preto,São José do Rio Preto,1875,2025,0,0,0.0,False
+350400,3504008,Assis,Assis,Marília,Assis,104858,2025,288,161,15.35,True
+350410,3504107,Atibaia,Bragança Paulista,Campinas,Macro Metropolitana Paulista,167161,2025,310,66,3.95,True
+350420,3504206,Auriflama,Araçatuba,Araçatuba,São José do Rio Preto,13856,2025,44,35,25.26,True
+350430,3504305,Avaí,Bauru,Bauru,Bauru,4503,2025,0,0,0.0,False
+350440,3504404,Avanhandava,Birigui - Penápolis,Araçatuba,Araçatuba,11436,2025,0,0,0.0,False
+350450,3504503,Avaré,Avaré,Sorocaba,Bauru,96450,2025,184,142,14.72,True
+350460,3504602,Bady Bassitt,São José do Rio Preto,São José do Rio Preto,São José do Rio Preto,29346,2025,0,0,0.0,False
+350470,3504701,Balbinos,Bauru,Bauru,Bauru,3969,2025,0,0,0.0,False
+350480,3504800,Bálsamo,São José do Rio Preto,São José do Rio Preto,São José do Rio Preto,9902,2025,0,0,0.0,False
+350490,3504909,Bananal,Cruzeiro,São José dos Campos,Vale do Paraíba Paulista,10097,2025,15,15,14.86,True
+350500,3505005,Barão de Antonina,Itapeva,Sorocaba,Itapetininga,3632,2025,0,0,0.0,False
+350510,3505104,Barbosa,Birigui - Penápolis,Araçatuba,Araçatuba,5627,2025,0,0,0.0,False
+350520,3505203,Bariri,Jaú,Bauru,Bauru,32406,2025,48,42,12.96,True
+350530,3505302,Barra Bonita,Jaú,Bauru,Bauru,35129,2025,58,47,13.38,True

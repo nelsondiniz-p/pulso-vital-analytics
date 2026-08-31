@@ -128,7 +128,7 @@ def montar() -> dict:
         "meta": {
             "projeto": "PULSO — Painel Único de Leitos, Saúde e Ocupação",
             "equipe": "Vital Analytics",
-            "turma": "1TSCOA",
+            "turma": "1TSCOB",
             "uf": "SP",
             "periodo_inicio": periodos[0],
             "periodo_fim": periodos[-1],

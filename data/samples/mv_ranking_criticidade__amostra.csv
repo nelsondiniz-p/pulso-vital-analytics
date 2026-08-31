@@ -1,0 +1,41 @@
+posicao,codigo,municipio,indice_criticidade,ocupacao_estimada_pct,internacoes_mil_hab,leitos_sus_10k_hab,variacao_trimestral_pct,internacoes_12m,leitos_sus,populacao,perfil_dominante,alerta_capacidade
+1,350250,Aparecida,83.3,88.0,155.25,14.79,3.9,5145,49,33141,XIV. Doenças do aparelho geniturinário,Atenção
+2,355260,Tabapuã,81.9,88.6,88.62,9.57,43.4,1019,11,11498,XI. Doenças do aparelho digestivo,Atenção
+3,354980,São José do Rio Preto,81.7,102.1,190.35,23.03,0.9,95968,1161,504166,IX. Doenças do aparelho circulatório,Crítico
+4,352590,Jundiaí,81.4,105.0,95.0,9.57,7.8,43991,443,463039,XI. Doenças do aparelho digestivo,Crítico
+5,351630,Francisco Morato,80.9,102.5,81.0,8.75,15.4,13889,150,171476,"XV. Gravidez, parto e puerpério",Crítico
+6,352210,Itanhaém,80.5,105.0,101.36,11.56,4.1,12011,137,118495,"XV. Gravidez, parto e puerpério",Crítico
+7,352240,Itapeva,79.1,93.9,102.9,11.8,3.9,9507,109,92393,"XV. Gravidez, parto e puerpério",Atenção
+8,354890,São Carlos,79.0,101.1,81.18,8.18,4.2,21628,218,266427,IX. Doenças do aparelho circulatório,Crítico
+9,355710,Votuporanga,79.0,93.7,115.96,11.93,-7.1,11662,120,100568,XIX. Lesões e envenenamentos por causas externas,Atenção
+10,352220,Itapecerica da Serra,79.0,90.7,105.28,11.96,8.6,17161,195,163003,"XV. Gravidez, parto e puerpério",Atenção
+11,351050,Caraguatatuba,78.6,82.3,166.25,18.42,4.3,23649,262,142248,XI. Doenças do aparelho digestivo,Adequado
+12,353470,Ourinhos,78.5,106.3,98.76,10.38,-6.6,10558,111,106911,IX. Doenças do aparelho circulatório,Crítico
+13,352070,Indiaporã,77.4,84.2,93.36,9.73,18.6,384,4,4113,XIV. Doenças do aparelho geniturinário,Adequado
+14,351300,Cotia,77.1,103.7,46.61,4.77,15.1,13492,138,289493,"XV. Gravidez, parto e puerpério",Crítico
+15,350760,Bragança Paulista,76.8,92.3,100.42,11.09,-3.4,18647,206,185688,"XV. Gravidez, parto e puerpério",Atenção
+16,355170,Sertãozinho,76.5,111.7,52.29,4.46,7.6,6911,59,132176,XIX. Lesões e envenenamentos por causas externas,Crítico
+17,352270,Itápolis,76.5,77.8,91.26,10.63,32.2,3691,43,40445,X. Doenças do aparelho respiratório,Adequado
+18,351110,Catanduva,76.3,101.1,159.28,31.61,-0.1,18998,377,119275,XIX. Lesões e envenenamentos por causas externas,Crítico
+19,350600,Bauru,75.9,88.3,112.8,18.48,11.4,44324,726,392947,XIX. Lesões e envenenamentos por causas externas,Atenção
+20,352690,Limeira,75.4,107.2,54.43,5.94,4.0,16398,179,301292,"XV. Gravidez, parto e puerpério",Crítico
+21,354990,São José dos Campos,75.2,94.1,82.24,10.85,0.1,59794,789,727078,IX. Doenças do aparelho circulatório,Atenção
+22,350550,Barretos,74.3,103.6,258.02,34.81,0.1,32758,442,126957,II. Neoplasias (tumores),Crítico
+23,355060,São Roque,74.1,86.0,64.99,7.62,17.5,5288,62,81366,"XV. Gravidez, parto e puerpério",Atenção
+24,352050,Indaiatuba,74.1,89.4,84.35,9.12,-2.0,22745,246,269657,XIX. Lesões e envenenamentos por causas externas,Atenção
+25,352930,Matão,73.9,89.1,80.42,10.61,5.4,6520,86,81075,IX. Doenças do aparelho circulatório,Atenção
+26,355620,Valinhos,73.9,110.2,36.76,4.46,8.7,4862,59,132258,XIX. Lesões e envenenamentos por causas externas,Crítico
+27,355340,Tanabi,73.8,91.1,57.11,11.51,23.0,1489,30,26071,I. Doenças infecciosas e parasitárias,Atenção
+28,352230,Itapetininga,73.8,101.5,63.69,10.11,0.6,10461,166,164256,"XV. Gravidez, parto e puerpério",Crítico
+29,351550,Fernandópolis,73.3,79.7,100.7,11.43,7.4,7402,84,73508,XI. Doenças do aparelho digestivo,Adequado
+30,350400,Assis,73.2,85.9,105.08,15.35,1.6,11019,161,104858,"XV. Gravidez, parto e puerpério",Atenção
+31,354140,Presidente Prudente,73.1,91.3,188.03,32.04,-1.1,44132,752,234706,II. Neoplasias (tumores),Atenção
+32,350950,Campinas,73.1,96.5,73.64,11.84,-4.9,87484,1406,1187974,IX. Doenças do aparelho circulatório,Atenção
+33,350270,Apiaí,73.0,59.4,150.42,18.1,25.7,3739,45,24857,"XV. Gravidez, parto e puerpério",Adequado
+34,350320,Araraquara,72.9,86.7,84.35,10.18,1.0,21381,258,253474,IX. Doenças do aparelho circulatório,Atenção
+35,350280,Araçatuba,72.8,118.2,67.32,12.67,0.2,14031,264,208415,IX. Doenças do aparelho circulatório,Crítico
+36,354340,Ribeirão Preto,72.5,82.8,128.84,19.14,-4.9,94261,1400,731639,II. Neoplasias (tumores),Adequado
+37,351350,Cubatão,72.3,103.3,56.72,9.49,-2.5,6516,109,114870,"XV. Gravidez, parto e puerpério",Crítico
+38,354870,São Bernardo do Campo,72.2,99.6,48.94,8.37,0.5,41162,704,841154,"XV. Gravidez, parto e puerpério",Atenção
+39,355600,Urupês,72.2,67.2,89.75,9.95,34.4,1263,14,14073,X. Doenças do aparelho respiratório,Adequado
+40,353800,Pindamonhangaba,72.1,85.6,45.67,7.35,24.8,7887,127,172681,"XV. Gravidez, parto e puerpério",Atenção

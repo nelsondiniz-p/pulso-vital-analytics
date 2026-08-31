@@ -1,5 +1,5 @@
 --------------------------------------------------------------------------------
--- PULSO · Equipe Vital Analytics · 1TSCOA · Challenge Oracle + FIAP 2026
+-- PULSO · Equipe Vital Analytics · 1TSCOB · Challenge Oracle + FIAP 2026
 --
 -- 04_select_ai.sql
 -- O DIFERENCIAL DA SOLUÇÃO: o gestor pergunta em português, o banco gera e

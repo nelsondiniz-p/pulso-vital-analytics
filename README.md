@@ -1,6 +1,6 @@
 # PULSO — Painel Único de Leitos, Saúde e Ocupação
 
-**Equipe Vital Analytics · Turma 1TSCOA · Challenge Oracle + FIAP 2026 · Sprint 2**
+**Equipe Vital Analytics · Turma 1TSCOB · Challenge Oracle + FIAP 2026 · Sprint 2**
 
 Painel inteligente de acesso hospitalar construído sobre dados públicos do SUS.
 Responde, sem intermediação de analista, as três perguntas que a gestão de saúde
@@ -242,8 +242,8 @@ SQL** do Autonomous Database:
 4. `04_select_ai.sql` — perfil de IA e permissões
 5. `05_perguntas_negocio.sql` — as perguntas de gestão, em Select AI e em SQL
 
-Pré-requisitos, validação da carga e diagnóstico da camada Select AI:
-[`docs/implantacao_oracle.md`](docs/implantacao_oracle.md).
+Passo a passo detalhado, com o que fazer quando cada etapa falha:
+[`docs/guia_oracle.md`](docs/guia_oracle.md).
 
 ---
 
@@ -271,16 +271,16 @@ pulso-vital-analytics/
 ├── notebooks/
 │   └── 01_analise_exploratoria.ipynb
 ├── data/
-│   ├── README.md                   o que há em cada camada
-│   ├── raw/                        saída bruta das três fontes
-│   └── processed/                  modelo dimensional — é o que carrega no Oracle
+│   ├── raw/                        saída bruta das fontes
+│   ├── processed/                  modelo dimensional em CSV
+│   └── samples/                    amostras versionadas
 ├── dashboard/
 │   ├── index.html                  aplicação (autocontida)
 │   └── dados.json                  payload
 └── docs/
     ├── arquitetura.md
     ├── dicionario_dados.md
-    ├── implantacao_oracle.md
+    ├── guia_oracle.md
     └── evidencias/                 gráficos usados no PPT e no pitch
 ```
 
@@ -295,7 +295,6 @@ pulso-vital-analytics/
 | Aplicação funcionando | <https://nelsondiniz-p.github.io/pulso-vital-analytics/> |
 | Repositório técnico | <https://github.com/nelsondiniz-p/pulso-vital-analytics> |
 | Evidências visuais | `docs/evidencias/` |
-| Dados tratados do projeto | `data/processed/` · `data/raw/` |
 | Scripts SQL do Oracle | `sql/` |
 
 ---

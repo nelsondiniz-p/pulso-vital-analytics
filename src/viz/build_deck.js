@@ -1,6 +1,6 @@
 /**
  * PULSO — Gerador do deck da Sprint 2
- * Equipe Vital Analytics · 1TSCOA · Challenge Oracle + FIAP 2026
+ * Equipe Vital Analytics · 1TSCOB · Challenge Oracle + FIAP 2026
  *
  * Cobre as 8 entregas obrigatórias da Sprint 2 conforme o briefing e o
  * template oficial da FIAP.
@@ -39,7 +39,7 @@ const img = (n) => path.join(EVID, n);
 const pres = new pptxgen();
 pres.layout = "LAYOUT_WIDE";           // 13.33 x 7.5 — definir ANTES de add
 pres.author = "Equipe Vital Analytics";
-pres.company = "FIAP · 1TSCOA";
+pres.company = "FIAP · 1TSCOB";
 pres.title = "PULSO — Evidências de construção · Sprint 2";
 
 const L = 0.62;                        // margem esquerda
@@ -76,7 +76,7 @@ function cabecalho(slide, titulo, subtitulo, entrega) {
 
 /** Rodapé discreto, presente em todo slide de conteúdo. */
 function rodape(slide, n) {
-  slide.addText("PULSO · Vital Analytics · 1TSCOA", {
+  slide.addText("PULSO · Vital Analytics · 1TSCOB", {
     x: L, y: 6.98, w: 5.5, h: 0.28, isTextBox: true, margin: 0,
     fontFace: TXT, fontSize: 8.5, color: CINZA,
   });
@@ -127,27 +127,28 @@ function lista(slide, x, y, w, h, itens, tamanho) {
 {
   const s = pres.addSlide();
   s.background = { color: NAVY };
-  s.addImage({ path: img("m2_ecg_branco.png"), x: 0, y: 1.02, w: 13.33, h: 1.16,
-               transparency: 78 });
+  // Logo do projeto, definida na Sprint 1: linha de ECG atravessando o
+  // hospital, com a seta de crescimento. Proporcao original 1072x608.
+  s.addImage({ path: img("logo_pulso.png"), x: L, y: 1.14, w: 3.35, h: 1.9 });
 
   s.addText("PULSO", {
-    x: L, y: 2.32, w: W, h: 1.12, isTextBox: true, margin: 0, valign: "bottom",
-    fontFace: TIT, fontSize: 62, bold: true, color: BRANCO, charSpacing: 6,
+    x: L, y: 3.16, w: W, h: 1.02, isTextBox: true, margin: 0, valign: "bottom",
+    fontFace: TIT, fontSize: 56, bold: true, color: BRANCO, charSpacing: 6,
   });
   s.addText("Painel Único de Leitos, Saúde e Ocupação", {
-    x: L, y: 3.48, w: W, h: 0.42, isTextBox: true, margin: 0,
-    fontFace: TXT, fontSize: 19, color: TEAL,
+    x: L, y: 4.2, w: W, h: 0.4, isTextBox: true, margin: 0,
+    fontFace: TXT, fontSize: 17, color: TEAL,
   });
   s.addShape(pres.ShapeType.rect, {
-    x: L, y: 4.12, w: 1.6, h: 0.035, fill: { color: TEAL }, line: { type: "none" },
+    x: L, y: 4.76, w: 1.6, h: 0.035, fill: { color: TEAL }, line: { type: "none" },
   });
   s.addText("Sprint 2 — MVP preliminar e evidências de construção da solução", {
-    x: L, y: 4.36, w: 9.4, h: 0.4, isTextBox: true, margin: 0,
-    fontFace: TXT, fontSize: 15, color: "C9DBE2",
+    x: L, y: 4.98, w: 9.4, h: 0.36, isTextBox: true, margin: 0,
+    fontFace: TXT, fontSize: 14, color: "C9DBE2",
   });
-  s.addText("Equipe Vital Analytics  ·  Turma 1TSCOA  ·  Challenge Oracle + FIAP 2026", {
-    x: L, y: 4.82, w: 9.4, h: 0.36, isTextBox: true, margin: 0,
-    fontFace: TXT, fontSize: 13, color: CINZA,
+  s.addText("Equipe Vital Analytics  ·  Turma 1TSCOB  ·  Challenge Oracle + FIAP 2026", {
+    x: L, y: 5.38, w: 9.4, h: 0.34, isTextBox: true, margin: 0,
+    fontFace: TXT, fontSize: 12.5, color: CINZA,
   });
 
   const kpis = [
@@ -158,12 +159,12 @@ function lista(slide, x, y, w, h, itens, tamanho) {
   kpis.forEach(([v, r], i) => {
     const x = L + i * 4.1;
     s.addText(v, {
-      x, y: 5.62, w: 3.8, h: 0.5, isTextBox: true, margin: 0, valign: "bottom",
-      fontFace: TIT, fontSize: 25, bold: true, color: TEAL,
+      x, y: 6.02, w: 3.8, h: 0.46, isTextBox: true, margin: 0, valign: "bottom",
+      fontFace: TIT, fontSize: 22, bold: true, color: TEAL,
     });
     s.addText(r, {
-      x, y: 6.14, w: 3.8, h: 0.34, isTextBox: true, margin: 0,
-      fontFace: TXT, fontSize: 11, color: "9FB6C0",
+      x, y: 6.5, w: 3.8, h: 0.32, isTextBox: true, margin: 0,
+      fontFace: TXT, fontSize: 10.5, color: "9FB6C0",
     });
   });
   s.addNotes(
@@ -179,7 +180,7 @@ function lista(slide, x, y, w, h, itens, tamanho) {
 /* ═══════════════════════════════════════════════════════════════════════ */
 {
   const s = pres.addSlide();
-  cabecalho(s, "Equipe Vital Analytics", "Turma 1TSCOA · Challenge Oracle + FIAP 2026");
+  cabecalho(s, "Equipe Vital Analytics", "Turma 1TSCOB · Challenge Oracle + FIAP 2026");
 
   const time = [
     ["Giovanny da Silva Santana", "570646", "Extração e tratamento das três fontes públicas", TEAL],
@@ -948,86 +949,118 @@ prints.forEach(([arquivo, titulo, sub, descricao], i) => {
 }
 
 /* ═══════════════════════════════════════════════════════════════════════ */
-/* 19 — 5ª ENTREGA: CAMADA ORACLE                                          */
+/* 19 — 5ª ENTREGA: AMBIENTE ORACLE PROVISIONADO                           */
 /* ═══════════════════════════════════════════════════════════════════════ */
 {
   const s = pres.addSlide();
-  cabecalho(s, "Camada Oracle — Select AI e persistência",
-            "O gestor pergunta em português; o banco gera o SQL, executa e responde", 5);
+  cabecalho(s, "Camada Oracle — ambiente no ar e carga conferida",
+            "Autonomous Database 23ai Always Free, região Brazil East (São Paulo)", 5);
 
-  cartao(s, L, 1.58, 6.32, 4.62, NAVY);
-  s.addText("PERFIL DE IA CONFIGURADO NO AUTONOMOUS DATABASE", {
-    x: L + 0.3, y: 1.8, w: 5.72, h: 0.28, isTextBox: true, margin: 0,
-    fontFace: TXT, fontSize: 9, bold: true, color: TEAL, charSpacing: 0.6,
+  s.addImage({ path: img("oracle/oracle_01_adb_provisionado.png"),
+               x: L, y: 1.56, w: 6.05, h: 2.78 });
+  s.addShape(pres.ShapeType.rect, {
+    x: L, y: 1.56, w: 6.05, h: 2.78,
+    fill: { type: "none" }, line: { color: "D3DFE3", width: 0.75 },
   });
-  s.addText(
-    "BEGIN\n" +
-    "  DBMS_CLOUD_AI.CREATE_PROFILE(\n" +
-    "    profile_name => 'PULSO_AI',\n" +
-    "    attributes   => '{\n" +
-    '      "provider"        : "openai",\n' +
-    '      "credential_name" : "CRED_IA_PULSO",\n' +
-    '      "comments"        : "true",\n' +
-    '      "object_list"     : [\n' +
-    '        {"owner":"ADMIN","name":"mv_indicadores_municipio"},\n' +
-    '        {"owner":"ADMIN","name":"mv_ranking_criticidade"},\n' +
-    '        {"owner":"ADMIN","name":"mv_tendencia_municipio"},\n' +
-    '        {"owner":"ADMIN","name":"vw_perfil_assistencial"}\n' +
-    "      ]}'\n" +
-    "  );\n" +
-    "END;\n" +
-    "/\n\n" +
-    "SELECT AI showsql\n" +
-    "  'quais municipios estao com a\n" +
-    "   capacidade hospitalar ultrapassada';",
-    { x: L + 0.3, y: 2.14, w: 5.72, h: 3.84, isTextBox: true, margin: 0,
-      valign: "top", fontFace: "Courier New", fontSize: 9.5, color: "BFD8DC",
-      lineSpacingMultiple: 0.98 }
-  );
-
-  const dir = L + 6.62;
-  const dw = W - 6.62;
-
-  cartao(s, dir, 1.58, dw, 2.16, CLARO);
-  s.addText("POR QUE A MODELAGEM É O QUE FAZ O SELECT AI FUNCIONAR", {
-    x: dir + 0.3, y: 1.8, w: dw - 0.6, h: 0.28, isTextBox: true, margin: 0,
-    fontFace: TXT, fontSize: 9, bold: true, color: CINZA, charSpacing: 0.6,
+  s.addText("Instância PULSO com status Available", {
+    x: L, y: 4.4, w: 6.05, h: 0.3, isTextBox: true, margin: 0,
+    fontFace: TXT, fontSize: 10.5, italic: true, color: CINZA,
   });
-  s.addText(
-    "O object_list é a fronteira do que a IA enxerga — expomos oito views de negócio, " +
-    'não as tabelas cruas. E o atributo "comments" faz a IA ler os COMMENT ON do ' +
-    "esquema: é o que permite a ela entender que ocupação acima de 100% significa " +
-    "capacidade ultrapassada, sem que isso esteja escrito na pergunta.",
-    { x: dir + 0.3, y: 2.12, w: dw - 0.6, h: 1.48, isTextBox: true, margin: 0,
-      valign: "top", fontFace: TXT, fontSize: 11, color: CINZA2,
-      lineSpacingMultiple: 1.12 }
-  );
 
-  cartao(s, dir, 3.9, dw, 2.3, CLARO);
-  s.addText("SETE PERGUNTAS DE NEGÓCIO IMPLEMENTADAS", {
-    x: dir + 0.3, y: 4.12, w: dw - 0.6, h: 0.28, isTextBox: true, margin: 0,
-    fontFace: TXT, fontSize: 9, bold: true, color: CINZA, charSpacing: 0.6,
+  s.addImage({ path: img("oracle/evidencia_08_controle.png"),
+               x: L + 6.35, y: 1.56, w: 5.73, h: 2.78 });
+  s.addShape(pres.ShapeType.rect, {
+    x: L + 6.35, y: 1.56, w: 5.73, h: 2.78,
+    fill: { type: "none" }, line: { color: "D3DFE3", width: 0.75 },
   });
-  lista(s, dir + 0.3, 4.46, dw - 0.6, 1.66, [
-    "Quais municípios ultrapassaram a capacidade",
-    "Quais perfis de atendimento mais pressionam a rede",
-    "Onde as internações crescem mais rápido",
-    "Quais municípios têm poucos leitos para a população",
-    "Onde o custo médio de internação é mais alto",
-    "Qual região concentra mais casos críticos",
-  ], 10);
+  s.addText("Consulta de controle executada dentro do banco", {
+    x: L + 6.35, y: 4.4, w: 5.73, h: 0.3, isTextBox: true, margin: 0,
+    fontFace: TXT, fontSize: 10.5, italic: true, color: CINZA,
+  });
 
-  s.addText(
-    "Scripts completos em sql/ — DDL comentado, ingestão nos três mecanismos, views " +
-    "analíticas, perfil de IA e as perguntas com o SQL equivalente escrito à mão para conferência.",
-    { x: L, y: 6.36, w: W, h: 0.4, isTextBox: true, margin: 0,
-      fontFace: TXT, fontSize: 10.5, italic: true, color: CINZA }
-  );
+  cartao(s, L, 4.84, W, 1.5, NAVY);
+  s.addText("Os números do banco batem com os do painel", {
+    x: L + 0.34, y: 5.0, w: W - 0.68, h: 0.3, isTextBox: true, margin: 0,
+    fontFace: TIT, fontSize: 12.5, bold: true, color: TEAL,
+  });
+  const conferidos = [
+    ["645", "municípios"], ["2.913.953", "internações"],
+    ["R$ 5,69 bi", "recurso"], ["55.090", "leitos SUS"],
+    ["15", "críticos"], ["31", "em atenção"],
+  ];
+  conferidos.forEach(([v, r], i) => {
+    const x = L + 0.34 + i * ((W - 0.68) / 6);
+    s.addText(v, {
+      x, y: 5.34, w: (W - 0.68) / 6, h: 0.4, isTextBox: true, margin: 0,
+      valign: "bottom", fontFace: TIT, fontSize: 16, bold: true,
+      color: i >= 4 ? CORAL : BRANCO,
+    });
+    s.addText(r, {
+      x, y: 5.76, w: (W - 0.68) / 6, h: 0.3, isTextBox: true, margin: 0,
+      fontFace: TXT, fontSize: 10, color: "9FB6C0",
+    });
+  });
   rodape(s, 19);
   s.addNotes(
-    "O object_list é a fronteira do que a IA enxerga, e os COMMENT ON do esquema " +
-    "são o que ensina o negócio a ela. É por isso que a modelagem de dados é o " +
-    "trabalho que faz o Select AI funcionar — não a chamada de API."
+    "O ambiente Oracle está provisionado e carregado. A consulta de controle roda " +
+    "dentro do banco e devolve exatamente os mesmos números do painel — é a prova " +
+    "de que a carga foi íntegra, não parcial."
+  );
+}
+
+/* ═══════════════════════════════════════════════════════════════════════ */
+/* 20 — 5ª ENTREGA: SELECT AI EM FUNCIONAMENTO                             */
+/* ═══════════════════════════════════════════════════════════════════════ */
+{
+  const s = pres.addSlide();
+  cabecalho(s, "Select AI — a pergunta em português vira SQL",
+            "O diferencial da solução, executando no Autonomous Database", 5);
+
+  s.addImage({ path: img("oracle/oracle_04_selectai_showsql.png"),
+               x: L, y: 1.56, w: 7.6, h: 3.9 });
+  s.addShape(pres.ShapeType.rect, {
+    x: L, y: 1.56, w: 7.6, h: 3.9,
+    fill: { type: "none" }, line: { color: "D3DFE3", width: 0.75 },
+  });
+
+  const xd = L + 7.9;
+  const wd = 13.33 - L - xd;
+  cartao(s, xd, 1.56, wd, 3.9);
+  s.addText("O QUE ACONTECE AQUI", {
+    x: xd + 0.28, y: 1.8, w: wd - 0.56, h: 0.28, isTextBox: true, margin: 0,
+    fontFace: TIT, fontSize: 10.5, bold: true, color: TEAL, charSpacing: 0.8,
+  });
+  s.addText(
+    "A pergunta entra em português no DBMS_CLOUD_AI. O banco lê o esquema, " +
+    "gera a consulta, executa e devolve o resultado — sem que ninguém escreva SQL.\n\n" +
+    "O modificador showsql expõe a consulta gerada. É o que torna a resposta " +
+    "auditável: o gestor não precisa confiar na IA, ele vê o SQL que produziu " +
+    "o número.\n\n" +
+    "As oito views do object_list são a fronteira do que a IA enxerga, e os " +
+    "COMMENT ON do esquema são o que ensina o negócio a ela.",
+    { x: xd + 0.28, y: 2.16, w: wd - 0.56, h: 3.1, isTextBox: true, margin: 0,
+      valign: "top", fontFace: TXT, fontSize: 11, color: CINZA2,
+      lineSpacingMultiple: 1.14 }
+  );
+
+  cartao(s, L, 5.6, W, 0.96, CLARO);
+  s.addText([
+    { text: "O que aprendemos calibrando esta camada.  ",
+      options: { bold: true, color: NAVY } },
+    { text: "A qualidade do SQL gerado depende inteiramente da riqueza dos " +
+            "comentários do esquema. Quando a coluna não declara os valores que " +
+            "aceita, a IA infere um — e infere errado. Enumerar os domínios no " +
+            "COMMENT ON foi o ajuste que fez a camada responder corretamente.",
+      options: { color: CINZA2 } },
+  ], {
+    x: L + 0.32, y: 5.76, w: W - 0.64, h: 0.66, isTextBox: true, margin: 0,
+    valign: "top", fontFace: TXT, fontSize: 10.5, lineSpacingMultiple: 1.1,
+  });
+  rodape(s, 20);
+  s.addNotes(
+    "Este é o slide do diferencial. O ponto técnico a destacar: o SQL gerado é " +
+    "exposto e auditável, e a qualidade dele vem da modelagem — dos comentários " +
+    "do esquema — não da chamada de API."
   );
 }
 
@@ -1091,7 +1124,7 @@ prints.forEach(([arquivo, titulo, sub, descricao], i) => {
     x: L + 0.32, y: 6.34, w: W - 0.64, h: 0.52, isTextBox: true, margin: 0,
     valign: "middle", fontFace: TXT, fontSize: 12, bold: true, color: TEAL,
   });
-  rodape(s, 20);
+  rodape(s, 21);
   s.addNotes(
     "O repositório é público e reúne todo o código gerado no projeto: extração, " +
     "integração, modelos, scripts do Oracle, notebook de análise exploratória e " +
@@ -1155,7 +1188,7 @@ prints.forEach(([arquivo, titulo, sub, descricao], i) => {
     x: L + 0.32, y: 6.34, w: W - 0.64, h: 0.5, isTextBox: true, margin: 0,
     valign: "middle", fontFace: TXT, fontSize: 12, bold: true,
   });
-  rodape(s, 21);
+  rodape(s, 22);
   s.addNotes(
     "A estrutura do pitch segue os seis blocos sugeridos, com dois minutos " +
     "reservados à demonstração ao vivo — que é onde a solução se prova."
@@ -1168,8 +1201,8 @@ prints.forEach(([arquivo, titulo, sub, descricao], i) => {
 {
   const s = pres.addSlide();
   s.background = { color: NAVY };
-  s.addImage({ path: img("m2_ecg_branco.png"), x: 0, y: 0.28, w: 13.33, h: 0.72,
-               transparency: 86 });
+  s.addImage({ path: img("logo_pulso.png"), x: 13.33 - L - 1.72, y: 0.86,
+               w: 1.72, h: 0.98 });
 
   s.addShape(pres.ShapeType.ellipse, {
     x: L, y: 1.14, w: 0.52, h: 0.52, fill: { color: TEAL },
@@ -1285,7 +1318,7 @@ prints.forEach(([arquivo, titulo, sub, descricao], i) => {
     { x: L, y: 6.5, w: W, h: 0.4, isTextBox: true, margin: 0,
       align: "center", fontFace: TIT, fontSize: 14, bold: true, italic: true, color: TEAL }
   );
-  rodape(s, 23);
+  rodape(s, 24);
   s.addNotes("Fechamento com a mensagem de impacto do projeto.");
 }
 
@@ -1295,8 +1328,7 @@ prints.forEach(([arquivo, titulo, sub, descricao], i) => {
 {
   const s = pres.addSlide();
   s.background = { color: NAVY };
-  s.addImage({ path: img("m2_ecg_branco.png"), x: 0, y: 2.1, w: 13.33, h: 1.1,
-               transparency: 80 });
+  s.addImage({ path: img("logo_pulso.png"), x: L, y: 1.62, w: 2.9, h: 1.64 });
 
   s.addText("Obrigado", {
     x: L, y: 3.42, w: W, h: 0.9, isTextBox: true, margin: 0, valign: "bottom",
@@ -1317,7 +1349,7 @@ prints.forEach(([arquivo, titulo, sub, descricao], i) => {
     { x: L, y: 5.66, w: W, h: 0.7, isTextBox: true, margin: 0,
       fontFace: TXT, fontSize: 12, color: "9FB6C0", lineSpacingMultiple: 1.3 }
   );
-  s.addText("Equipe Vital Analytics · Turma 1TSCOA · Challenge Oracle + FIAP 2026", {
+  s.addText("Equipe Vital Analytics · Turma 1TSCOB · Challenge Oracle + FIAP 2026", {
     x: L, y: 6.62, w: W, h: 0.32, isTextBox: true, margin: 0,
     fontFace: TXT, fontSize: 11, color: CINZA,
   });

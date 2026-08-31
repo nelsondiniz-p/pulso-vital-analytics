@@ -8,12 +8,12 @@ venv/
 .vscode/
 .idea/
 
-# Os dados SAO versionados de proposito. Sao regeraveis com
-# `python src/run_pipeline.py`, mas o recorte publicado aqui e o snapshot exato
-# que sustenta os numeros do painel e da apresentacao — e e o que se carrega no
-# Autonomous Database. Reexecutar a extracao meses depois traz outra competencia
-# do SIH e outros totais, entao versionar o snapshot e o que torna o resultado
-# auditavel. Sao 4,5 MB no total.
+# Dados brutos e processados são regeráveis com `python src/run_pipeline.py`.
+# As amostras versionadas ficam em data/samples/.
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
 
 # Credenciais do Oracle nunca entram no repositório
 wallet/
@@ -21,9 +21,5 @@ wallet/
 *.p12
 credenciais*.sql
 
-# PDF gerado a partir do PPTX na conferencia visual
-*.pdf
-
-# Documentos de uso interno da equipe, fora do entregavel tecnico
-docs/roteiro_video_pitch.md
-docs/guia_oracle.md
+# Intermediario da geracao da logo (ja embutido em dashboard/_template.html)
+dashboard/_logo_datauri.txt

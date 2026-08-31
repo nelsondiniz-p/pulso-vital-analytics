@@ -1,5 +1,5 @@
 --------------------------------------------------------------------------------
--- PULSO · Equipe Vital Analytics · 1TSCOA · Challenge Oracle + FIAP 2026
+-- PULSO · Equipe Vital Analytics · 1TSCOB · Challenge Oracle + FIAP 2026
 --
 -- 05_perguntas_negocio.sql
 -- As perguntas de gestão que o painel responde, em três formas:

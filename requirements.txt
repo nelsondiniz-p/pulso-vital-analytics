@@ -1,5 +1,5 @@
 # PULSO - Painel Único de Leitos, Saúde e Ocupação
-# Equipe Vital Analytics · 1TSCOA · Challenge Oracle + FIAP 2026
+# Equipe Vital Analytics · 1TSCOB · Challenge Oracle + FIAP 2026
 #
 # A extração usa apenas a biblioteca padrão (urllib) de propósito: o TabNet
 # do DATASUS exige controle fino de encoding latin-1 e de corpo POST, o que

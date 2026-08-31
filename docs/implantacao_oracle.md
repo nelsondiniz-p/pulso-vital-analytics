@@ -1,6 +1,6 @@
 # Implantação da camada Oracle
 
-**PULSO · Equipe Vital Analytics · 1TSCOA**
+**PULSO · Equipe Vital Analytics · 1TSCOB**
 
 Como colocar o modelo de dados e a camada Select AI no ar em um Oracle
 Autonomous Database 23ai. O pipeline em Python produz os arquivos; este

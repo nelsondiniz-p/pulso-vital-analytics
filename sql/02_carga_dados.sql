@@ -1,5 +1,5 @@
 --------------------------------------------------------------------------------
--- PULSO · Equipe Vital Analytics · 1TSCOA · Challenge Oracle + FIAP 2026
+-- PULSO · Equipe Vital Analytics · 1TSCOB · Challenge Oracle + FIAP 2026
 --
 -- 02_carga_dados.sql
 -- Camada de INGESTÃO: as três fontes entram no Autonomous Database, cada uma

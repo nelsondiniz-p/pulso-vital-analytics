@@ -1,6 +1,6 @@
 --------------------------------------------------------------------------------
 -- PULSO - Painel Único de Leitos, Saúde e Ocupação
--- Equipe Vital Analytics · Turma 1TSCOA · Challenge Oracle + FIAP 2026
+-- Equipe Vital Analytics · Turma 1TSCOB · Challenge Oracle + FIAP 2026
 --
 -- 01_ddl_tabelas.sql
 -- Camada de PERSISTÊNCIA: modelo dimensional (esquema estrela) no

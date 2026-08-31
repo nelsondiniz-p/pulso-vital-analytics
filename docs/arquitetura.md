@@ -1,6 +1,6 @@
 # PULSO — Arquitetura da solução
 
-**Equipe Vital Analytics · 1TSCOA · Challenge Oracle + FIAP 2026 · Sprint 2**
+**Equipe Vital Analytics · 1TSCOB · Challenge Oracle + FIAP 2026 · Sprint 2**
 
 Este documento descreve a arquitetura **final implementada**, separando com
 clareza o que foi construído do que ficou planejado para a próxima evolução.
